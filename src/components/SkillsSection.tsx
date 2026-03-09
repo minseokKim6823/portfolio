@@ -2,16 +2,28 @@ import { motion } from "framer-motion";
 
 const skillCategories = [
   {
-    title: "프론트엔드",
-    skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion"],
+    title: "백엔드",
+    skills: ["Spring Boot", "FastAPI", "MyBatis", "Java", "Python"],
   },
   {
-    title: "백엔드",
-    skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Redis"],
+    title: "SAP / ERP",
+    skills: ["SAP", "SAP BTP", "ERP 프로세스"],
+  },
+  {
+    title: "데이터베이스",
+    skills: ["MariaDB", "Redis", "MongoDB"],
+  },
+  {
+    title: "프론트엔드",
+    skills: ["TypeScript", "Vue.js", "React"],
+  },
+  {
+    title: "인프라 & DevOps",
+    skills: ["AWS EC2", "AWS RDS", "Elastic Beanstalk", "Nginx", "Docker", "GitHub Actions"],
   },
   {
     title: "도구 & 기타",
-    skills: ["Git", "Docker", "AWS", "Figma", "CI/CD"],
+    skills: ["Git", "GitHub", "CI/CD", "알고리즘"],
   },
 ];
 
@@ -29,7 +41,7 @@ const SkillsSection = () => {
           <h2 className="text-3xl sm:text-5xl font-bold mb-16">기술 스택</h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category, catIdx) => (
             <motion.div
               key={category.title}
@@ -37,7 +49,7 @@ const SkillsSection = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: catIdx * 0.15 }}
+              transition={{ duration: 0.6, delay: catIdx * 0.1 }}
             >
               <h3 className="font-mono text-primary text-sm font-semibold mb-6 tracking-wide">
                 {category.title}
