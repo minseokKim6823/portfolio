@@ -4,28 +4,25 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "이커머스 플랫폼",
-    description: "React, Node.js, PostgreSQL 기반의 풀스택 이커머스 솔루션. 실시간 재고 관리와 결제 시스템을 구현했습니다.",
-    tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
+    title: "WeShareU",
+    description: "팀 협업 기반 풀스택 프로젝트. Java/Spring Boot 백엔드와 프론트엔드를 모두 포함하는 웹 애플리케이션입니다.",
+    tags: ["Java", "Spring Boot", "풀스택"],
     color: "from-primary/20 to-primary/5",
+    github: "https://github.com/minseokKim6823/WeShareU_FE-BE",
   },
   {
-    title: "실시간 채팅 앱",
-    description: "WebSocket을 활용한 실시간 메시징 플랫폼. 그룹 채팅, 파일 공유, 읽음 확인 기능을 지원합니다.",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+    title: "SGMA Backend",
+    description: "한화시스템 Beyond 9기 2nd Project 백엔드. Spring Cooler 팀으로 참여한 백엔드 시스템입니다.",
+    tags: ["Java", "Spring Boot", "팀 프로젝트"],
     color: "from-accent/20 to-accent/5",
+    github: "https://github.com/Spring-Cooler/SGMA_Backend",
   },
   {
-    title: "대시보드 & 분석 도구",
-    description: "데이터 시각화와 실시간 모니터링이 가능한 관리자 대시보드. 커스텀 차트와 리포트 생성 기능을 포함합니다.",
-    tags: ["TypeScript", "D3.js", "Express", "AWS"],
+    title: "MOTIVE",
+    description: "최적의 영업을 위한 영업관리 시스템. Final Project로 Vue.js 프론트엔드와 백엔드를 결합한 ERP 솔루션입니다.",
+    tags: ["Vue.js", "Java", "ERP", "영업관리"],
     color: "from-primary/20 to-accent/10",
-  },
-  {
-    title: "AI 콘텐츠 생성기",
-    description: "GPT API를 활용한 AI 기반 콘텐츠 자동 생성 도구. SEO 최적화와 다국어 지원 기능을 제공합니다.",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    color: "from-accent/20 to-primary/5",
+    github: "https://github.com/STANL-2/MOTIVE",
   },
 ];
 
@@ -43,7 +40,7 @@ const ProjectsSection = () => {
           <h2 className="text-3xl sm:text-5xl font-bold mb-16">프로젝트</h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, idx) => (
             <motion.div
               key={project.title}
@@ -53,9 +50,7 @@ const ProjectsSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
             >
-              {/* Gradient top bar */}
               <div className={`h-1 w-full bg-gradient-to-r ${project.color}`} />
-              
               <div className="p-8">
                 <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
                   {project.title}
@@ -74,11 +69,10 @@ const ProjectsSection = () => {
                   ))}
                 </div>
                 <div className="flex gap-3">
-                  <Button variant="ghost" size="sm" className="gap-2 text-muted-foreground hover:text-primary font-mono text-xs">
-                    <Github className="w-4 h-4" /> Code
-                  </Button>
-                  <Button variant="ghost" size="sm" className="gap-2 text-muted-foreground hover:text-primary font-mono text-xs">
-                    <ExternalLink className="w-4 h-4" /> Demo
+                  <Button variant="ghost" size="sm" className="gap-2 text-muted-foreground hover:text-primary font-mono text-xs" asChild>
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="w-4 h-4" /> Code
+                    </a>
                   </Button>
                 </div>
               </div>

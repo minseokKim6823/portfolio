@@ -29,13 +29,13 @@ const ContactSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.7, delay: 0.15 }}
         >
-          <span className="flex items-center gap-2">
+          <a href="mailto:minseokkim6823@gmail.com" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Mail className="w-4 h-4 text-primary" />
-            hello@example.com
-          </span>
+            minseokkim6823@gmail.com
+          </a>
           <span className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-primary" />
-            서울, 대한민국
+            송파구, 서울
           </span>
         </motion.div>
 
