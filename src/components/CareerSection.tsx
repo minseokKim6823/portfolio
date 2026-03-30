@@ -110,7 +110,7 @@ const experiences = [
 
 const CareerSection = () => {
   return (
-    <section id="career" className="py-32 px-6">
+    <section id="career" className="py-32 px-6 snap-start">
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}

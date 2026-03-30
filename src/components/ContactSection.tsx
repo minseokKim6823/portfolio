@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-32 px-6">
+    <section id="contact" className="py-32 px-6 snap-start">
       <div className="max-w-3xl mx-auto">
         <motion.div
           className="text-center mb-16"
