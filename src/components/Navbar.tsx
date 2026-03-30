@@ -7,6 +7,7 @@ import { useTheme } from "@/components/ThemeProvider";
 const links = [
   { label: "소개", href: "#about" },
   { label: "기술", href: "#skills" },
+  { label: "경력", href: "#career" },
   { label: "프로젝트", href: "#projects" },
   { label: "연락", href: "#contact" },
 ];
