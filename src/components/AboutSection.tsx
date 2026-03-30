@@ -28,7 +28,7 @@ const AboutSection = () => {
             transition={{ duration: 0.7, delay: 0.15 }}
           >
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              안녕하세요, ERP 개발자 김민석입니다.
+              안녕하세요, 백엔드 개발자 김민석입니다.
               유저에게 이로운 가치를 제공함으로써 오늘보다 나은 내일을 선물하자라는 생각으로
               UX와 DX를 모두 고려하는 설계를 하려 노력하고 있습니다.
             </p>

@@ -1,10 +1,46 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useEffect, useState } from "react";
+
+const TypewriterText = ({ text, delay = 0 }: { text: string; delay?: number }) => {
+  const [displayed, setDisplayed] = useState("");
+  const [started, setStarted] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => setStarted(true), delay * 1000);
+    return () => clearTimeout(timeout);
+  }, [delay]);
+
+  useEffect(() => {
+    if (!started) return;
+    if (displayed.length < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayed(text.slice(0, displayed.length + 1));
+      }, 80);
+      return () => clearTimeout(timeout);
+    }
+  }, [displayed, started, text]);
+
+  return (
+    <span>
+      {displayed}
+      <motion.span
+        animate={{ opacity: [1, 0] }}
+        transition={{ repeat: Infinity, duration: 0.7 }}
+        className="text-primary"
+      >
+        |
+      </motion.span>
+    </span>
+  );
+};
 
 const HeroSection = () => {
+  const nameChars = "김민석".split("");
+
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 snap-start">
       <div className="absolute inset-0 opacity-[0.03]" style={{
         backgroundImage: `linear-gradient(hsl(var(--foreground)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--foreground)) 1px, transparent 1px)`,
         backgroundSize: '60px 60px'
@@ -14,44 +50,71 @@ const HeroSection = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, type: "spring" }}
         >
           <p className="font-mono text-primary text-sm tracking-widest uppercase mb-6">
-            &lt;ERP Developer /&gt;
+            &lt;Backend Developer /&gt;
           </p>
         </motion.div>
 
-        <motion.h1
-          className="text-5xl sm:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.9] mb-8"
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.15 }}
-        >
-          안녕하세요,
+        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.9] mb-8">
+          <motion.span
+            initial={{ opacity: 0, x: -30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
+            className="inline-block"
+          >
+            안녕하세요,
+          </motion.span>
           <br />
-          <span className="text-gradient">김민석</span>
+          <span className="text-gradient inline-flex">
+            {nameChars.map((char, i) => (
+              <motion.span
+                key={i}
+                initial={{ opacity: 0, y: 50, rotateX: -90 }}
+                animate={{ opacity: 1, y: 0, rotateX: 0 }}
+                transition={{
+                  duration: 0.6,
+                  delay: 0.5 + i * 0.15,
+                  type: "spring",
+                  stiffness: 100,
+                }}
+                className="inline-block"
+              >
+                {char}
+              </motion.span>
+            ))}
+          </span>
           <br />
-          입니다.
-        </motion.h1>
+          <motion.span
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, delay: 1.0 }}
+            className="inline-block"
+          >
+            입니다.
+          </motion.span>
+        </h1>
 
-        <motion.p
+        <motion.div
           className="text-muted-foreground text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 1.3 }}
         >
-          유저에게 이로운 가치를 제공함으로써 오늘보다 나은 내일을 선물하자는 생각으로
-          <br />
-          UX와 DX를 모두 고려하는 설계를 하려 노력하고 있습니다.
-        </motion.p>
+          <TypewriterText
+            text="백엔드 개발을 기반으로 ERP · SAP 역량까지 겸비한 개발자입니다."
+            delay={1.5}
+          />
+        </motion.div>
 
         <motion.div
           className="flex items-center justify-center gap-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.45 }}
+          transition={{ duration: 0.8, delay: 3.5 }}
         >
           <Button size="lg" className="rounded-full font-mono text-sm gap-2" asChild>
             <a href="mailto:minseokkim6823@gmail.com">
