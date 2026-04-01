@@ -10,10 +10,10 @@ const ContactSection = () => {
       <div className="max-w-3xl mx-auto">
         <motion.div
           className="text-center mb-16"
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          initial={{ opacity: 0, y: 60, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8 }}
         >
           <p className="font-mono text-primary text-sm tracking-widest uppercase mb-4">Contact</p>
           <h2 className="text-3xl sm:text-5xl font-bold mb-6">함께 일해요</h2>
@@ -41,10 +41,10 @@ const ContactSection = () => {
 
         <motion.form
           className="space-y-6"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7, delay: 0.3 }}
+          initial={{ opacity: 0, y: 50, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
           onSubmit={(e) => e.preventDefault()}
         >
           <div className="grid sm:grid-cols-2 gap-6">

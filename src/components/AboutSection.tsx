@@ -11,10 +11,10 @@ const AboutSection = () => {
     <section id="about" className="py-32 px-6 snap-start">
       <div className="max-w-5xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          initial={{ opacity: 0, y: 60, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <p className="font-mono text-primary text-sm tracking-widest uppercase mb-4">About</p>
           <h2 className="text-3xl sm:text-5xl font-bold mb-12">소개</h2>
@@ -22,10 +22,10 @@ const AboutSection = () => {
 
         <div className="grid md:grid-cols-[2fr_1fr] gap-16">
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: 0.15 }}
+            initial={{ opacity: 0, y: 50, x: -30 }}
+            whileInView={{ opacity: 1, y: 0, x: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
           >
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
               안녕하세요, 백엔드 개발자 김민석입니다.
@@ -45,10 +45,10 @@ const AboutSection = () => {
 
           <motion.div
             className="flex md:flex-col gap-8 justify-center"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: 0.3 }}
+            initial={{ opacity: 0, y: 50, x: 30 }}
+            whileInView={{ opacity: 1, y: 0, x: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
           >
             {stats.map((stat) => (
               <div key={stat.label} className="text-center md:text-left">

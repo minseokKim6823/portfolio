@@ -32,10 +32,10 @@ const SkillsSection = () => {
     <section id="skills" className="py-32 px-6 snap-start">
       <div className="max-w-5xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          initial={{ opacity: 0, y: 60, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8 }}
         >
           <p className="font-mono text-primary text-sm tracking-widest uppercase mb-4">Skills</p>
           <h2 className="text-3xl sm:text-5xl font-bold mb-16">기술 스택</h2>
@@ -46,10 +46,10 @@ const SkillsSection = () => {
             <motion.div
               key={category.title}
               className="rounded-2xl border border-border/50 bg-card/50 p-8 backdrop-blur-sm hover:border-primary/30 transition-colors duration-500"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: catIdx * 0.1 }}
+              initial={{ opacity: 0, y: 50, scale: 0.9 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.7, delay: catIdx * 0.12 }}
             >
               <h3 className="font-mono text-primary text-sm font-semibold mb-6 tracking-wide">
                 {category.title}

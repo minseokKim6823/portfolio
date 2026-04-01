@@ -113,10 +113,10 @@ const CareerSection = () => {
     <section id="career" className="py-32 px-6 snap-start">
       <div className="max-w-5xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          initial={{ opacity: 0, y: 60, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8 }}
           className="flex items-end justify-between mb-16"
         >
           <div>
@@ -140,10 +140,10 @@ const CareerSection = () => {
           {careers.map((career, ci) => (
             <motion.div
               key={ci}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.7, delay: ci * 0.1 }}
+              initial={{ opacity: 0, y: 50, x: -20 }}
+              whileInView={{ opacity: 1, y: 0, x: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.8, delay: ci * 0.15 }}
             >
               <div className="flex items-center gap-3 mb-8">
                 <Building2 className="w-5 h-5 text-primary" />
@@ -192,10 +192,10 @@ const CareerSection = () => {
         {/* Experience & Activities */}
         <motion.div
           className="mt-24"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          initial={{ opacity: 0, y: 50, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.8 }}
         >
           <div className="flex items-center gap-3 mb-8">
             <Briefcase className="w-5 h-5 text-primary" />
