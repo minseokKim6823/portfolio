@@ -140,10 +140,10 @@ const CareerSection = () => {
           {careers.map((career, ci) => (
             <motion.div
               key={ci}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.7, delay: ci * 0.1 }}
+              initial={{ opacity: 0, y: 50, x: -20 }}
+              whileInView={{ opacity: 1, y: 0, x: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.8, delay: ci * 0.15 }}
             >
               <div className="flex items-center gap-3 mb-8">
                 <Building2 className="w-5 h-5 text-primary" />
