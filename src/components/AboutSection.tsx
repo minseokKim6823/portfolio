@@ -22,10 +22,10 @@ const AboutSection = () => {
 
         <div className="grid md:grid-cols-[2fr_1fr] gap-16">
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: 0.15 }}
+            initial={{ opacity: 0, y: 50, x: -30 }}
+            whileInView={{ opacity: 1, y: 0, x: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
           >
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
               안녕하세요, 백엔드 개발자 김민석입니다.
