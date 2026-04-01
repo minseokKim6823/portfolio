@@ -32,10 +32,10 @@ const SkillsSection = () => {
     <section id="skills" className="py-32 px-6 snap-start">
       <div className="max-w-5xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          initial={{ opacity: 0, y: 60, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8 }}
         >
           <p className="font-mono text-primary text-sm tracking-widest uppercase mb-4">Skills</p>
           <h2 className="text-3xl sm:text-5xl font-bold mb-16">기술 스택</h2>
