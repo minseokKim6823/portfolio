@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground snap-y snap-mandatory overflow-y-auto h-screen scroll-smooth">
+    <div className="min-h-screen bg-background text-foreground snap-y snap-proximity overflow-y-auto h-screen scroll-smooth">
       <Navbar />
       <HeroSection />
       <AboutSection />
