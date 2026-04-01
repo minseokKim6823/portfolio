@@ -36,11 +36,12 @@ const TypewriterText = ({ text, delay = 0 }: { text: string; delay?: number }) =
   );
 };
 
-const HeroSection = () => {
+const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivElement> }) => {
   const nameChars = "김민석".split("");
   const sectionRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({
     target: sectionRef,
+    container: containerRef,
     offset: ["start start", "end start"],
   });
   const y = useTransform(scrollYProgress, [0, 1], [0, 200]);
