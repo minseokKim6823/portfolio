@@ -1,4 +1,6 @@
+import { useRef } from "react";
 import Navbar from "@/components/Navbar";
+import ScrollProgress from "@/components/ScrollProgress";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import SkillsSection from "@/components/SkillsSection";
@@ -8,10 +10,13 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+
   return (
-    <div className="min-h-screen bg-background text-foreground snap-y snap-proximity overflow-y-auto h-screen scroll-smooth">
+    <div ref={containerRef} className="min-h-screen bg-background text-foreground snap-y snap-proximity overflow-y-auto h-screen scroll-smooth">
+      <ScrollProgress containerRef={containerRef} />
       <Navbar />
-      <HeroSection />
+      <HeroSection containerRef={containerRef} />
       <AboutSection />
       <SkillsSection />
       <CareerSection />
