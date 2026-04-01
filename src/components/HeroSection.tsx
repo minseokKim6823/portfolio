@@ -38,9 +38,17 @@ const TypewriterText = ({ text, delay = 0 }: { text: string; delay?: number }) =
 
 const HeroSection = () => {
   const nameChars = "김민석".split("");
+  const sectionRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start start", "end start"],
+  });
+  const y = useTransform(scrollYProgress, [0, 1], [0, 200]);
+  const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.9]);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 snap-start">
+    <section ref={sectionRef} className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 snap-start">
       <div className="absolute inset-0 opacity-[0.03]" style={{
         backgroundImage: `linear-gradient(hsl(var(--foreground)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--foreground)) 1px, transparent 1px)`,
         backgroundSize: '60px 60px'
@@ -48,7 +56,7 @@ const HeroSection = () => {
       <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-primary/10 blur-[120px]" />
       <div className="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full bg-accent/10 blur-[120px]" />
 
-      <div className="relative z-10 max-w-4xl mx-auto text-center">
+      <motion.div className="relative z-10 max-w-4xl mx-auto text-center" style={{ y, opacity, scale }}>
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
