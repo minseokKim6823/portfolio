@@ -192,10 +192,10 @@ const CareerSection = () => {
         {/* Experience & Activities */}
         <motion.div
           className="mt-24"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          initial={{ opacity: 0, y: 50, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.8 }}
         >
           <div className="flex items-center gap-3 mb-8">
             <Briefcase className="w-5 h-5 text-primary" />

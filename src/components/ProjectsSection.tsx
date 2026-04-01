@@ -45,10 +45,10 @@ const ProjectsSection = () => {
             <motion.div
               key={project.title}
               className="group relative rounded-2xl border border-border/50 bg-card/30 overflow-hidden hover:border-primary/30 transition-all duration-500"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: idx * 0.1 }}
+              initial={{ opacity: 0, y: 60, scale: 0.9, rotateX: 10 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1, rotateX: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.7, delay: idx * 0.15 }}
             >
               <div className={`h-1 w-full bg-gradient-to-r ${project.color}`} />
               <div className="p-8">

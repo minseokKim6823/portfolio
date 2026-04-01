@@ -45,10 +45,10 @@ const AboutSection = () => {
 
           <motion.div
             className="flex md:flex-col gap-8 justify-center"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: 0.3 }}
+            initial={{ opacity: 0, y: 50, x: 30 }}
+            whileInView={{ opacity: 1, y: 0, x: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
           >
             {stats.map((stat) => (
               <div key={stat.label} className="text-center md:text-left">
