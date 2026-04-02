@@ -34,7 +34,7 @@ const Navbar = () => {
       }`}
       initial={{ y: -60 }}
       animate={{ y: 0 }}
-      transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
+      transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] }}
     >
       <div className="max-w-3xl mx-auto px-6 h-14 flex items-center justify-between">
         <a href="#" className="font-mono text-sm font-semibold tracking-wider hover:text-accent transition-colors">
