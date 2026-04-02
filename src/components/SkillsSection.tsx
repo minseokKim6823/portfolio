@@ -30,35 +30,34 @@ const skillCategories = [
 const SkillsSection = () => {
   return (
     <section id="skills" className="py-32 px-6 snap-start">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-3xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 60, scale: 0.95 }}
-          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.7 }}
         >
-          <p className="font-mono text-primary text-sm tracking-widest uppercase mb-4">Skills</p>
-          <h2 className="text-3xl sm:text-5xl font-bold mb-16">기술 스택</h2>
+          <p className="font-mono text-accent text-xs tracking-[0.3em] uppercase mb-4">Skills</p>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-14">기술 스택</h2>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="space-y-10">
           {skillCategories.map((category, catIdx) => (
             <motion.div
               key={category.title}
-              className="rounded-2xl border border-border/50 bg-card/50 p-8 backdrop-blur-sm hover:border-primary/30 transition-colors duration-500"
-              initial={{ opacity: 0, y: 50, scale: 0.9 }}
-              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              initial={{ opacity: 0, y: 25 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.7, delay: catIdx * 0.12 }}
+              transition={{ duration: 0.5, delay: catIdx * 0.08 }}
             >
-              <h3 className="font-mono text-primary text-sm font-semibold mb-6 tracking-wide">
+              <h3 className="font-mono text-xs text-muted-foreground tracking-wider uppercase mb-3">
                 {category.title}
               </h3>
               <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill) => (
                   <span
                     key={skill}
-                    className="px-3 py-1.5 rounded-full text-sm bg-secondary text-secondary-foreground font-medium"
+                    className="px-3 py-1.5 rounded-md text-sm border border-border bg-card text-foreground"
                   >
                     {skill}
                   </span>

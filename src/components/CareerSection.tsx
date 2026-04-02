@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Building2, Briefcase } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const careers = [
@@ -111,17 +111,17 @@ const experiences = [
 const CareerSection = () => {
   return (
     <section id="career" className="py-32 px-6 snap-start">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-3xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 60, scale: 0.95 }}
-          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.8 }}
-          className="flex items-end justify-between mb-16"
+          transition={{ duration: 0.7 }}
+          className="flex items-end justify-between mb-14"
         >
           <div>
-            <p className="font-mono text-primary text-sm tracking-widest uppercase mb-4">Career</p>
-            <h2 className="text-3xl sm:text-5xl font-bold">경력</h2>
+            <p className="font-mono text-accent text-xs tracking-[0.3em] uppercase mb-4">Career</p>
+            <h2 className="text-3xl sm:text-4xl font-bold">경력</h2>
           </div>
           <Button variant="outline" size="sm" className="rounded-full font-mono text-xs gap-2" asChild>
             <a
@@ -135,39 +135,37 @@ const CareerSection = () => {
           </Button>
         </motion.div>
 
-        {/* Career Projects */}
         <div className="space-y-16">
           {careers.map((career, ci) => (
             <motion.div
               key={ci}
-              initial={{ opacity: 0, y: 50, x: -20 }}
-              whileInView={{ opacity: 1, y: 0, x: 0 }}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.8, delay: ci * 0.15 }}
+              transition={{ duration: 0.6, delay: ci * 0.1 }}
             >
-              <div className="flex items-center gap-3 mb-8">
-                <Building2 className="w-5 h-5 text-primary" />
-                <h3 className="text-xl font-bold">{career.company}</h3>
+              <div className="flex items-baseline gap-3 mb-6">
+                <h3 className="text-lg font-bold">{career.company}</h3>
                 {career.team && (
-                  <span className="text-sm text-muted-foreground font-mono">| {career.team}</span>
+                  <span className="text-sm text-muted-foreground">· {career.team}</span>
                 )}
                 {career.period && (
-                  <span className="text-sm text-muted-foreground font-mono ml-auto">{career.period}</span>
+                  <span className="text-xs text-muted-foreground font-mono ml-auto">{career.period}</span>
                 )}
               </div>
               {career.role && (
-                <p className="text-muted-foreground text-sm mb-6 ml-8">{career.role}</p>
+                <p className="text-muted-foreground text-sm mb-6">{career.role}</p>
               )}
 
-              <div className="space-y-8 ml-8 border-l-2 border-border/50 pl-6">
+              <div className="space-y-8 border-l border-border pl-6">
                 {career.projects.map((project, pi) => (
                   <div key={pi}>
-                    <h4 className="font-semibold text-lg mb-2">{project.title}</h4>
+                    <h4 className="font-semibold mb-2">{project.title}</h4>
                     <p className="text-muted-foreground text-sm mb-3">{project.desc}</p>
-                    <ul className="space-y-1.5 mb-3">
+                    <ul className="space-y-1 mb-3">
                       {project.details.map((detail, di) => (
                         <li key={di} className="text-sm text-muted-foreground flex gap-2">
-                          <span className="text-primary mt-1.5 shrink-0">•</span>
+                          <span className="text-accent mt-1 shrink-0">·</span>
                           <span>{detail}</span>
                         </li>
                       ))}
@@ -176,7 +174,7 @@ const CareerSection = () => {
                       {project.tech.map((t) => (
                         <span
                           key={t}
-                          className="text-xs font-mono px-2 py-0.5 rounded-full bg-secondary text-secondary-foreground"
+                          className="text-xs font-mono px-2 py-0.5 rounded border border-border text-muted-foreground"
                         >
                           {t}
                         </span>
@@ -189,28 +187,23 @@ const CareerSection = () => {
           ))}
         </div>
 
-        {/* Experience & Activities */}
+        {/* Experience */}
         <motion.div
           className="mt-24"
-          initial={{ opacity: 0, y: 50, scale: 0.95 }}
-          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.6 }}
         >
-          <div className="flex items-center gap-3 mb-8">
-            <Briefcase className="w-5 h-5 text-primary" />
-            <h3 className="text-xl font-bold">Experience</h3>
-          </div>
-
-          <div className="grid sm:grid-cols-2 gap-8 ml-8">
+          <h3 className="text-lg font-bold mb-8">Experience</h3>
+          <div className="grid sm:grid-cols-2 gap-8">
             {experiences.map((exp) => (
               <div key={exp.category}>
-                <h4 className="font-semibold text-sm font-mono text-primary mb-3">{exp.category}</h4>
+                <h4 className="font-mono text-xs text-accent tracking-wider uppercase mb-3">{exp.category}</h4>
                 <ul className="space-y-1.5">
                   {exp.items.map((item, i) => (
-                    <li key={i} className="text-sm text-muted-foreground flex gap-2">
-                      <span className="text-primary mt-0.5 shrink-0">•</span>
-                      <span>{item}</span>
+                    <li key={i} className="text-sm text-muted-foreground">
+                      {item}
                     </li>
                   ))}
                 </ul>
