@@ -13,7 +13,7 @@ const Index = () => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   return (
-    <div ref={containerRef} className="min-h-screen bg-background text-foreground snap-y snap-proximity overflow-y-auto h-screen scroll-smooth">
+    <div ref={containerRef} data-scroll-container className="min-h-screen bg-background text-foreground snap-y snap-proximity overflow-y-auto h-screen scroll-smooth">
       <ScrollProgress containerRef={containerRef} />
       <Navbar />
       <HeroSection containerRef={containerRef} />

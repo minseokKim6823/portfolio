@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github } from "lucide-react";
+import { Github, ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -23,39 +23,58 @@ const projects = [
   },
 ];
 
+const lineReveal = {
+  hidden: { y: "100%", opacity: 0 },
+  visible: (i: number) => ({
+    y: "0%",
+    opacity: 1,
+    transition: { duration: 0.7, delay: i * 0.12, ease: [0.25, 0.46, 0.45, 0.94] },
+  }),
+};
+
 const ProjectsSection = () => {
   return (
     <section id="projects" className="py-32 px-6 snap-start">
       <div className="max-w-3xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.7 }}
-        >
-          <p className="font-mono text-accent text-xs tracking-[0.3em] uppercase mb-4">Projects</p>
-          <h2 className="text-3xl sm:text-4xl font-bold mb-14">프로젝트</h2>
-        </motion.div>
+        <div className="overflow-hidden">
+          <motion.p
+            className="font-mono text-accent text-xs tracking-[0.3em] uppercase mb-4"
+            variants={lineReveal} initial="hidden" whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }} custom={0}
+          >
+            Projects
+          </motion.p>
+        </div>
+        <div className="overflow-hidden mb-14">
+          <motion.h2
+            className="text-3xl sm:text-4xl font-bold"
+            variants={lineReveal} initial="hidden" whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }} custom={1}
+          >
+            프로젝트
+          </motion.h2>
+        </div>
 
-        <div className="space-y-6">
+        <div className="space-y-4">
           {projects.map((project, idx) => (
-            <motion.div
+            <motion.a
               key={project.title}
-              className="group border border-border rounded-lg p-6 hover:border-accent/40 transition-colors duration-300"
-              initial={{ opacity: 0, y: 25 }}
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block border border-border rounded-xl p-6 hover:border-accent/40 transition-all duration-300 cursor-pointer"
+              initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.5, delay: idx * 0.1 }}
+              transition={{ duration: 0.6, delay: idx * 0.12 }}
+              whileHover={{ y: -4, transition: { duration: 0.25 } }}
             >
               <div className="flex items-start justify-between mb-3">
-                <h3 className="text-lg font-bold group-hover:text-accent transition-colors">
+                <h3 className="text-lg font-bold group-hover:text-accent transition-colors duration-200 flex items-center gap-2">
                   {project.title}
+                  <ArrowUpRight className="w-4 h-4 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all duration-300" />
                 </h3>
-                <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground -mt-1" asChild>
-                  <a href={project.github} target="_blank" rel="noopener noreferrer">
-                    <Github className="w-4 h-4" />
-                  </a>
-                </Button>
+                <Github className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors" />
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                 {project.description}
@@ -64,13 +83,13 @@ const ProjectsSection = () => {
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-2 py-0.5 rounded text-xs font-mono border border-border text-muted-foreground"
+                    className="px-2 py-0.5 rounded text-xs font-mono border border-border text-muted-foreground group-hover:border-accent/30 transition-colors duration-200"
                   >
                     {tag}
                   </span>
                 ))}
               </div>
-            </motion.div>
+            </motion.a>
           ))}
         </div>
       </div>
