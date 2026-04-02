@@ -87,79 +87,96 @@ const careers = [
 ];
 
 const experiences = [
-  {
-    category: "동아리",
-    items: [
-      "SUSC : 대학생 방학교류 동아리 2024.12 - 2025.02",
-      "멋쟁이사자처럼 : 대학생 창업 IT 동아리 (교내 대표, 운영진) 2023.01 - 2024.12",
-    ],
-  },
-  {
-    category: "커뮤니티",
-    items: ["항해99 10일 아티클 챌린지", "면접 스터디"],
-  },
-  {
-    category: "교육",
-    items: ["한화 시스템 부트캠프 9기", "SAP ABAP(S4/HANA) Developer 과정"],
-  },
-  {
-    category: "자격증",
-    items: ["네트워크 관리사 2급", "정보처리기사", "SQLD"],
-  },
+  { category: "동아리", items: ["SUSC : 대학생 방학교류 동아리 2024.12 - 2025.02", "멋쟁이사자처럼 : 대학생 창업 IT 동아리 (교내 대표, 운영진) 2023.01 - 2024.12"] },
+  { category: "커뮤니티", items: ["항해99 10일 아티클 챌린지", "면접 스터디"] },
+  { category: "교육", items: ["한화 시스템 부트캠프 9기", "SAP ABAP(S4/HANA) Developer 과정"] },
+  { category: "자격증", items: ["네트워크 관리사 2급", "정보처리기사", "SQLD"] },
 ];
+
+const lineReveal = {
+  hidden: { y: "100%", opacity: 0 },
+  visible: (i: number) => ({
+    y: "0%",
+    opacity: 1,
+    transition: { duration: 0.7, delay: i * 0.12, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] },
+  }),
+};
 
 const CareerSection = () => {
   return (
     <section id="career" className="py-32 px-6 snap-start">
       <div className="max-w-3xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.7 }}
           className="flex items-end justify-between mb-14"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.5 }}
         >
           <div>
-            <p className="font-mono text-accent text-xs tracking-[0.3em] uppercase mb-4">Career</p>
-            <h2 className="text-3xl sm:text-4xl font-bold">경력</h2>
+            <div className="overflow-hidden">
+              <motion.p
+                className="font-mono text-accent text-xs tracking-[0.3em] uppercase mb-4"
+                variants={lineReveal} initial="hidden" whileInView="visible"
+                viewport={{ once: true }} custom={0}
+              >
+                Career
+              </motion.p>
+            </div>
+            <div className="overflow-hidden">
+              <motion.h2
+                className="text-3xl sm:text-4xl font-bold"
+                variants={lineReveal} initial="hidden" whileInView="visible"
+                viewport={{ once: true }} custom={1}
+              >
+                경력
+              </motion.h2>
+            </div>
           </div>
-          <Button variant="outline" size="sm" className="rounded-full font-mono text-xs gap-2" asChild>
-            <a
-              href="https://www.figma.com/design/OM95uaJ1g30vNOAEAfHFb6/%EA%B9%80%EB%AF%BC%EC%84%9D-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0-1&t=ODEdsZqGGnUVsbRU-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <ExternalLink className="w-3 h-3" />
-              이력서 전체보기
-            </a>
-          </Button>
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+          >
+            <Button variant="outline" size="sm" className="rounded-full font-mono text-xs gap-2 group" asChild>
+              <a
+                href="https://www.figma.com/design/OM95uaJ1g30vNOAEAfHFb6/%EA%B9%80%EB%AF%BC%EC%84%9D-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0-1&t=ODEdsZqGGnUVsbRU-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ExternalLink className="w-3 h-3 group-hover:rotate-12 transition-transform" />
+                이력서 전체보기
+              </a>
+            </Button>
+          </motion.div>
         </motion.div>
 
         <div className="space-y-16">
           {careers.map((career, ci) => (
             <motion.div
               key={ci}
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.6, delay: ci * 0.1 }}
+              viewport={{ once: true, amount: 0.15 }}
+              transition={{ duration: 0.7, delay: ci * 0.1 }}
             >
               <div className="flex items-baseline gap-3 mb-6">
                 <h3 className="text-lg font-bold">{career.company}</h3>
-                {career.team && (
-                  <span className="text-sm text-muted-foreground">· {career.team}</span>
-                )}
-                {career.period && (
-                  <span className="text-xs text-muted-foreground font-mono ml-auto">{career.period}</span>
-                )}
+                {career.team && <span className="text-sm text-muted-foreground">· {career.team}</span>}
+                {career.period && <span className="text-xs text-muted-foreground font-mono ml-auto">{career.period}</span>}
               </div>
-              {career.role && (
-                <p className="text-muted-foreground text-sm mb-6">{career.role}</p>
-              )}
+              {career.role && <p className="text-muted-foreground text-sm mb-6">{career.role}</p>}
 
               <div className="space-y-8 border-l border-border pl-6">
                 {career.projects.map((project, pi) => (
-                  <div key={pi}>
+                  <motion.div
+                    key={pi}
+                    initial={{ opacity: 0, x: -15 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true, amount: 0.2 }}
+                    transition={{ duration: 0.5, delay: pi * 0.08 }}
+                  >
                     <h4 className="font-semibold mb-2">{project.title}</h4>
                     <p className="text-muted-foreground text-sm mb-3">{project.desc}</p>
                     <ul className="space-y-1 mb-3">
@@ -172,15 +189,12 @@ const CareerSection = () => {
                     </ul>
                     <div className="flex flex-wrap gap-1.5">
                       {project.tech.map((t) => (
-                        <span
-                          key={t}
-                          className="text-xs font-mono px-2 py-0.5 rounded border border-border text-muted-foreground"
-                        >
+                        <span key={t} className="text-xs font-mono px-2 py-0.5 rounded border border-border text-muted-foreground">
                           {t}
                         </span>
                       ))}
                     </div>
-                  </div>
+                  </motion.div>
                 ))}
               </div>
             </motion.div>
@@ -190,24 +204,28 @@ const CareerSection = () => {
         {/* Experience */}
         <motion.div
           className="mt-24"
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.7 }}
         >
           <h3 className="text-lg font-bold mb-8">Experience</h3>
           <div className="grid sm:grid-cols-2 gap-8">
-            {experiences.map((exp) => (
-              <div key={exp.category}>
+            {experiences.map((exp, ei) => (
+              <motion.div
+                key={exp.category}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: ei * 0.1 }}
+              >
                 <h4 className="font-mono text-xs text-accent tracking-wider uppercase mb-3">{exp.category}</h4>
                 <ul className="space-y-1.5">
                   {exp.items.map((item, i) => (
-                    <li key={i} className="text-sm text-muted-foreground">
-                      {item}
-                    </li>
+                    <li key={i} className="text-sm text-muted-foreground">{item}</li>
                   ))}
                 </ul>
-              </div>
+              </motion.div>
             ))}
           </div>
         </motion.div>
