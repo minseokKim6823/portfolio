@@ -93,12 +93,14 @@ const experiences = [
   { category: "자격증", items: ["네트워크 관리사 2급", "정보처리기사", "SQLD"] },
 ];
 
+const EASE: [number, number, number, number] = [0.25, 0.46, 0.45, 0.94];
+
 const lineReveal = {
   hidden: { y: "100%", opacity: 0 },
   visible: (i: number) => ({
     y: "0%",
     opacity: 1,
-    transition: { duration: 0.7, delay: i * 0.12, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] },
+    transition: { duration: 0.7, delay: i * 0.12, ease: EASE },
   }),
 };
 

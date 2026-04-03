@@ -64,6 +64,9 @@
     --muted-foreground: 25 5% 50%;
     --accent: 25 55% 55%;
     --accent-foreground: 35 10% 88%;
+
+    --btn: 220 60% 60%;
+    --btn-foreground: 0 0% 100%;
     --destructive: 0 50% 40%;
     --destructive-foreground: 35 10% 90%;
     --border: 20 8% 18%;

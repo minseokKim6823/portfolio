@@ -3,16 +3,14 @@ import { ArrowDown, Github, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useRef } from "react";
 
+const EASE: [number, number, number, number] = [0.25, 0.46, 0.45, 0.94];
+
 const textReveal = {
   hidden: { y: "100%", opacity: 0 },
   visible: (i: number) => ({
     y: "0%",
     opacity: 1,
-    transition: {
-      duration: 0.8,
-      delay: i * 0.15,
-      ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number],
-    },
+    transition: { duration: 0.8, delay: i * 0.15, ease: EASE },
   }),
 };
 
