@@ -91,7 +91,7 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
           className="h-px bg-accent/40 mb-8"
           initial={{ scaleX: 0, originX: 0 }}
           animate={{ scaleX: 1 }}
-          transition={{ duration: 1.2, delay: 0.8, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] }}
+          transition={{ duration: 1.2, delay: 0.8, ease: EASE }}
         />
 
         {/* Description */}
