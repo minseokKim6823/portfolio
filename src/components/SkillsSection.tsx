@@ -48,8 +48,8 @@ const skillCategories: { title: string; skills: SkillItem[] }[] = [
   {
     title: "인프라 & DevOps",
     skills: [
-      { name: "AWS EC2", icon: SiAmazonec2, color: "text-orange-400" },
-      { name: "AWS RDS", icon: SiAmazonrds, color: "text-orange-500" },
+      { name: "AWS EC2", icon: Cloud, color: "text-orange-400", isLucide: true },
+      { name: "AWS RDS", icon: Cloud, color: "text-orange-500", isLucide: true },
       { name: "Elastic Beanstalk", icon: Cloud, color: "text-orange-300", isLucide: true },
       { name: "Nginx", icon: SiNginx, color: "text-green-500" },
       { name: "Docker", icon: SiDocker, color: "text-blue-400" },
