@@ -3,7 +3,7 @@ import { Cloud, GitBranch, Workflow, Server } from "lucide-react";
 import {
   SiSpringboot, SiFastapi, SiTypescript, SiVuedotjs, SiReact,
   SiMariadb, SiRedis, SiMongodb, SiNginx, SiDocker, SiGithubactions,
-  SiGit, SiGithub, SiSap, SiAmazonaws,
+  SiGit, SiGithub, SiSap,
 } from "react-icons/si";
 import { type IconType } from "react-icons";
 import { type LucideIcon } from "lucide-react";
