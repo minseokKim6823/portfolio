@@ -1,64 +1,68 @@
 import { motion } from "framer-motion";
-import { Database, Server, Globe, Cloud, GitBranch, Cpu, Layers, Code2, Container, Workflow, Terminal, Braces } from "lucide-react";
+import { Cloud, GitBranch, Workflow, Server } from "lucide-react";
+import {
+  SiSpringboot, SiFastapi, SiTypescript, SiVuedotjs, SiReact,
+  SiMariadb, SiRedis, SiMongodb, SiNginx, SiDocker, SiGithubactions,
+  SiGit, SiGithub, SiSap, SiAmazonec2, SiAmazonrds,
+  SiAmazonelasticache, SiMybatis,
+} from "react-icons/si";
+import { type IconType } from "react-icons";
 import { type LucideIcon } from "lucide-react";
 
 const EASE: [number, number, number, number] = [0.25, 0.46, 0.45, 0.94];
 
-type SkillItem = { name: string; icon: LucideIcon; color: string };
+type SkillItem = { name: string; icon: IconType | LucideIcon; color: string; isLucide?: boolean };
 
 const skillCategories: { title: string; skills: SkillItem[] }[] = [
   {
     title: "백엔드",
     skills: [
-      { name: "Spring Boot", icon: Layers, color: "text-green-500" },
-      { name: "FastAPI", icon: Server, color: "text-teal-500" },
-      { name: "MyBatis", icon: Database, color: "text-orange-500" },
-      { name: "Java", icon: Code2, color: "text-red-500" },
-      { name: "Python", icon: Terminal, color: "text-yellow-500" },
+      { name: "Spring Boot", icon: SiSpringboot, color: "text-green-500" },
+      { name: "FastAPI", icon: SiFastapi, color: "text-teal-500" },
+      { name: "MyBatis", icon: SiSpringboot, color: "text-orange-500" },
     ],
   },
   {
     title: "SAP / ERP",
     skills: [
-      { name: "SAP", icon: Cpu, color: "text-blue-500" },
-      { name: "SAP BTP", icon: Cloud, color: "text-sky-500" },
-      { name: "ERP 프로세스", icon: Workflow, color: "text-purple-500" },
+      { name: "SAP", icon: SiSap, color: "text-blue-500" },
+      { name: "SAP BTP", icon: Cloud, color: "text-sky-500", isLucide: true },
+      { name: "ERP 프로세스", icon: Workflow, color: "text-purple-500", isLucide: true },
     ],
   },
   {
     title: "데이터베이스",
     skills: [
-      { name: "MariaDB", icon: Database, color: "text-amber-600" },
-      { name: "Redis", icon: Database, color: "text-red-400" },
-      { name: "MongoDB", icon: Database, color: "text-green-600" },
+      { name: "MariaDB", icon: SiMariadb, color: "text-amber-600" },
+      { name: "Redis", icon: SiRedis, color: "text-red-400" },
+      { name: "MongoDB", icon: SiMongodb, color: "text-green-600" },
     ],
   },
   {
     title: "프론트엔드",
     skills: [
-      { name: "TypeScript", icon: Braces, color: "text-blue-500" },
-      { name: "Vue.js", icon: Globe, color: "text-emerald-500" },
-      { name: "React", icon: Globe, color: "text-cyan-500" },
+      { name: "TypeScript", icon: SiTypescript, color: "text-blue-500" },
+      { name: "Vue.js", icon: SiVuedotjs, color: "text-emerald-500" },
+      { name: "React", icon: SiReact, color: "text-cyan-500" },
     ],
   },
   {
     title: "인프라 & DevOps",
     skills: [
-      { name: "AWS EC2", icon: Cloud, color: "text-orange-400" },
-      { name: "AWS RDS", icon: Cloud, color: "text-orange-500" },
-      { name: "Elastic Beanstalk", icon: Cloud, color: "text-orange-300" },
-      { name: "Nginx", icon: Server, color: "text-green-500" },
-      { name: "Docker", icon: Container, color: "text-blue-400" },
-      { name: "GitHub Actions", icon: Workflow, color: "text-violet-500" },
+      { name: "AWS EC2", icon: SiAmazonec2, color: "text-orange-400" },
+      { name: "AWS RDS", icon: SiAmazonrds, color: "text-orange-500" },
+      { name: "Elastic Beanstalk", icon: Cloud, color: "text-orange-300", isLucide: true },
+      { name: "Nginx", icon: SiNginx, color: "text-green-500" },
+      { name: "Docker", icon: SiDocker, color: "text-blue-400" },
+      { name: "GitHub Actions", icon: SiGithubactions, color: "text-violet-500" },
     ],
   },
   {
     title: "도구 & 기타",
     skills: [
-      { name: "Git", icon: GitBranch, color: "text-orange-600" },
-      { name: "GitHub", icon: GitBranch, color: "text-foreground" },
-      { name: "CI/CD", icon: Workflow, color: "text-indigo-500" },
-      { name: "알고리즘", icon: Cpu, color: "text-pink-500" },
+      { name: "Git", icon: SiGit, color: "text-orange-600" },
+      { name: "GitHub", icon: SiGithub, color: "text-foreground" },
+      { name: "CI/CD", icon: Workflow, color: "text-indigo-500", isLucide: true },
     ],
   },
 ];
@@ -119,7 +123,7 @@ const SkillsSection = () => {
               </h3>
               <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill, si) => {
-                  const Icon = skill.icon;
+                  const Icon = skill.icon as any;
                   return (
                     <motion.span
                       key={skill.name}
