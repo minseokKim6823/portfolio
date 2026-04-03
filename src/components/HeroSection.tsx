@@ -112,7 +112,7 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
           className="flex items-center gap-4"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 1.0, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] }}
+          transition={{ duration: 0.7, delay: 1.0, ease: EASE }}
         >
           <Button size="lg" className="rounded-full font-mono text-xs gap-2 group" asChild>
             <a href="mailto:minseokkim6823@gmail.com">

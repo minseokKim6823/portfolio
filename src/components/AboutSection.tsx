@@ -51,7 +51,7 @@ const AboutSection = () => {
           initial={{ scaleX: 0, originX: 0 }}
           whileInView={{ scaleX: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 1, delay: 0.3, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] }}
+          transition={{ duration: 1, delay: 0.3, ease: EASE }}
         />
 
         <div className="space-y-6 text-muted-foreground leading-relaxed">
