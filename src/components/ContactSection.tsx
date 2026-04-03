@@ -4,12 +4,14 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
+const EASE: [number, number, number, number] = [0.25, 0.46, 0.45, 0.94];
+
 const lineReveal = {
   hidden: { y: "100%", opacity: 0 },
   visible: (i: number) => ({
     y: "0%",
     opacity: 1,
-    transition: { duration: 0.7, delay: i * 0.12, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] },
+    transition: { duration: 0.7, delay: i * 0.12, ease: EASE },
   }),
 };
 

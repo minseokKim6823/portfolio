@@ -3,16 +3,14 @@ import { ArrowDown, Github, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useRef } from "react";
 
+const EASE: [number, number, number, number] = [0.25, 0.46, 0.45, 0.94];
+
 const textReveal = {
   hidden: { y: "100%", opacity: 0 },
   visible: (i: number) => ({
     y: "0%",
     opacity: 1,
-    transition: {
-      duration: 0.8,
-      delay: i * 0.15,
-      ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number],
-    },
+    transition: { duration: 0.8, delay: i * 0.15, ease: EASE },
   }),
 };
 
@@ -93,7 +91,7 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
           className="h-px bg-accent/40 mb-8"
           initial={{ scaleX: 0, originX: 0 }}
           animate={{ scaleX: 1 }}
-          transition={{ duration: 1.2, delay: 0.8, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] }}
+          transition={{ duration: 1.2, delay: 0.8, ease: EASE }}
         />
 
         {/* Description */}
@@ -114,7 +112,7 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
           className="flex items-center gap-4"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 1.0, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] }}
+          transition={{ duration: 0.7, delay: 1.0, ease: EASE }}
         >
           <Button size="lg" className="rounded-full font-mono text-xs gap-2 group" asChild>
             <a href="mailto:minseokkim6823@gmail.com">
