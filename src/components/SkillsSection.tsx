@@ -1,12 +1,66 @@
 import { motion } from "framer-motion";
+import { Database, Server, Globe, Cloud, GitBranch, Cpu, Layers, Code2, Container, Workflow, Terminal, Braces } from "lucide-react";
+import { type LucideIcon } from "lucide-react";
 
-const skillCategories = [
-  { title: "백엔드", skills: ["Spring Boot", "FastAPI", "MyBatis", "Java", "Python"] },
-  { title: "SAP / ERP", skills: ["SAP", "SAP BTP", "ERP 프로세스"] },
-  { title: "데이터베이스", skills: ["MariaDB", "Redis", "MongoDB"] },
-  { title: "프론트엔드", skills: ["TypeScript", "Vue.js", "React"] },
-  { title: "인프라 & DevOps", skills: ["AWS EC2", "AWS RDS", "Elastic Beanstalk", "Nginx", "Docker", "GitHub Actions"] },
-  { title: "도구 & 기타", skills: ["Git", "GitHub", "CI/CD", "알고리즘"] },
+const EASE: [number, number, number, number] = [0.25, 0.46, 0.45, 0.94];
+
+type SkillItem = { name: string; icon: LucideIcon; color: string };
+
+const skillCategories: { title: string; skills: SkillItem[] }[] = [
+  {
+    title: "백엔드",
+    skills: [
+      { name: "Spring Boot", icon: Layers, color: "text-green-500" },
+      { name: "FastAPI", icon: Server, color: "text-teal-500" },
+      { name: "MyBatis", icon: Database, color: "text-orange-500" },
+      { name: "Java", icon: Code2, color: "text-red-500" },
+      { name: "Python", icon: Terminal, color: "text-yellow-500" },
+    ],
+  },
+  {
+    title: "SAP / ERP",
+    skills: [
+      { name: "SAP", icon: Cpu, color: "text-blue-500" },
+      { name: "SAP BTP", icon: Cloud, color: "text-sky-500" },
+      { name: "ERP 프로세스", icon: Workflow, color: "text-purple-500" },
+    ],
+  },
+  {
+    title: "데이터베이스",
+    skills: [
+      { name: "MariaDB", icon: Database, color: "text-amber-600" },
+      { name: "Redis", icon: Database, color: "text-red-400" },
+      { name: "MongoDB", icon: Database, color: "text-green-600" },
+    ],
+  },
+  {
+    title: "프론트엔드",
+    skills: [
+      { name: "TypeScript", icon: Braces, color: "text-blue-500" },
+      { name: "Vue.js", icon: Globe, color: "text-emerald-500" },
+      { name: "React", icon: Globe, color: "text-cyan-500" },
+    ],
+  },
+  {
+    title: "인프라 & DevOps",
+    skills: [
+      { name: "AWS EC2", icon: Cloud, color: "text-orange-400" },
+      { name: "AWS RDS", icon: Cloud, color: "text-orange-500" },
+      { name: "Elastic Beanstalk", icon: Cloud, color: "text-orange-300" },
+      { name: "Nginx", icon: Server, color: "text-green-500" },
+      { name: "Docker", icon: Container, color: "text-blue-400" },
+      { name: "GitHub Actions", icon: Workflow, color: "text-violet-500" },
+    ],
+  },
+  {
+    title: "도구 & 기타",
+    skills: [
+      { name: "Git", icon: GitBranch, color: "text-orange-600" },
+      { name: "GitHub", icon: GitBranch, color: "text-foreground" },
+      { name: "CI/CD", icon: Workflow, color: "text-indigo-500" },
+      { name: "알고리즘", icon: Cpu, color: "text-pink-500" },
+    ],
+  },
 ];
 
 const lineReveal = {
@@ -14,7 +68,7 @@ const lineReveal = {
   visible: (i: number) => ({
     y: "0%",
     opacity: 1,
-    transition: { duration: 0.7, delay: i * 0.12, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] },
+    transition: { duration: 0.7, delay: i * 0.12, ease: EASE },
   }),
 };
 
@@ -24,7 +78,7 @@ const tagVariant = {
     opacity: 1,
     scale: 1,
     y: 0,
-    transition: { duration: 0.4, delay: i * 0.04, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] },
+    transition: { duration: 0.4, delay: i * 0.04, ease: EASE },
   }),
 };
 
@@ -64,20 +118,24 @@ const SkillsSection = () => {
                 {category.title}
               </h3>
               <div className="flex flex-wrap gap-2">
-                {category.skills.map((skill, si) => (
-                  <motion.span
-                    key={skill}
-                    className="px-3 py-1.5 rounded-md text-sm border border-border bg-card text-foreground cursor-default hover:border-accent/50 hover:bg-accent/5 transition-colors duration-200"
-                    variants={tagVariant}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true }}
-                    custom={si}
-                    whileHover={{ y: -2, transition: { duration: 0.2 } }}
-                  >
-                    {skill}
-                  </motion.span>
-                ))}
+                {category.skills.map((skill, si) => {
+                  const Icon = skill.icon;
+                  return (
+                    <motion.span
+                      key={skill.name}
+                      className="px-3 py-1.5 rounded-md text-sm border border-border bg-card text-foreground cursor-default hover:border-accent/50 hover:bg-accent/5 transition-colors duration-200 inline-flex items-center gap-1.5"
+                      variants={tagVariant}
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true }}
+                      custom={si}
+                      whileHover={{ y: -2, transition: { duration: 0.2 } }}
+                    >
+                      <Icon className={`w-3.5 h-3.5 ${skill.color}`} />
+                      {skill.name}
+                    </motion.span>
+                  );
+                })}
               </div>
             </motion.div>
           ))}
