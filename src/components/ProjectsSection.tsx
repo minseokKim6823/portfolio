@@ -1,25 +1,42 @@
 import { motion } from "framer-motion";
-import { Github, ArrowUpRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Github, ArrowUpRight, Trophy } from "lucide-react";
 
 const projects = [
   {
     title: "WeShareU",
-    description: "팀 협업 기반 풀스택 프로젝트. Java/Spring Boot 백엔드와 프론트엔드를 모두 포함하는 웹 애플리케이션입니다.",
-    tags: ["Java", "Spring Boot", "풀스택"],
+    description: "팀 협업 기반 풀스택 프로젝트. Jira를 활용한 코드 컨벤션·DB 컬럼명 규칙 정립, 코드 리뷰를 통한 팀 전체 기술 역량 향상에 기여했습니다.",
+    highlights: ["협업 프로세스 정립 (Jira 기반)", "코드 리뷰 문화 도입"],
+    tags: ["Spring Boot", "MariaDB", "팀 프로젝트"],
     github: "https://github.com/minseokKim6823/WeShareU_FE-BE",
   },
   {
     title: "SGMA Backend",
-    description: "한화시스템 Beyond 9기 2nd Project 백엔드. Spring Cooler 팀으로 참여한 백엔드 시스템입니다.",
-    tags: ["Java", "Spring Boot", "팀 프로젝트"],
+    description: "스터디 그룹 매니지먼트 어플리케이션. 한화시스템 Beyond 9기 2nd Project로, Redis 캐싱 전략과 Spring Batch를 활용한 대량 데이터 처리를 구현했습니다.",
+    highlights: ["Redis 캐싱으로 검색 성능 86% 개선", "Spring Batch 기반 채점 서비스 구현"],
+    tags: ["Spring Boot", "Redis", "Spring Batch"],
     github: "https://github.com/Spring-Cooler/SGMA_Backend",
   },
   {
-    title: "MOTIVE",
-    description: "최적의 영업을 위한 영업관리 시스템. Final Project로 Vue.js 프론트엔드와 백엔드를 결합한 ERP 솔루션입니다.",
-    tags: ["Vue.js", "Java", "ERP", "영업관리"],
+    title: "MOTIVE (영업관리 ERP)",
+    description: "최적의 영업을 위한 영업관리 ERP 시스템. AWS RDS를 활용한 DB 이중화 구조 설계와 원시/참조 타입 성능 차이를 분석하여 최적화했습니다.",
+    highlights: ["AWS RDS DB 이중화 구조 설계", "박싱/언박싱 최적화로 성능 개선", "GitHub Actions 기반 CI/CD 파이프라인"],
+    tags: ["Spring Boot", "Vue.js", "AWS RDS", "Docker"],
     github: "https://github.com/STANL-2/MOTIVE",
+  },
+  {
+    title: "멋쟁이사자처럼 통합 홈페이지",
+    description: "전국 2000명 회원 대상 실시간 채팅 서비스 개발. WebSocket에서 STOMP + Redis Pub/Sub 구조로 전환하여 다중 서버 환경에서도 동작하는 메시징 시스템을 구축했습니다.",
+    highlights: ["Redis Pub/Sub 기반 메시지 브로커 구현", "JMeter 부하테스트 진행"],
+    tags: ["Spring Boot", "WebSocket", "STOMP", "Redis"],
+    github: "https://github.com/minseokKim6823",
+    award: "해커톤 최우수상 수상",
+  },
+  {
+    title: "학교 축제 사이트",
+    description: "디자이너·프론트엔드 개발자와 협업하여 학교 축제 사이트를 기획부터 배포까지 제작. 접속자 폭증 대비 캐싱 전략을 도입하여 장애를 사전에 예방했습니다.",
+    highlights: ["Spring Boot 캐싱 전략으로 DB 부하 감소", "실사용자 피드백 기반 개선"],
+    tags: ["Spring Boot", "협업", "캐싱"],
+    github: "https://github.com/minseokKim6823",
   },
 ];
 
@@ -74,11 +91,29 @@ const ProjectsSection = () => {
                   {project.title}
                   <ArrowUpRight className="w-4 h-4 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all duration-300" />
                 </h3>
-                <Github className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors" />
+                <div className="flex items-center gap-2">
+                  {project.award && (
+                    <span className="flex items-center gap-1 text-xs text-accent font-mono">
+                      <Trophy className="w-3 h-3" />
+                      {project.award}
+                    </span>
+                  )}
+                  <Github className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors" />
+                </div>
               </div>
-              <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+              <p className="text-muted-foreground text-sm leading-relaxed mb-3">
                 {project.description}
               </p>
+              {project.highlights && (
+                <ul className="mb-4 space-y-1">
+                  {project.highlights.map((h, i) => (
+                    <li key={i} className="text-sm text-muted-foreground flex gap-2">
+                      <span className="text-accent shrink-0">·</span>
+                      <span>{h}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
               <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag) => (
                   <span
