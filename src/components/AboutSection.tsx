@@ -19,7 +19,7 @@ const paragraphs = [
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-20 sm:py-28 px-6 snap-start">
+    <section id="about" className="py-14 sm:py-20 px-6 snap-start">
       <div className="max-w-3xl mx-auto">
         <div className="overflow-hidden">
           <motion.p
