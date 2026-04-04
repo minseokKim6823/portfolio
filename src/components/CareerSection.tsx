@@ -7,90 +7,107 @@ const careers = [
     company: "태화이노베이션",
     team: "기술연구소",
     period: "2025.03 - 현재",
-    role: "AI 및 백엔드 개발",
+    role: "AI-OCR 솔루션 및 금융권 프로젝트 백엔드 개발",
     projects: [
       {
-        title: "수표인식 솔루션",
-        desc: "RapidOCR을 커스터마이징하여 수표 일련번호, 금액, MICR 코드를 인식합니다.",
+        title: "금융결제원 어음교환 솔루션",
+        desc: "OCR을 이용한 어음 진위 판별 시스템. 역프록시 패턴 API Gateway 구축 및 헥사고날 아키텍처 도입으로 확장성을 확보했습니다.",
         details: [
-          "RapidOCR을 .Net Framework에서 커스터 마이징하여 스캐너에서 수표인식 가능한 시스템개발(DLL)",
-          "RapidOCR 시연을 위한 FastAPI를 결목시킨 Web버전 개발",
-          "성능향상을 위한 코드 개선 및 방법론 개선",
+          "Spring Boot Gateway에서 FastAPI 역프록시 구조 설계 및 Swagger 문서 일원화",
+          "gRPC 도입으로 REST API 대비 응답 시간 10초→2초 (80% 개선)",
+          "헥사고날 아키텍처 도입으로 MSA 전환 용이한 구조 설계",
+          "YOLO v7 기반 민감정보 마스킹 기능 추가 개발",
+          "SonarQube 도입하여 코드 품질 개선 (Code Smell, 중복 코드 제거)",
         ],
-        tech: ["C#(.Net Framework)", "Python", "openCV", "FastAPI"],
+        tech: ["Spring Boot", "FastAPI", "gRPC", "Webflux", "FeignClient", "YOLO v7", "OracleDB", "SonarQube"],
       },
       {
-        title: "농협정보시스템 AI-OCR 솔루션 POC, 개발",
-        desc: "OCR을 이용해 주민등록증, 인감증명서 등의 행정 문서를 인식합니다.",
+        title: "기업은행 수표 AI-OCR 솔루션",
+        desc: "수표 일련번호, 금액, MICR 코드를 자동 인식하는 AI-OCR 시스템",
         details: [
-          "기존 Flask 기반 백엔드 레거시 코드를 FastAPI로 마이그레이션하여 향후 OCR 프로젝트의 기본틀을 개발",
+          "C#(.Net Framework) 기반 DLL 라이브러리화 개발",
+          "병렬 처리 도입으로 OCR 처리 시간 2~3초→0.7초 (70% 단축)",
+          "NLP 기반 후처리 로직 개발로 오인식률 개선",
+          "CRNN 기반 인지·탐색 모델 학습",
         ],
-        tech: ["Flask", "FastAPI", "JavaScript", "ajax"],
+        tech: ["C#(.Net)", "Python", "FastAPI", "Flask", "CRNN", "NLP", "OpenCV"],
       },
       {
-        title: "금융결제원 어음교환 솔루션 백엔드 개발",
-        desc: "OCR을 이용해 어음의 진위 여부를 판별합니다.",
+        title: "우리은행 이미지 허브 솔루션 (풀스택)",
+        desc: "이미지·오피스 문서·HTML을 다양한 포맷(PDF, TIFF)으로 변환하고 통합 관리하는 시스템",
         details: [
-          "FastAPI+OCR을 이용한 어음 형태 분류기능",
-          "Spring Boot 기반 Gateway에서 역프록시 구조를 설계 및 개발",
-          "YOLO v7을 이용한 OCR 모델을 모델링하여 민감정보 마스킹 기능 추가 개발",
-          "OCR 기능 추가에 따른 멀티모듈 구조로 마이그레이션",
-        ],
-        tech: ["FastAPI", "Spring Boot", "Webflux", "FeignClient", "Spring Cloud", "gRPC", "YOLO v7", "OracleDB", "H2"],
-      },
-      {
-        title: "국민은행 이미지 허브 솔루션 풀스택 개발 지원",
-        desc: "이미지 허브 솔루션 프로젝트 반입을 위해 프로젝트 기본 틀 개발 지원",
-        details: [
-          "Spring Boot 기반 백엔드 서버 구현",
+          "Spring Boot 기반 백엔드 및 Spring Batch를 이용한 이미지 변환 엔진 연동",
           "Next.js 기반 프론트엔드 UI 구현",
         ],
-        tech: ["Spring Boot", "myBatis", "Next.js", "OracleDB"],
+        tech: ["Spring Boot", "MyBatis", "Spring Batch", "Webflux", "Next.js", "Tibero"],
       },
-    ],
-  },
-  {
-    company: "태화이노베이션",
-    team: "SI 경험",
-    period: "",
-    role: "",
-    projects: [
       {
-        title: "우리은행 이미지 허브 솔루션 풀스택 개발",
-        desc: "이미지, 오피스 문서, HTML 문서 등을 다양한 포맷(PDF, TIFF 등)으로 변환하고 통합 관리할 수 있도록 지원합니다.",
+        title: "국민은행 이미지 허브 솔루션 (개발 지원)",
+        desc: "프로젝트 반입을 위한 기본 틀 개발 지원",
         details: [
-          "Spring Boot 기반 백엔드 서버 구현",
-          "Spring Batch를 이용하여 Linux 서버의 이미지 변환 엔진과 통신하여 이미지 변환 기능 구현",
-          "Next.js 기반 프론트엔드 UI 구현",
+          "Spring Boot 백엔드 및 Next.js 프론트엔드 기본 구조 구현",
         ],
-        tech: ["Spring Boot", "myBatis", "Spring Batch", "Webflux", "Next.js", "Linux", "Tibero"],
+        tech: ["Spring Boot", "MyBatis", "Next.js", "OracleDB"],
       },
     ],
   },
   {
     company: "멋쟁이사자처럼",
-    team: "통합홈페이지 TF팀",
-    period: "2023.05 - 2023.12",
-    role: "멋쟁이사자처럼 통합홈페이지 백엔드 개발 담당",
+    team: "교내 대표 · 운영진",
+    period: "2023.01 - 2024.12",
+    role: "전국 코딩 연합 동아리 교내 설립 및 대표 활동",
     projects: [
       {
-        title: "채팅 서비스 개발",
-        desc: "전체 회원(2000명)에게 원활한 채팅서비스를 구현했습니다.",
+        title: "통합 홈페이지 채팅 서비스",
+        desc: "전체 회원(2000명) 대상 실시간 채팅 서비스 개발. 타 학교 운영진과 협업하여 likelion.university 제작.",
         details: [
-          "Jmeter기반 부하 테스트 및 원활한 서비스를 위한 방법 고안",
-          "채팅 서비스 개발",
+          "WebSocket→STOMP+SockJS+Redis Pub/Sub 구조로 전환하여 다중 서버 대응",
+          "JMeter 부하테스트 진행 및 안정적인 메시징 시스템 구축",
         ],
-        tech: ["Spring Boot", "WebSocket", "STOMP", "REDIS"],
+        tech: ["Spring Boot", "WebSocket", "STOMP", "Redis Pub/Sub"],
+      },
+      {
+        title: "학교 축제 사이트 제작",
+        desc: "디자이너·프론트엔드 개발자와 협업하여 기획부터 배포까지 진행",
+        details: [
+          "Spring Boot 캐싱 전략 도입으로 축제 기간 접속자 폭증 대비",
+          "실사용자 피드백 기반 서비스 개선",
+        ],
+        tech: ["Spring Boot", "캐싱"],
       },
     ],
   },
 ];
 
+const education = [
+  {
+    period: "2025.11 - 2026.02",
+    title: "SAP ABAP(S4/HANA) Developer 과정",
+    org: "soldesk",
+    details: ["ABAP 문법 및 데이터베이스 프로그래밍", "ERP 비즈니스 로직 및 시스템 구조 학습"],
+  },
+  {
+    period: "2024.06 - 2024.12",
+    title: "한화시스템 BEYOND SW 캠프 9기",
+    org: "playdata",
+    details: ["Spring Boot 기반 REST API 개발", "AWS 클라우드 인프라 (RDS, S3, ElasticBeanstalk)", "Docker 컨테이너화 및 CI/CD 구축"],
+  },
+];
+
+const certifications = [
+  { year: "2026.03", name: "SQL 개발자 (SQLD)", org: "한국데이터산업진흥원" },
+  { year: "2025.12", name: "정보처리기사", org: "한국산업인력공단" },
+  { year: "2023.10", name: "네트워크관리사 2급", org: "한국정보통신자격협회" },
+];
+
+const awards = [
+  { year: "2024", name: "최우수상", org: "한성대학교 멋쟁이사자처럼 해커톤", desc: "포트폴리오 홍보 및 기업 정보 제공 서비스 (Spring Boot + React)" },
+  { year: "2022", name: "우수상", org: "상명대학교 SM Learning Fair", desc: "Python 기반 미로 게임 제작" },
+];
+
 const experiences = [
-  { category: "동아리", items: ["SUSC : 대학생 방학교류 동아리 2024.12 - 2025.02", "멋쟁이사자처럼 : 대학생 창업 IT 동아리 (교내 대표, 운영진) 2023.01 - 2024.12"] },
-  { category: "커뮤니티", items: ["항해99 10일 아티클 챌린지", "면접 스터디"] },
-  { category: "교육", items: ["한화 시스템 부트캠프 9기", "SAP ABAP(S4/HANA) Developer 과정"] },
-  { category: "자격증", items: ["네트워크 관리사 2급", "정보처리기사", "SQLD"] },
+  { category: "동아리", items: ["SUSC : 대학생 방학교류 동아리 2024.12 - 2025.02", "멋쟁이사자처럼 : 교내 대표·운영진 2023.01 - 2024.12"] },
+  { category: "커뮤니티", items: ["SSAFY Ambassador 2023.09 - 2024.02", "항해99 10일 아티클 챌린지", "면접 스터디"] },
 ];
 
 const EASE: [number, number, number, number] = [0.25, 0.46, 0.45, 0.94];
@@ -154,6 +171,7 @@ const CareerSection = () => {
           </motion.div>
         </motion.div>
 
+        {/* Career */}
         <div className="space-y-16">
           {careers.map((career, ci) => (
             <motion.div
@@ -203,9 +221,89 @@ const CareerSection = () => {
           ))}
         </div>
 
-        {/* Experience */}
+        {/* Education */}
         <motion.div
           className="mt-24"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.7 }}
+        >
+          <h3 className="text-lg font-bold mb-8">교육</h3>
+          <div className="space-y-6">
+            {education.map((edu, i) => (
+              <motion.div
+                key={i}
+                className="border-l border-border pl-6"
+                initial={{ opacity: 0, x: -15 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+              >
+                <div className="flex items-baseline gap-3 mb-2">
+                  <h4 className="font-semibold text-sm">{edu.title}</h4>
+                  <span className="text-xs text-muted-foreground font-mono ml-auto">{edu.period}</span>
+                </div>
+                <p className="text-xs text-muted-foreground mb-2">{edu.org}</p>
+                <ul className="space-y-1">
+                  {edu.details.map((d, di) => (
+                    <li key={di} className="text-sm text-muted-foreground flex gap-2">
+                      <span className="text-accent shrink-0">·</span>
+                      <span>{d}</span>
+                    </li>
+                  ))}
+                </ul>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Certifications & Awards */}
+        <div className="grid sm:grid-cols-2 gap-12 mt-16">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <h3 className="font-mono text-xs text-accent tracking-wider uppercase mb-4">자격증</h3>
+            <div className="space-y-3">
+              {certifications.map((cert, i) => (
+                <div key={i} className="flex items-baseline gap-3">
+                  <span className="text-xs font-mono text-muted-foreground shrink-0">{cert.year}</span>
+                  <div>
+                    <p className="text-sm font-medium">{cert.name}</p>
+                    <p className="text-xs text-muted-foreground">{cert.org}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
+            <h3 className="font-mono text-xs text-accent tracking-wider uppercase mb-4">수상</h3>
+            <div className="space-y-4">
+              {awards.map((award, i) => (
+                <div key={i}>
+                  <div className="flex items-baseline gap-3">
+                    <span className="text-xs font-mono text-muted-foreground shrink-0">{award.year}</span>
+                    <p className="text-sm font-medium">{award.name} <span className="text-muted-foreground font-normal">· {award.org}</span></p>
+                  </div>
+                  <p className="text-xs text-muted-foreground mt-1 ml-14">{award.desc}</p>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Experience */}
+        <motion.div
+          className="mt-16"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
