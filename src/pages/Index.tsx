@@ -17,7 +17,7 @@ const Index = () => {
       <ScrollProgress containerRef={containerRef} />
       <Navbar />
       <HeroSection containerRef={containerRef} />
-      <AboutSection />
+      
       <SkillsSection />
       <CareerSection />
       <ProjectsSection />
