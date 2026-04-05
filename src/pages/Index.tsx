@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Navbar from "@/components/Navbar";
 import ScrollProgress from "@/components/ScrollProgress";
 import HeroSection from "@/components/HeroSection";
-import AboutSection from "@/components/AboutSection";
+
 import SkillsSection from "@/components/SkillsSection";
 import CareerSection from "@/components/CareerSection";
 import ProjectsSection from "@/components/ProjectsSection";
