@@ -18,10 +18,11 @@ const paragraphs = [
   "업무 프로세스에 대한 깊은 이해와 시스템 구조 기반의 개발을 목표로 지속적으로 학습하고 있습니다.",
 ];
 
-const highlights = [
-  { label: "경력", value: "1년 1개월+" },
-  { label: "학력", value: "상명대 스마트정보통신공학과 (3.81/4.5)" },
-  { label: "위치", value: "서울 송파구" },
+const stats = [
+  { number: "80%", label: "gRPC 도입 응답속도 개선" },
+  { number: "86%", label: "Redis 캐싱 검색 성능 개선" },
+  { number: "5+", label: "금융권 프로젝트 참여" },
+  { number: "3.81", label: "학점 (4.5 만점)" },
 ];
 
 const AboutSection = () => {
@@ -61,19 +62,26 @@ const AboutSection = () => {
           transition={{ duration: 1, delay: 0.3, ease: EASE }}
         />
 
-        {/* Highlights */}
+        {/* Key Stats */}
         <motion.div
-          className="grid grid-cols-3 gap-4 mb-10"
+          className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          {highlights.map((h) => (
-            <div key={h.label} className="text-center sm:text-left">
-              <p className="text-xs font-mono text-accent tracking-wider uppercase mb-1">{h.label}</p>
-              <p className="text-sm text-foreground font-medium">{h.value}</p>
-            </div>
+          {stats.map((s, i) => (
+            <motion.div
+              key={s.label}
+              className="border border-border rounded-lg p-4 text-center hover:border-accent/40 transition-colors duration-300"
+              initial={{ opacity: 0, y: 15 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.3 + i * 0.1 }}
+            >
+              <p className="text-2xl sm:text-3xl font-bold text-accent mb-1">{s.number}</p>
+              <p className="text-xs text-muted-foreground font-mono leading-tight">{s.label}</p>
+            </motion.div>
           ))}
         </motion.div>
 
