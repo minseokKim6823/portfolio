@@ -51,7 +51,7 @@ const lineReveal = {
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-32 px-6 snap-start">
+    <section id="projects" className="py-14 sm:py-20 px-6 snap-start">
       <div className="max-w-3xl mx-auto">
         <div className="overflow-hidden">
           <motion.p
