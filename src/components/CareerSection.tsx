@@ -123,7 +123,7 @@ const lineReveal = {
 
 const CareerSection = () => {
   return (
-    <section id="career" className="py-14 sm:py-20 px-6 snap-start">
+    <section id="career" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
       <div className="max-w-3xl mx-auto">
         <motion.div
           className="flex items-end justify-between mb-14"

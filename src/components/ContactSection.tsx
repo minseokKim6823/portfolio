@@ -17,7 +17,7 @@ const lineReveal = {
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-14 sm:py-20 px-6 snap-start">
+    <section id="contact" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
       <div className="max-w-2xl mx-auto">
         <div className="mb-12">
           <div className="overflow-hidden">
