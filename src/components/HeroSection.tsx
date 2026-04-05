@@ -67,7 +67,7 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
               animate={{ y: "0%" }}
               transition={{ duration: 1, delay: 0.5, ease: EASE }}
             >
-              오늘보다 나은 내일을 만드는 개발자
+              백엔드 · ERP · SAP
             </motion.p>
           </div>
         </div>
