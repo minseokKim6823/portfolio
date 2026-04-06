@@ -52,7 +52,7 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
         <div className="mb-8">
           <div className="overflow-hidden">
             <motion.h1
-              className="text-[clamp(2.5rem,8vw,7rem)] font-bold tracking-tight leading-[0.9]"
+              className="text-[clamp(2.5rem,8vw,7rem)] font-bold tracking-tight leading-[1.1]"
               initial={{ y: "100%" }}
               animate={{ y: "0%" }}
               transition={{ duration: 1, delay: 0.3, ease: EASE }}
