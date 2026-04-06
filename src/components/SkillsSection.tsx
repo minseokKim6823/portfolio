@@ -25,7 +25,6 @@ const skillCategories: { title: string; skills: SkillItem[] }[] = [
     title: "SAP / ERP",
     skills: [
       { name: "SAP", icon: SiSap, color: "text-blue-500" },
-      { name: "SAP BTP", icon: Cloud, color: "text-sky-500", isLucide: true },
       { name: "ERP 프로세스", icon: Workflow, color: "text-purple-500", isLucide: true },
     ],
   },
