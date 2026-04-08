@@ -8,6 +8,7 @@ import CareerSection from "@/components/CareerSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import SideNav from "@/components/SideNav";
 
 const Index = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -16,6 +17,7 @@ const Index = () => {
     <div ref={containerRef} data-scroll-container className="min-h-screen bg-background text-foreground snap-y snap-mandatory overflow-y-auto h-screen scroll-smooth">
       <ScrollProgress containerRef={containerRef} />
       <Navbar />
+      <SideNav containerRef={containerRef} />
       <HeroSection containerRef={containerRef} />
       
       <SkillsSection />

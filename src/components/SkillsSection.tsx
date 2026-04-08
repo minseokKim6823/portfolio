@@ -99,7 +99,7 @@ const SkillsSection = () => {
         </div>
         <div className="overflow-hidden mb-14">
           <motion.h2
-            className="text-3xl sm:text-4xl font-bold"
+            className="text-4xl sm:text-5xl font-bold"
             variants={lineReveal} initial="hidden" whileInView="visible"
             viewport={{ once: true, amount: 0.5 }} custom={1}
           >

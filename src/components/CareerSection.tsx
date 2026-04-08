@@ -144,7 +144,7 @@ const CareerSection = () => {
             </div>
             <div className="overflow-hidden">
               <motion.h2
-                className="text-3xl sm:text-4xl font-bold"
+                className="text-4xl sm:text-5xl font-bold"
                 variants={lineReveal} initial="hidden" whileInView="visible"
                 viewport={{ once: true }} custom={1}
               >
