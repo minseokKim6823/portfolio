@@ -11,6 +11,8 @@ const sections = [
 const SideNav = ({ containerRef }: { containerRef: React.RefObject<HTMLDivElement> }) => {
   const [active, setActive] = useState("");
   const [visible, setVisible] = useState(false);
+  const [scrolling, setScrolling] = useState(false);
+  const scrollTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -20,10 +22,14 @@ const SideNav = ({ containerRef }: { containerRef: React.RefObject<HTMLDivElemen
       const scrollTop = container.scrollTop;
       const viewportH = container.clientHeight;
 
-      // Show only after scrolling past hero
-      setVisible(scrollTop > viewportH * 0.5);
+      // Show only when actively scrolling and past hero
+      if (scrollTop > viewportH * 0.5) {
+        setScrolling(true);
+        setVisible(true);
+        if (scrollTimer.current) clearTimeout(scrollTimer.current);
+        scrollTimer.current = setTimeout(() => setScrolling(false), 1500);
+      }
 
-      // Determine active section
       let current = "";
       for (const s of sections) {
         const el = document.getElementById(s.id);
@@ -36,18 +42,21 @@ const SideNav = ({ containerRef }: { containerRef: React.RefObject<HTMLDivElemen
 
     container.addEventListener("scroll", handler, { passive: true });
     handler();
-    return () => container.removeEventListener("scroll", handler);
+    return () => {
+      container.removeEventListener("scroll", handler);
+      if (scrollTimer.current) clearTimeout(scrollTimer.current);
+    };
   }, [containerRef]);
 
   return (
     <AnimatePresence>
-      {visible && (
+      {visible && scrolling && (
         <motion.nav
-          className="fixed right-8 top-1/3 -translate-y-1/2 z-40 hidden md:flex flex-col items-end gap-5"
+          className="fixed left-8 top-1/3 -translate-y-1/2 z-40 hidden md:flex flex-col items-start gap-5"
           style={{ marginTop: "-20px" }}
-          initial={{ opacity: 0, x: 20 }}
+          initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: 20 }}
+          exit={{ opacity: 0, x: -20 }}
           transition={{ duration: 0.4 }}
         >
           {sections.map((s) => (
