@@ -31,7 +31,7 @@ const ContactSection = () => {
           </div>
           <div className="overflow-hidden">
             <motion.h2
-              className="text-3xl sm:text-4xl font-bold mb-4"
+              className="text-4xl sm:text-5xl font-bold mb-4"
               variants={lineReveal} initial="hidden" whileInView="visible"
               viewport={{ once: true, amount: 0.5 }} custom={1}
             >
