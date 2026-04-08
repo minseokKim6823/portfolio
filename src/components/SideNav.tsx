@@ -52,11 +52,11 @@ const SideNav = ({ containerRef }: { containerRef: React.RefObject<HTMLDivElemen
     <AnimatePresence>
       {visible && scrolling && (
         <motion.nav
-          className="fixed left-8 top-1/3 -translate-y-1/2 z-40 hidden md:flex flex-col items-start gap-5"
+          className="fixed right-16 top-1/3 -translate-y-1/2 z-40 hidden md:flex flex-col items-end gap-5"
           style={{ marginTop: "-20px" }}
-          initial={{ opacity: 0, x: -20 }}
+          initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: -20 }}
+          exit={{ opacity: 0, x: 20 }}
           transition={{ duration: 0.4 }}
         >
           {sections.map((s) => (
