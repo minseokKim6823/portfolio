@@ -44,6 +44,7 @@ const SideNav = ({ containerRef }: { containerRef: React.RefObject<HTMLDivElemen
       {visible && (
         <motion.nav
           className="fixed right-8 top-1/3 -translate-y-1/2 z-40 hidden md:flex flex-col items-end gap-5"
+          style={{ marginTop: "-20px" }}
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: 20 }}
@@ -53,7 +54,7 @@ const SideNav = ({ containerRef }: { containerRef: React.RefObject<HTMLDivElemen
             <a
               key={s.id}
               href={`#${s.id}`}
-              className={`font-mono text-[13px] tracking-wider uppercase transition-all duration-300 ${
+              className={`font-mono text-[20px] tracking-wider uppercase transition-all duration-300 ${
                 active === s.id
                   ? "text-accent scale-110 font-semibold"
                   : "text-muted-foreground/40 hover:text-muted-foreground"
