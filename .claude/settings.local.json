@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git remote:*)"
+      "Bash(git remote:*)",
+      "Bash(git filter-branch:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(git stash:*)"
     ]
   }
 }
