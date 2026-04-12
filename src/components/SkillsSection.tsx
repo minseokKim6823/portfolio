@@ -1,3 +1,4 @@
+import type { ElementType } from "react";
 import { motion } from "framer-motion";
 import { Cloud, GitBranch, Workflow, Server } from "lucide-react";
 import {
@@ -121,7 +122,7 @@ const SkillsSection = () => {
               </h3>
               <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill, si) => {
-                  const Icon = skill.icon as any;
+                  const Icon = skill.icon as ElementType;
                   return (
                     <motion.span
                       key={skill.name}
