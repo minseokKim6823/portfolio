@@ -3,18 +3,40 @@ import { Github, ArrowUpRight, Trophy } from "lucide-react";
 
 const projects = [
   {
+    title: "학교 축제 사이트",
+    description: "디자이너·프론트엔드 개발자와 협업하여 학교 축제 사이트를 기획부터 배포까지 제작. 접속자 폭증 대비 캐싱 전략을 도입하여 장애를 사전에 예방했습니다.",
+    highlights: ["Spring Boot 캐싱 전략으로 DB 부하 감소", "실사용자 피드백 기반 개선"],
+    tags: ["Spring Boot", "협업", "캐싱"],
+    github: "https://likelion.university",
+  },
+  {
+    title: "멋쟁이사자처럼 통합 홈페이지",
+    description: "전국 2000명 회원 대상 실시간 채팅 서비스 개발. WebSocket에서 STOMP + Redis Pub/Sub 구조로 전환하여 다중 서버 환경에서도 동작하는 메시징 시스템을 구축했습니다.",
+    highlights: ["Redis Pub/Sub 기반 메시지 브로커 구현", "JMeter 부하테스트 진행"],
+    tags: ["Spring Boot", "WebSocket", "STOMP", "Redis"],
+    github: "https://github.com/LikelionUniv",
+  },
+  {
+    title: "Coy",
+    description: "2024 멋쟁이사자처럼 운영진 헤커톤에 참여하여 사이드 프로젝트 홍보 & 채용 공고 탐색 플랫폼을 만들었습니다.",
+    highlights: ["SSE를 이용한 알림 서비스", "AWS S3를 이용한 데이터 저장"],
+    tags: ["Spring Boot", "SSE", "AWS"],
+    github: "https://github.com/Trendithon-Spin-Off",
+    award: "헤커톤 최우수상 수상",
+  },
+  {
+    title: "SGMA",
+    description: "스터디 그룹 매니지먼트 어플리케이션. 한화시스템 Beyond 9기 2nd Project로, Redis 캐싱 전략과 Spring Batch를 활용한 대량 데이터 처리를 구현했습니다.",
+    highlights: ["Redis 캐싱으로 검색 성능 86% 개선", "Spring Batch 기반 채점 서비스 구현"],
+    tags: ["Spring Boot", "Redis", "Spring Batch"],
+    github: "https://github.com/Spring-Cooler",
+  },
+  {
     title: "WeShareU",
     description: "팀 협업 기반 풀스택 프로젝트. Jira를 활용한 코드 컨벤션·DB 컬럼명 규칙 정립, 코드 리뷰를 통한 팀 전체 기술 역량 향상에 기여했습니다.",
     highlights: ["협업 프로세스 정립 (Jira 기반)", "코드 리뷰 문화 도입"],
     tags: ["Spring Boot", "MariaDB", "팀 프로젝트"],
-    github: "https://github.com/minseokKim6823/WeShareU_FE-BE",
-  },
-  {
-    title: "SGMA Backend",
-    description: "스터디 그룹 매니지먼트 어플리케이션. 한화시스템 Beyond 9기 2nd Project로, Redis 캐싱 전략과 Spring Batch를 활용한 대량 데이터 처리를 구현했습니다.",
-    highlights: ["Redis 캐싱으로 검색 성능 86% 개선", "Spring Batch 기반 채점 서비스 구현"],
-    tags: ["Spring Boot", "Redis", "Spring Batch"],
-    github: "https://github.com/Spring-Cooler/SGMA_Backend",
+    github: "https://github.com/STANL-2/WeShareU",
   },
   {
     title: "MOTIVE (영업관리 ERP)",
@@ -22,21 +44,6 @@ const projects = [
     highlights: ["AWS RDS DB 이중화 구조 설계", "박싱/언박싱 최적화로 성능 개선", "GitHub Actions 기반 CI/CD 파이프라인"],
     tags: ["Spring Boot", "Vue.js", "AWS RDS", "Docker"],
     github: "https://github.com/STANL-2/MOTIVE",
-  },
-  {
-    title: "멋쟁이사자처럼 통합 홈페이지",
-    description: "전국 2000명 회원 대상 실시간 채팅 서비스 개발. WebSocket에서 STOMP + Redis Pub/Sub 구조로 전환하여 다중 서버 환경에서도 동작하는 메시징 시스템을 구축했습니다.",
-    highlights: ["Redis Pub/Sub 기반 메시지 브로커 구현", "JMeter 부하테스트 진행"],
-    tags: ["Spring Boot", "WebSocket", "STOMP", "Redis"],
-    github: "https://github.com/minseokKim6823",
-    award: "해커톤 최우수상 수상",
-  },
-  {
-    title: "학교 축제 사이트",
-    description: "디자이너·프론트엔드 개발자와 협업하여 학교 축제 사이트를 기획부터 배포까지 제작. 접속자 폭증 대비 캐싱 전략을 도입하여 장애를 사전에 예방했습니다.",
-    highlights: ["Spring Boot 캐싱 전략으로 DB 부하 감소", "실사용자 피드백 기반 개선"],
-    tags: ["Spring Boot", "협업", "캐싱"],
-    github: "https://github.com/minseokKim6823",
   },
 ];
 
