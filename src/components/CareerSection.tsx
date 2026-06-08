@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
+import { type RefObject } from "react";
 import { Button } from "@/components/ui/button";
+import { useSectionReveal } from "@/hooks/useSectionReveal";
 
 const careers = [
   {
@@ -121,10 +123,11 @@ const lineReveal = {
   }),
 };
 
-const CareerSection = () => {
+const CareerSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElement> }) => {
+  const { ref, opacity, y } = useSectionReveal(containerRef);
   return (
-    <section id="career" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
-      <div className="max-w-3xl mx-auto">
+    <section ref={ref} id="career" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
+      <motion.div style={{ opacity, y }} className="max-w-3xl mx-auto">
         <motion.div
           className="flex items-end justify-between mb-14"
           initial={{ opacity: 0 }}
@@ -329,7 +332,7 @@ const CareerSection = () => {
             ))}
           </div>
         </motion.div>
-      </div>
+      </motion.div>
     </section>
   );
 };

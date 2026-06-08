@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import { Mail, MapPin, Send } from "lucide-react";
+import { type RefObject } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { useSectionReveal } from "@/hooks/useSectionReveal";
 
 const EASE: [number, number, number, number] = [0.25, 0.46, 0.45, 0.94];
 
@@ -15,10 +17,11 @@ const lineReveal = {
   }),
 };
 
-const ContactSection = () => {
+const ContactSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElement> }) => {
+  const { ref, opacity, y } = useSectionReveal(containerRef);
   return (
-    <section id="contact" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
-      <div className="max-w-2xl mx-auto">
+    <section ref={ref} id="contact" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
+      <motion.div style={{ opacity, y }} className="max-w-2xl mx-auto">
         <div className="mb-12">
           <div className="overflow-hidden">
             <motion.p
@@ -89,7 +92,7 @@ const ContactSection = () => {
             보내기
           </Button>
         </motion.form>
-      </div>
+      </motion.div>
     </section>
   );
 };

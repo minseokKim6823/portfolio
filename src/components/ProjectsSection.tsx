@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Github, ArrowUpRight, Trophy } from "lucide-react";
+import { type RefObject } from "react";
+import { useSectionReveal } from "@/hooks/useSectionReveal";
 
 const projects = [
   {
@@ -56,10 +58,11 @@ const lineReveal = {
   }),
 };
 
-const ProjectsSection = () => {
+const ProjectsSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElement> }) => {
+  const { ref, opacity, y } = useSectionReveal(containerRef);
   return (
-    <section id="projects" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
-      <div className="max-w-3xl mx-auto">
+    <section ref={ref} id="projects" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
+      <motion.div style={{ opacity, y }} className="max-w-3xl mx-auto">
         <div className="overflow-hidden">
           <motion.p
             className="font-mono text-accent text-xs tracking-[0.3em] uppercase mb-4"
@@ -69,15 +72,24 @@ const ProjectsSection = () => {
             Projects
           </motion.p>
         </div>
-        <div className="overflow-hidden mb-14">
-          <motion.h2
-            className="text-4xl sm:text-5xl font-bold"
-            variants={lineReveal} initial="hidden" whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }} custom={1}
-          >
-            프로젝트
-          </motion.h2>
-        </div>
+        <motion.h2
+          className="text-4xl sm:text-5xl font-bold"
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number], delay: 0.05 }}
+        >
+          프로젝트
+        </motion.h2>
+        <motion.p
+          className="text-muted-foreground mt-4 mb-14"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number], delay: 0.12 }}
+        >
+          기획부터 개발·배포까지 직접 참여한 프로젝트들입니다.
+        </motion.p>
 
         <div className="space-y-4">
           {projects.map((project, idx) => (
@@ -134,7 +146,7 @@ const ProjectsSection = () => {
             </motion.a>
           ))}
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
