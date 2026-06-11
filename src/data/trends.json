@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-06-11T07:45:08.439Z",
-  "theme": "AI Regulation",
+  "updatedAt": "2026-06-11T07:55:21.867Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "The future of AI regulation is courting the strangest, most anxious bedfellows",
-      "source": "The Verge",
-      "date": "2026.06.11",
-      "href": "https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms",
-      "description": "AI 규제 미래 논의 글."
+      "title": "Claude Fable 5",
+      "source": "anthropic.com",
+      "date": "2026.06.09",
+      "href": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "description": "최신 모델 출시 발표."
     },
     {
-      "title": "Microsoft restricts Claude Fable for employees over data retention concerns",
+      "title": "Anthropic releases its first Mythos-class model Claude Fable",
       "source": "The Verge",
-      "date": "2026.06.11",
-      "href": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
-      "description": "Microsoft 직원 대상 제한 글."
+      "date": "2026.06.09",
+      "href": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
+      "description": "최신 모델 출시 기사."
     },
     {
-      "title": "Google will save your Lens photos, Search Live recordings, and Translate audio for AI training",
+      "title": "Microsoft AI head calls out Anthropic for acting like Claude is conscious",
       "source": "The Verge",
-      "date": "2026.06.11",
-      "href": "https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio",
-      "description": "Google 데이터 저장 글."
+      "date": "2026.06.09",
+      "href": "https://www.theverge.com/tech/947197/microsoft-ai-mustafa-suleyman-anthropic-claude-conscious",
+      "description": "모델 의식성 논란 발표."
     },
     {
-      "title": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
-      "source": "The Verge",
-      "date": "2026.06.11",
-      "href": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft",
-      "description": "학생들의 AI 반응 글."
+      "title": "Upcoming breaking changes for npm v12",
+      "source": "github.blog",
+      "date": "2026.06.09",
+      "href": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/",
+      "description": "모델 개발 관련 기술 분석."
     },
     {
-      "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
+      "title": "Initial impressions of Claude Fable 5",
       "source": "Simon Willison",
-      "date": "2026.06.11",
-      "href": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
-      "description": "Anthropic 정책 후퇴 글."
+      "date": "2026.06.09",
+      "href": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything",
+      "description": "최신 모델 초기 인상 글."
     },
     {
-      "title": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
-      "source": "TechCrunch",
-      "date": "2026.06.11",
-      "href": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
-      "description": "datasette-agent 업데이트 글."
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "source": "Simon Willison",
+      "date": "2026.06.10",
+      "href": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything",
+      "description": "모델 지원 중단 문제 글."
     }
   ]
 }
