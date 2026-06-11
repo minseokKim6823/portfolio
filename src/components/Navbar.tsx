@@ -9,6 +9,7 @@ const links = [
   { label: "기술", href: "#skills" },
   { label: "경력", href: "#career" },
   { label: "프로젝트", href: "#projects" },
+  { label: "트렌드", href: "#trends" },
   { label: "연락", href: "#contact" },
 ];
 

@@ -1,0 +1,48 @@
+{
+  "updatedAt": "2026-06-11T07:45:08.439Z",
+  "theme": "AI Regulation",
+  "articles": [
+    {
+      "title": "The future of AI regulation is courting the strangest, most anxious bedfellows",
+      "source": "The Verge",
+      "date": "2026.06.11",
+      "href": "https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms",
+      "description": "AI 규제 미래 논의 글."
+    },
+    {
+      "title": "Microsoft restricts Claude Fable for employees over data retention concerns",
+      "source": "The Verge",
+      "date": "2026.06.11",
+      "href": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
+      "description": "Microsoft 직원 대상 제한 글."
+    },
+    {
+      "title": "Google will save your Lens photos, Search Live recordings, and Translate audio for AI training",
+      "source": "The Verge",
+      "date": "2026.06.11",
+      "href": "https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio",
+      "description": "Google 데이터 저장 글."
+    },
+    {
+      "title": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
+      "source": "The Verge",
+      "date": "2026.06.11",
+      "href": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft",
+      "description": "학생들의 AI 반응 글."
+    },
+    {
+      "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
+      "source": "Simon Willison",
+      "date": "2026.06.11",
+      "href": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
+      "description": "Anthropic 정책 후퇴 글."
+    },
+    {
+      "title": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
+      "source": "TechCrunch",
+      "date": "2026.06.11",
+      "href": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+      "description": "datasette-agent 업데이트 글."
+    }
+  ]
+}

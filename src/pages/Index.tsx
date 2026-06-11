@@ -6,6 +6,7 @@ import HeroSection from "@/components/HeroSection";
 import SkillsSection from "@/components/SkillsSection";
 import CareerSection from "@/components/CareerSection";
 import ProjectsSection from "@/components/ProjectsSection";
+import TrendsSection from "@/components/TrendsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import SideNav from "@/components/SideNav";
@@ -23,6 +24,7 @@ const Index = () => {
       <SkillsSection containerRef={containerRef} />
       <CareerSection containerRef={containerRef} />
       <ProjectsSection containerRef={containerRef} />
+      <TrendsSection containerRef={containerRef} />
       <ContactSection containerRef={containerRef} />
       <Footer />
     </div>
