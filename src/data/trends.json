@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-06-15T23:52:13.283Z",
+  "updatedAt": "2026-06-17T23:44:24.143Z",
   "theme": "AI Regulation",
   "articles": [
     {
-      "title": "Big Tech’s desperate last push at AI regulation",
-      "source": "The Verge",
-      "date": "2026.06.15",
-      "href": "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
-      "description": "미국 정부의 Anthropic 모델 금지 논란 글."
-    },
-    {
-      "title": "\"They screwed us\": Personality clashes sent Anthropic's models offline",
-      "source": "Simon Willison",
-      "date": "2026.06.15",
-      "href": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
-      "description": "Anthropic 모델 오프라인 배경 글."
-    },
-    {
-      "title": "Cybersecurity vets protest ‘dangerous’ US government ban on Anthropic’s most powerful models",
+      "title": "World leaders want American AI. They just don’t want America to be able to turn it off.",
       "source": "TechCrunch",
-      "date": "2026.06.15",
-      "href": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
-      "description": "보안 전문가들의 Anthropic 금지 반대 기사."
+      "date": "2026.06.17",
+      "href": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
+      "description": "NEA의 Tiffany Luck이 AI ROI에 대해 분석한 글."
     },
     {
-      "title": "All the news about Anthropic’s new AI fight with the White House",
+      "title": "Vibe-decoding the White House-Anthropic fight over Fable",
       "source": "The Verge",
-      "date": "2026.06.15",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
-      "description": "Anthropic과 백악관의 새로운 갈등 기사."
+      "date": "2026.06.17",
+      "href": "https://www.theverge.com/column/951516/trump-anthropic-feud-mythos-fable-white-house",
+      "description": "미국 정부와 Anthropic의 갈등 분석 기사."
     },
     {
-      "title": "Trump’s Anthropic shutdown just made the case for non-American AI",
-      "source": "The Verge",
-      "date": "2026.06.15",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
-      "description": "미국 외 지역의 AI 중요성 강조 글."
-    },
-    {
-      "title": "The US government’s Anthropic models ban was never about an AI jailbreak",
+      "title": "NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI",
       "source": "TechCrunch",
-      "date": "2026.06.15",
-      "href": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
-      "description": "미국 정부의 Anthropic 금지 진짜 이유 글."
+      "date": "2026.06.17",
+      "href": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
+      "description": "기업들이 AI ROI를 계산하는 과정을 다룬 글."
+    },
+    {
+      "title": "Two-thirds of Americans think AI is advancing too quickly",
+      "source": "The Verge",
+      "date": "2026.06.17",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
+      "description": "미국인의 절반 이상이 AI 발전 속도에 대해 우려하는 설문 결과 기사."
+    },
+    {
+      "title": "Only 16 percent of Americans think AI will have a positive impact on society, a new study shows",
+      "source": "TechCrunch",
+      "date": "2026.06.17",
+      "href": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
+      "description": "AI에 대한 미국인의 인식을 분석한 글."
+    },
+    {
+      "title": "Google’s first smart speaker in six years arrives next week",
+      "source": "The Verge",
+      "date": "2026.06.17",
+      "href": "https://www.theverge.com/tech/951147/google-home-speaker-gemini-launch-date-price-specs-features",
+      "description": "구글의 새로운 스마트 스피커 출시 기사."
     }
   ]
 }
