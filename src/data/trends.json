@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-06-17T23:44:24.143Z",
+  "updatedAt": "2026-06-19T23:05:43.156Z",
   "theme": "AI Regulation",
   "articles": [
     {
-      "title": "World leaders want American AI. They just don’t want America to be able to turn it off.",
+      "title": "Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
       "source": "TechCrunch",
-      "date": "2026.06.17",
-      "href": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
-      "description": "NEA의 Tiffany Luck이 AI ROI에 대해 분석한 글."
+      "date": "2026.06.19",
+      "href": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "description": "암호화, 스파이웨어, Mythos: 역사가 왜 사이버 수출 통제가 효과가 없는지 보여주는 기사."
     },
     {
-      "title": "Vibe-decoding the White House-Anthropic fight over Fable",
-      "source": "The Verge",
-      "date": "2026.06.17",
-      "href": "https://www.theverge.com/column/951516/trump-anthropic-feud-mythos-fable-white-house",
-      "description": "미국 정부와 Anthropic의 갈등 분석 기사."
-    },
-    {
-      "title": "NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI",
+      "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
       "source": "TechCrunch",
-      "date": "2026.06.17",
-      "href": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
-      "description": "기업들이 AI ROI를 계산하는 과정을 다룬 글."
+      "date": "2026.06.19",
+      "href": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
+      "description": "미국 정부의 Anthropic 금지가 브랜드를 실수로 돕고 있는지 알아보는 기사."
     },
     {
-      "title": "Two-thirds of Americans think AI is advancing too quickly",
-      "source": "The Verge",
-      "date": "2026.06.17",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
-      "description": "미국인의 절반 이상이 AI 발전 속도에 대해 우려하는 설문 결과 기사."
-    },
-    {
-      "title": "Only 16 percent of Americans think AI will have a positive impact on society, a new study shows",
+      "title": "The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care",
       "source": "TechCrunch",
-      "date": "2026.06.17",
-      "href": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
-      "description": "AI에 대한 미국인의 인식을 분석한 글."
+      "date": "2026.06.19",
+      "href": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
+      "description": "미국이 Anthropic의 Fable 5 출시를 금지했지만, 수치는 그것을 신경 쓰지 않는 것 같은 기사."
     },
     {
-      "title": "Google’s first smart speaker in six years arrives next week",
-      "source": "The Verge",
-      "date": "2026.06.17",
-      "href": "https://www.theverge.com/tech/951147/google-home-speaker-gemini-launch-date-price-specs-features",
-      "description": "구글의 새로운 스마트 스피커 출시 기사."
+      "title": "The US says ASML’s top chip tool may be in China. ASML says it isn’t.",
+      "source": "TechCrunch",
+      "date": "2026.06.19",
+      "href": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
+      "description": "미국이 ASML의 최고 칩 도구가 중국에 있을 수 있다고 말했지만, ASML은 그렇지 않다고 말했습니다. 기사."
+    },
+    {
+      "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+      "source": "TechCrunch",
+      "date": "2026.06.18",
+      "href": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "description": "AI 추론 스타트업 Baseten이 마지막 대규모 라운드 이후 몇 달 만에 15억 달러를 모으고 있다고 보도된 기사."
+    },
+    {
+      "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+      "source": "TechCrunch",
+      "date": "2026.06.18",
+      "href": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "description": "OpenAI가 IPO를 앞두고 일부 주요 인사를 영입하고 있는 기사."
     }
   ]
 }
