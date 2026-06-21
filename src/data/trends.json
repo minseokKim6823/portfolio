@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-06-19T23:05:43.156Z",
-  "theme": "AI Regulation",
+  "updatedAt": "2026-06-21T23:22:57.448Z",
+  "theme": "AI 모델 경쟁, AI 규제",
   "articles": [
     {
-      "title": "Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "source": "TechCrunch",
+      "date": "2026.06.20",
+      "href": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "description": "노벨상 수상자의 이적 발표."
+    },
+    {
+      "title": "The CEO of Allbirds’ new AI biz has a plan. Now she needs a “brand-new team”",
       "source": "TechCrunch",
       "date": "2026.06.19",
-      "href": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
-      "description": "암호화, 스파이웨어, Mythos: 역사가 왜 사이버 수출 통제가 효과가 없는지 보여주는 기사."
+      "href": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
+      "description": "새로운 AI 비즈니스 계획 발표."
     },
     {
-      "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
+      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
       "source": "TechCrunch",
-      "date": "2026.06.19",
-      "href": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
-      "description": "미국 정부의 Anthropic 금지가 브랜드를 실수로 돕고 있는지 알아보는 기사."
+      "date": "2026.06.21",
+      "href": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "description": "iOS 27의 실용적인 AI 기능 소개."
     },
     {
-      "title": "The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care",
+      "title": "In the Weights is your new AI-centric vanity search",
       "source": "TechCrunch",
-      "date": "2026.06.19",
-      "href": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
-      "description": "미국이 Anthropic의 Fable 5 출시를 금지했지만, 수치는 그것을 신경 쓰지 않는 것 같은 기사."
+      "date": "2026.06.20",
+      "href": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+      "description": "새로운 AI 중심 검색 도구 소개."
     },
     {
-      "title": "The US says ASML’s top chip tool may be in China. ASML says it isn’t.",
-      "source": "TechCrunch",
-      "date": "2026.06.19",
-      "href": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
-      "description": "미국이 ASML의 최고 칩 도구가 중국에 있을 수 있다고 말했지만, ASML은 그렇지 않다고 말했습니다. 기사."
+      "title": "The Atlantic created a searchable database of the music used to train AI",
+      "source": "The Verge",
+      "date": "2026.06.20",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+      "description": "AI 훈련에 사용된 음악 데이터베이스 소개."
     },
     {
-      "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
       "source": "TechCrunch",
-      "date": "2026.06.18",
-      "href": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
-      "description": "AI 추론 스타트업 Baseten이 마지막 대규모 라운드 이후 몇 달 만에 15억 달러를 모으고 있다고 보도된 기사."
-    },
-    {
-      "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
-      "source": "TechCrunch",
-      "date": "2026.06.18",
-      "href": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
-      "description": "OpenAI가 IPO를 앞두고 일부 주요 인사를 영입하고 있는 기사."
+      "date": "2026.06.21",
+      "href": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "description": "안트로픽에 대한 정부 압력 영향 분석."
     }
   ]
 }
