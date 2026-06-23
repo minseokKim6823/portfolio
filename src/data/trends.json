@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-06-21T23:22:57.448Z",
-  "theme": "AI 모델 경쟁, AI 규제",
+  "updatedAt": "2026-06-23T23:13:31.259Z",
+  "theme": "AI 모델 경쟁, AI 산업 동향",
   "articles": [
     {
-      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "title": "The running list: major tech layoffs in 2026 where employers cited AI",
       "source": "TechCrunch",
-      "date": "2026.06.20",
-      "href": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
-      "description": "노벨상 수상자의 이적 발표."
+      "date": "2026.06.23",
+      "href": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "description": "2026년 주요 기업의 AI 관련 해고 현황 파악기사."
     },
     {
-      "title": "The CEO of Allbirds’ new AI biz has a plan. Now she needs a “brand-new team”",
+      "title": "OpenAI launches new initiative to help find and patch open source bugs",
       "source": "TechCrunch",
-      "date": "2026.06.19",
-      "href": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
-      "description": "새로운 AI 비즈니스 계획 발표."
+      "date": "2026.06.23",
+      "href": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "description": "AI 오픈소스 버그 탐지 및 수정을 위한 새로운 이니셔티브 발표."
     },
     {
-      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
-      "source": "TechCrunch",
-      "date": "2026.06.21",
-      "href": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
-      "description": "iOS 27의 실용적인 AI 기능 소개."
-    },
-    {
-      "title": "In the Weights is your new AI-centric vanity search",
-      "source": "TechCrunch",
-      "date": "2026.06.20",
-      "href": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
-      "description": "새로운 AI 중심 검색 도구 소개."
-    },
-    {
-      "title": "The Atlantic created a searchable database of the music used to train AI",
+      "title": "Meta launches cheaper smart glasses without Ray-Ban",
       "source": "The Verge",
-      "date": "2026.06.20",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
-      "description": "AI 훈련에 사용된 음악 데이터베이스 소개."
+      "date": "2026.06.23",
+      "href": "https://www.theverge.com/tech/954052/meta-glasses-hands-on-kylie-jenner-smart-glasses-price-battery-privacy",
+      "description": "메타의 저렴한 스마트 글래스 출시 기사."
     },
     {
-      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+      "title": "OPFS + Pyodide test harness",
+      "source": "Simon Willison",
+      "date": "2026.06.23",
+      "href": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+      "description": "AI 모델 및 파이오디드 테스트 하니스 관련 기사."
+    },
+    {
+      "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
       "source": "TechCrunch",
-      "date": "2026.06.21",
-      "href": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-      "description": "안트로픽에 대한 정부 압력 영향 분석."
+      "date": "2026.06.22",
+      "href": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "description": "엔비디아의 데이터 센터 물 사용 절감 기사."
+    },
+    {
+      "title": "AI is cursing renters with the promise of impossible homes",
+      "source": "The Verge",
+      "date": "2026.06.22",
+      "href": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
+      "description": "AI가 임대인들에게 약속한 불가능한 집들 기사."
     }
   ]
 }
