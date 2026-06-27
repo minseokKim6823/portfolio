@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-06-25T23:24:11.246Z",
-  "theme": "AI Regulation, AI Model Release",
+  "updatedAt": "2026-06-27T23:10:06.611Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "OpenAI will delay GPT-5.6 after Trump administration request",
+      "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
       "source": "The Verge",
-      "date": "2026.06.25",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
-      "description": "오픈AI 모델 출시 지연 발표기사."
+      "date": "2026.06.26",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+      "description": "OpenAI 최신 모델 발표 관련 기사."
     },
     {
-      "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
       "source": "TechCrunch",
-      "date": "2026.06.25",
-      "href": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
-      "description": "안트로픽 클로드 인기 상승 보도기사."
+      "date": "2026.06.26",
+      "href": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+      "description": "최신 모델 출시 제한 관련 기사."
     },
     {
-      "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+      "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
       "source": "TechCrunch",
-      "date": "2026.06.25",
-      "href": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
-      "description": "비디오 게임으로 AI 교육 투자 보도기사."
+      "date": "2026.06.26",
+      "href": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "description": "칩 경쟁 관련 기사."
     },
     {
-      "title": "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x",
+      "title": "OpenAI’s Jalapeño chip is Big Tech’s spiciest move away from Nvidia",
       "source": "TechCrunch",
-      "date": "2026.06.25",
-      "href": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
-      "description": "AI 전력 소모 절감 기술 발표기사."
+      "date": "2026.06.26",
+      "href": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
+      "description": "칩 경쟁 관련 기사."
     },
     {
-      "title": "Amazon ups India bet with fresh $13B AI infrastructure investment",
+      "title": "It’s not about Anthropic vs. OpenAI anymore",
       "source": "TechCrunch",
-      "date": "2026.06.25",
-      "href": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
-      "description": "아마존 인도 AI 인프라 투자 보도기사."
+      "date": "2026.06.26",
+      "href": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+      "description": "프런티어 모델 경쟁 구도를 정리한 기사."
     },
     {
-      "title": "Ford had to hire back former engineers to fix mistakes made by its automated systems",
-      "source": "The Verge",
-      "date": "2026.06.25",
-      "href": "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
-      "description": "포드 자동화 시스템 오류 수정 보도기사."
+      "title": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on",
+      "source": "TechCrunch",
+      "date": "2026.06.27",
+      "href": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "description": "신규 모델 출시 관련 기사."
     }
   ]
 }
