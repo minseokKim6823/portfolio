@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-06-11T07:55:21.867Z",
+  "updatedAt": "2026-06-27T23:10:06.611Z",
   "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "Claude Fable 5",
-      "source": "anthropic.com",
-      "date": "2026.06.09",
-      "href": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "description": "최신 모델 출시 발표."
-    },
-    {
-      "title": "Anthropic releases its first Mythos-class model Claude Fable",
+      "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
       "source": "The Verge",
-      "date": "2026.06.09",
-      "href": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
-      "description": "최신 모델 출시 기사."
+      "date": "2026.06.26",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+      "description": "OpenAI 최신 모델 발표 관련 기사."
     },
     {
-      "title": "Microsoft AI head calls out Anthropic for acting like Claude is conscious",
-      "source": "The Verge",
-      "date": "2026.06.09",
-      "href": "https://www.theverge.com/tech/947197/microsoft-ai-mustafa-suleyman-anthropic-claude-conscious",
-      "description": "모델 의식성 논란 발표."
+      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+      "source": "TechCrunch",
+      "date": "2026.06.26",
+      "href": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+      "description": "최신 모델 출시 제한 관련 기사."
     },
     {
-      "title": "Upcoming breaking changes for npm v12",
-      "source": "github.blog",
-      "date": "2026.06.09",
-      "href": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/",
-      "description": "모델 개발 관련 기술 분석."
+      "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+      "source": "TechCrunch",
+      "date": "2026.06.26",
+      "href": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "description": "칩 경쟁 관련 기사."
     },
     {
-      "title": "Initial impressions of Claude Fable 5",
-      "source": "Simon Willison",
-      "date": "2026.06.09",
-      "href": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything",
-      "description": "최신 모델 초기 인상 글."
+      "title": "OpenAI’s Jalapeño chip is Big Tech’s spiciest move away from Nvidia",
+      "source": "TechCrunch",
+      "date": "2026.06.26",
+      "href": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
+      "description": "칩 경쟁 관련 기사."
     },
     {
-      "title": "If Claude Fable stops helping you, you'll never know",
-      "source": "Simon Willison",
-      "date": "2026.06.10",
-      "href": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything",
-      "description": "모델 지원 중단 문제 글."
+      "title": "It’s not about Anthropic vs. OpenAI anymore",
+      "source": "TechCrunch",
+      "date": "2026.06.26",
+      "href": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+      "description": "프런티어 모델 경쟁 구도를 정리한 기사."
+    },
+    {
+      "title": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on",
+      "source": "TechCrunch",
+      "date": "2026.06.27",
+      "href": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "description": "신규 모델 출시 관련 기사."
     }
   ]
 }
