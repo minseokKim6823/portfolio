@@ -97,6 +97,7 @@ const education = [
 ];
 
 const certifications = [
+  { year: "2026.06", name: "SAP Certified", org: "SAP" },
   { year: "2026.03", name: "SQL 개발자 (SQLD)", org: "한국데이터산업진흥원" },
   { year: "2025.12", name: "정보처리기사", org: "한국산업인력공단" },
   { year: "2023.10", name: "네트워크관리사 2급", org: "한국정보통신자격협회" },
