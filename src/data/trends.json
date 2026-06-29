@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-06-27T23:10:06.611Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-06-29T23:04:21.404Z",
+  "theme": "AI 모델 출시, AI 규제",
   "articles": [
     {
-      "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
+      "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+      "source": "TechCrunch",
+      "date": "2026.06.29",
+      "href": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+      "description": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half "
+    },
+    {
+      "title": "OpenAI is teasing new hardware… for Codex",
       "source": "The Verge",
-      "date": "2026.06.26",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
-      "description": "OpenAI 최신 모델 발표 관련 기사."
+      "date": "2026.06.29",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+      "description": "OpenAI is teasing new hardware… for Codex기사."
     },
     {
-      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
-      "source": "TechCrunch",
-      "date": "2026.06.26",
-      "href": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
-      "description": "최신 모델 출시 제한 관련 기사."
+      "title": "Lawmakers want to ban AI companies from selling your health data",
+      "source": "The Verge",
+      "date": "2026.06.29",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
+      "description": "Lawmakers want to ban AI companies from selling your health data기사."
     },
     {
-      "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
-      "source": "TechCrunch",
-      "date": "2026.06.26",
-      "href": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
-      "description": "칩 경쟁 관련 기사."
-    },
-    {
-      "title": "OpenAI’s Jalapeño chip is Big Tech’s spiciest move away from Nvidia",
-      "source": "TechCrunch",
-      "date": "2026.06.26",
-      "href": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
-      "description": "칩 경쟁 관련 기사."
-    },
-    {
-      "title": "It’s not about Anthropic vs. OpenAI anymore",
-      "source": "TechCrunch",
-      "date": "2026.06.26",
-      "href": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
-      "description": "프런티어 모델 경쟁 구도를 정리한 기사."
-    },
-    {
-      "title": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on",
-      "source": "TechCrunch",
+      "title": "Margaret Atwood says the problem with AI is ‘garbage in, garbage out’",
+      "source": "The Verge",
       "date": "2026.06.27",
-      "href": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-      "description": "신규 모델 출시 관련 기사."
+      "href": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "description": "Margaret Atwood says the problem with AI is ‘garbage in, garbage out’기사."
+    },
+    {
+      "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "source": "The Verge",
+      "date": "2026.06.28",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+      "description": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial기사."
+    },
+    {
+      "title": "Anthropic’s Mythos 5 is back",
+      "source": "The Verge",
+      "date": "2026.06.27",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
+      "description": "Anthropic’s Mythos 5 is back기사."
     }
   ]
 }
