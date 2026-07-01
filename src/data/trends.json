@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-06-29T23:04:21.404Z",
-  "theme": "AI 모델 출시, AI 규제",
+  "updatedAt": "2026-07-01T23:21:26.351Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+      "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
       "source": "TechCrunch",
-      "date": "2026.06.29",
-      "href": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
-      "description": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half "
+      "date": "2026.07.01",
+      "href": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "description": "Venice AI 프라이버시 중시 플랫폼 발표."
     },
     {
-      "title": "OpenAI is teasing new hardware… for Codex",
+      "title": "Anthropic’s long-sidelined Fable 5 is greenlit to return",
       "source": "The Verge",
-      "date": "2026.06.29",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
-      "description": "OpenAI is teasing new hardware… for Codex기사."
+      "date": "2026.07.01",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+      "description": "Anthropic의 Fable 5 모델 출시 발표."
     },
     {
-      "title": "Lawmakers want to ban AI companies from selling your health data",
-      "source": "The Verge",
-      "date": "2026.06.29",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
-      "description": "Lawmakers want to ban AI companies from selling your health data기사."
+      "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
+      "source": "TechCrunch",
+      "date": "2026.07.01",
+      "href": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "description": "Wayve 자율주행 기술 투자 유치 발표."
     },
     {
-      "title": "Margaret Atwood says the problem with AI is ‘garbage in, garbage out’",
-      "source": "The Verge",
-      "date": "2026.06.27",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
-      "description": "Margaret Atwood says the problem with AI is ‘garbage in, garbage out’기사."
+      "title": "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
+      "source": "TechCrunch",
+      "date": "2026.06.30",
+      "href": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+      "description": "DeepMind 포커 AI 개발자 헤지펀드 진출 보도."
     },
     {
-      "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
-      "source": "The Verge",
-      "date": "2026.06.28",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
-      "description": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial기사."
+      "title": "Gemini Spark, Google’s agentic assistant, is now available on Mac",
+      "source": "TechCrunch",
+      "date": "2026.07.01",
+      "href": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "description": "Gemini Spark 에이전트 어시스턴트 맥 출시 보도."
     },
     {
-      "title": "Anthropic’s Mythos 5 is back",
-      "source": "The Verge",
-      "date": "2026.06.27",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
-      "description": "Anthropic’s Mythos 5 is back기사."
+      "title": "Meta, like SpaceX, looks to turn excess AI compute into cash",
+      "source": "TechCrunch",
+      "date": "2026.07.01",
+      "href": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "description": "Meta 컴퓨팅 파워 상용화 발표."
     }
   ]
 }
