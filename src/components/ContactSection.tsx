@@ -1,56 +1,37 @@
 import { motion } from "framer-motion";
 import { Mail, MapPin, Send } from "lucide-react";
-import { type RefObject } from "react";
+import { type FormEvent, type RefObject } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useSectionReveal } from "@/hooks/useSectionReveal";
+import SectionHeader from "@/components/SectionHeader";
 
-const EASE: [number, number, number, number] = [0.25, 0.46, 0.45, 0.94];
-
-const lineReveal = {
-  hidden: { y: "100%", opacity: 0 },
-  visible: (i: number) => ({
-    y: "0%",
-    opacity: 1,
-    transition: { duration: 0.7, delay: i * 0.12, ease: EASE },
-  }),
+// Opens the visitor's mail client with the form contents pre-filled
+const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  const data = new FormData(e.currentTarget);
+  const name = String(data.get("name") ?? "");
+  const email = String(data.get("email") ?? "");
+  const subject = String(data.get("subject") ?? "문의");
+  const message = String(data.get("message") ?? "");
+  const body = `보낸 사람: ${name} (${email})\n\n${message}`;
+  window.location.href = `mailto:minseokkim6823@gmail.com?subject=${encodeURIComponent(
+    `[포트폴리오] ${subject}`
+  )}&body=${encodeURIComponent(body)}`;
 };
 
 const ContactSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElement> }) => {
   const { ref, opacity, y } = useSectionReveal(containerRef);
   return (
-    <section ref={ref} id="contact" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
+    <section ref={ref} id="contact" className="min-h-screen flex items-center py-14 sm:py-20 px-6">
       <motion.div style={{ opacity, y }} className="max-w-2xl mx-auto">
-        <div className="mb-12">
-          <div className="overflow-hidden">
-            <motion.p
-              className="font-mono text-accent text-xs tracking-[0.3em] uppercase mb-4"
-              variants={lineReveal} initial="hidden" whileInView="visible"
-              viewport={{ once: true, amount: 0.5 }} custom={0}
-            >
-              Contact
-            </motion.p>
-          </div>
-          <div className="overflow-hidden">
-            <motion.h2
-              className="text-4xl sm:text-5xl font-bold mb-4"
-              variants={lineReveal} initial="hidden" whileInView="visible"
-              viewport={{ once: true, amount: 0.5 }} custom={1}
-            >
-              함께 일해요
-            </motion.h2>
-          </div>
-          <div className="overflow-hidden">
-            <motion.p
-              className="text-muted-foreground"
-              variants={lineReveal} initial="hidden" whileInView="visible"
-              viewport={{ once: true, amount: 0.5 }} custom={2}
-            >
-              프로젝트 문의나 협업 제안이 있으시면 편하게 연락해 주세요.
-            </motion.p>
-          </div>
-        </div>
+        <SectionHeader
+          index="05"
+          label="Contact"
+          title="함께 일해요"
+          description="프로젝트 문의나 협업 제안이 있으시면 편하게 연락해 주세요."
+        />
 
         <motion.div
           className="flex flex-col sm:flex-row gap-6 mb-10 text-sm text-muted-foreground"
@@ -75,14 +56,16 @@ const ContactSection = ({ containerRef }: { containerRef: RefObject<HTMLDivEleme
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          onSubmit={(e) => e.preventDefault()}
+          onSubmit={handleSubmit}
         >
           <div className="grid sm:grid-cols-2 gap-4">
-            <Input placeholder="이름" className="bg-card border-border h-11 rounded-lg focus:border-accent transition-colors" />
-            <Input type="email" placeholder="이메일" className="bg-card border-border h-11 rounded-lg focus:border-accent transition-colors" />
+            <Input name="name" required placeholder="이름" className="bg-card border-border h-11 rounded-lg focus:border-accent transition-colors" />
+            <Input name="email" type="email" required placeholder="이메일" className="bg-card border-border h-11 rounded-lg focus:border-accent transition-colors" />
           </div>
-          <Input placeholder="제목" className="bg-card border-border h-11 rounded-lg focus:border-accent transition-colors" />
+          <Input name="subject" required placeholder="제목" className="bg-card border-border h-11 rounded-lg focus:border-accent transition-colors" />
           <Textarea
+            name="message"
+            required
             placeholder="메시지를 입력해 주세요..."
             rows={5}
             className="bg-card border-border rounded-lg resize-none focus:border-accent transition-colors"

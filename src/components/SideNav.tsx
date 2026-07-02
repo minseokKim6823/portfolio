@@ -2,11 +2,11 @@ import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const sections = [
-  { id: "skills" },
-  { id: "career" },
-  { id: "projects" },
-  { id: "trends" },
-  { id: "contact" },
+  { id: "skills", label: "기술" },
+  { id: "career", label: "경력" },
+  { id: "projects", label: "프로젝트" },
+  { id: "trends", label: "트렌드" },
+  { id: "contact", label: "연락" },
 ];
 
 const SideNav = ({ containerRef }: { containerRef: React.RefObject<HTMLDivElement> }) => {
@@ -52,13 +52,19 @@ const SideNav = ({ containerRef }: { containerRef: React.RefObject<HTMLDivElemen
             <a
               key={s.id}
               href={`#${s.id}`}
-              className="block transition-all duration-300"
+              aria-label={s.label}
+              className="group relative flex items-center transition-all duration-300"
             >
+              <span
+                className="absolute right-full mr-3 px-2 py-1 rounded-md border border-border bg-card/95 backdrop-blur-sm font-mono text-[11px] text-muted-foreground whitespace-nowrap opacity-0 translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200 pointer-events-none"
+              >
+                {s.label}
+              </span>
               <motion.div
                 className={`rounded-sm transition-all duration-300 ${
                   active === s.id
                     ? "w-3 h-3 bg-accent"
-                    : "w-2.5 h-2.5 border border-muted-foreground/30 hover:border-accent/60"
+                    : "w-2.5 h-2.5 border border-muted-foreground/30 group-hover:border-accent/60"
                 }`}
                 layout
                 transition={{ duration: 0.3 }}

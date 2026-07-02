@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import { ArrowUpRight, Sparkles } from "lucide-react";
 import { type RefObject } from "react";
 import { useSectionReveal } from "@/hooks/useSectionReveal";
+import SectionHeader from "@/components/SectionHeader";
+import { SpotlightOverlay } from "@/components/SpotlightCard";
+import { spotlightMove } from "@/lib/spotlight";
 import trends from "@/data/trends.json";
 
 const featured = {
@@ -19,60 +22,32 @@ const formatUpdated = (iso: string) => {
   return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
 };
 
-const lineReveal = {
-  hidden: { y: "100%", opacity: 0 },
-  visible: (i: number) => ({
-    y: "0%",
-    opacity: 1,
-    transition: { duration: 0.7, delay: i * 0.12, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] },
-  }),
-};
-
 const TrendsSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElement> }) => {
   const { ref, opacity, y } = useSectionReveal(containerRef);
   return (
-    <section ref={ref} id="trends" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
+    <section ref={ref} id="trends" className="min-h-screen flex items-center py-14 sm:py-20 px-6">
       <motion.div style={{ opacity, y }} className="max-w-3xl mx-auto">
-        <div className="overflow-hidden">
-          <motion.p
-            className="font-mono text-accent text-xs tracking-[0.3em] uppercase mb-4"
-            variants={lineReveal} initial="hidden" whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }} custom={0}
-          >
-            Trends
-          </motion.p>
-        </div>
-        <motion.h2
-          className="text-4xl sm:text-5xl font-bold"
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number], delay: 0.05 }}
-        >
-          트렌드
-        </motion.h2>
-        <motion.p
-          className="text-muted-foreground mt-4 mb-14"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number], delay: 0.12 }}
-        >
-          AI 산업의 변화를 실시간으로 따라가며 읽고, 새로운 도구는 출시 즉시 직접 써봅니다.
-          아래 글들은 직접 만든 파이프라인이 이틀마다 아침에 새로 골라옵니다.
-        </motion.p>
+        <SectionHeader
+          index="04"
+          label="Trends"
+          title="트렌드"
+          description="AI 산업의 변화를 실시간으로 따라가며 읽고, 새로운 도구는 출시 즉시 직접 써봅니다. 아래 글들은 직접 만든 파이프라인이 이틀마다 아침에 새로 골라옵니다."
+        />
 
         <motion.a
           href={featured.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="group block border border-accent/40 bg-accent/5 rounded-xl p-6 hover:border-accent transition-all duration-300 cursor-pointer"
+          className="group relative overflow-hidden block border border-accent/40 bg-accent/5 rounded-xl p-6 hover:border-accent transition-all duration-300 cursor-pointer"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.6 }}
           whileHover={{ y: -4, transition: { duration: 0.25 } }}
+          whileTap={{ scale: 0.99 }}
+          onMouseMove={spotlightMove}
         >
+          <SpotlightOverlay />
           <div className="flex items-center gap-3 mb-3">
             <span className="flex items-center gap-1.5 px-2 py-0.5 rounded-full text-xs font-mono text-accent border border-accent/30">
               <Sparkles className="w-3 h-3" />
@@ -120,13 +95,16 @@ const TrendsSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElemen
               href={article.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-start justify-between gap-4 border border-border rounded-xl p-5 hover:border-accent/40 transition-all duration-300 cursor-pointer"
+              className="group relative overflow-hidden flex items-start justify-between gap-4 border border-border rounded-xl p-5 hover:border-accent/40 transition-all duration-300 cursor-pointer"
               initial={{ opacity: 0, y: 32 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.5, delay: idx * 0.08 }}
               whileHover={{ y: -3, transition: { duration: 0.25 } }}
+              whileTap={{ scale: 0.99 }}
+              onMouseMove={spotlightMove}
             >
+              <SpotlightOverlay size={200} />
               <div className="min-w-0">
                 <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-1.5">
                   <span className="text-xs font-mono text-accent">{article.source}</span>

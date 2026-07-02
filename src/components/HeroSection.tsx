@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, Github, Mail, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Magnetic from "@/components/Magnetic";
 import { useRef } from "react";
 
 const EASE: [number, number, number, number] = [0.22, 1, 0.36, 1];
@@ -18,8 +19,14 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-screen flex items-end pb-20 sm:pb-28 px-8 sm:px-12 snap-start overflow-hidden"
+      id="about"
+      className="relative min-h-screen flex items-end pb-20 sm:pb-28 px-8 sm:px-12 overflow-hidden"
     >
+      {/* Subtle grid texture, faded toward the edges */}
+      <div
+        aria-hidden
+        className="absolute inset-0 bg-grid opacity-40 pointer-events-none [mask-image:radial-gradient(ellipse_70%_60%_at_65%_35%,black,transparent)]"
+      />
       {/* Background accent shape */}
       <motion.div
         className="absolute top-1/4 right-0 w-[40vw] h-[40vw] rounded-full bg-accent/5 blur-3xl pointer-events-none"
@@ -99,40 +106,51 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 1.1, ease: EASE }}
           >
-            <Button size="lg" className="rounded-full font-mono text-xs gap-2 group" asChild>
-              <a href="mailto:minseokkim6823@gmail.com">
-                <Mail className="w-4 h-4 group-hover:rotate-12 transition-transform" />
-                Contact
-              </a>
-            </Button>
-            <Button variant="outline" size="icon" className="rounded-full h-11 w-11 group" asChild>
-              <a href="https://github.com/minseokKim6823" target="_blank" rel="noopener noreferrer">
-                <Github className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              </a>
-            </Button>
-            <Button variant="outline" size="icon" className="rounded-full h-11 w-11 group" asChild>
-              <a href="https://www.figma.com/design/OM95uaJ1g30vNOAEAfHFb6" target="_blank" rel="noopener noreferrer">
-                <FileText className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              </a>
-            </Button>
+            <Magnetic>
+              <Button size="lg" className="rounded-full font-mono text-xs gap-2 group" asChild>
+                <a href="mailto:minseokkim6823@gmail.com">
+                  <Mail className="w-4 h-4 group-hover:rotate-12 transition-transform" />
+                  Contact
+                </a>
+              </Button>
+            </Magnetic>
+            <Magnetic>
+              <Button variant="outline" size="icon" className="rounded-full h-11 w-11 group" asChild>
+                <a href="https://github.com/minseokKim6823" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <Github className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                </a>
+              </Button>
+            </Magnetic>
+            <Magnetic>
+              <Button variant="outline" size="icon" className="rounded-full h-11 w-11 group" asChild>
+                <a href="https://www.figma.com/design/OM95uaJ1g30vNOAEAfHFb6" target="_blank" rel="noopener noreferrer" aria-label="이력서">
+                  <FileText className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                </a>
+              </Button>
+            </Magnetic>
           </motion.div>
         </div>
       </motion.div>
 
       {/* Scroll indicator */}
-      <motion.div
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5"
+      <motion.a
+        href="#skills"
+        aria-label="다음 섹션으로 스크롤"
+        className="absolute bottom-6 left-1/2 -translate-x-1/2 p-2"
         initial={{ opacity: 0 }}
-        animate={{ opacity: 0.3 }}
+        animate={{ opacity: 1 }}
         transition={{ delay: 1.8 }}
       >
-        <motion.div
-          animate={{ y: [0, 6, 0] }}
-          transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
-        >
-          <ArrowDown className="w-3.5 h-3.5 text-muted-foreground" />
-        </motion.div>
-      </motion.div>
+        {/* Hover opacity lives in CSS so it isn't tied to the entrance delay */}
+        <div className="flex flex-col items-center gap-1.5 opacity-30 hover:opacity-100 transition-opacity duration-300">
+          <motion.div
+            animate={{ y: [0, 6, 0] }}
+            transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+          >
+            <ArrowDown className="w-3.5 h-3.5 text-muted-foreground" />
+          </motion.div>
+        </div>
+      </motion.a>
     </section>
   );
 };

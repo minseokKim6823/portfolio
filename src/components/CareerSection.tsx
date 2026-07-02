@@ -3,6 +3,7 @@ import { ExternalLink } from "lucide-react";
 import { type RefObject } from "react";
 import { Button } from "@/components/ui/button";
 import { useSectionReveal } from "@/hooks/useSectionReveal";
+import SectionHeader from "@/components/SectionHeader";
 
 const careers = [
   {
@@ -113,55 +114,16 @@ const experiences = [
   { category: "커뮤니티", items: ["SSAFY Ambassador 2023.09 - 2024.02", "항해99 10일 아티클 챌린지", "면접 스터디"] },
 ];
 
-const EASE: [number, number, number, number] = [0.25, 0.46, 0.45, 0.94];
-
-const lineReveal = {
-  hidden: { y: "100%", opacity: 0 },
-  visible: (i: number) => ({
-    y: "0%",
-    opacity: 1,
-    transition: { duration: 0.7, delay: i * 0.12, ease: EASE },
-  }),
-};
-
 const CareerSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElement> }) => {
   const { ref, opacity, y } = useSectionReveal(containerRef);
   return (
-    <section ref={ref} id="career" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
+    <section ref={ref} id="career" className="min-h-screen flex items-center py-14 sm:py-20 px-6">
       <motion.div style={{ opacity, y }} className="max-w-3xl mx-auto">
-        <motion.div
-          className="flex items-end justify-between mb-14"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.5 }}
-        >
-          <div>
-            <div className="overflow-hidden">
-              <motion.p
-                className="font-mono text-accent text-xs tracking-[0.3em] uppercase mb-4"
-                variants={lineReveal} initial="hidden" whileInView="visible"
-                viewport={{ once: true }} custom={0}
-              >
-                Career
-              </motion.p>
-            </div>
-            <div className="overflow-hidden">
-              <motion.h2
-                className="text-4xl sm:text-5xl font-bold"
-                variants={lineReveal} initial="hidden" whileInView="visible"
-                viewport={{ once: true }} custom={1}
-              >
-                경력
-              </motion.h2>
-            </div>
-          </div>
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-          >
+        <SectionHeader
+          index="02"
+          label="Career"
+          title="경력"
+          action={
             <Button variant="outline" size="sm" className="rounded-full font-mono text-xs gap-2 group" asChild>
               <a
                 href="https://www.figma.com/design/OM95uaJ1g30vNOAEAfHFb6/%EA%B9%80%EB%AF%BC%EC%84%9D-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0-1&t=ODEdsZqGGnUVsbRU-1"
@@ -172,8 +134,8 @@ const CareerSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElemen
                 이력서 전체보기
               </a>
             </Button>
-          </motion.div>
-        </motion.div>
+          }
+        />
 
         {/* Career */}
         <div className="space-y-16">
@@ -196,11 +158,16 @@ const CareerSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElemen
                 {career.projects.map((project, pi) => (
                   <motion.div
                     key={pi}
+                    className="relative"
                     initial={{ opacity: 0, x: -15 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true, amount: 0.2 }}
                     transition={{ duration: 0.5, delay: pi * 0.08 }}
                   >
+                    <span
+                      aria-hidden
+                      className="absolute -left-[28.5px] top-[7px] w-2 h-2 rounded-full border border-accent/70 bg-background"
+                    />
                     <h4 className="font-semibold mb-2">{project.title}</h4>
                     <p className="text-muted-foreground text-sm mb-3">{project.desc}</p>
                     <ul className="space-y-1 mb-3">
@@ -238,12 +205,16 @@ const CareerSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElemen
             {education.map((edu, i) => (
               <motion.div
                 key={i}
-                className="border-l border-border pl-6"
+                className="relative border-l border-border pl-6"
                 initial={{ opacity: 0, x: -15 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
               >
+                <span
+                  aria-hidden
+                  className="absolute -left-[4.5px] top-[5px] w-2 h-2 rounded-full border border-accent/70 bg-background"
+                />
                 <div className="flex items-baseline gap-3 mb-2">
                   <h4 className="font-semibold text-sm">{edu.title}</h4>
                   <span className="text-xs text-muted-foreground font-mono ml-auto">{edu.period}</span>

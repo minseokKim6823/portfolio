@@ -10,6 +10,7 @@ import { type IconType } from "react-icons";
 import { type LucideIcon } from "lucide-react";
 import { type RefObject } from "react";
 import { useSectionReveal } from "@/hooks/useSectionReveal";
+import SectionHeader from "@/components/SectionHeader";
 
 const EASE: [number, number, number, number] = [0.25, 0.46, 0.45, 0.94];
 
@@ -68,15 +69,6 @@ const skillCategories: { title: string; skills: SkillItem[] }[] = [
   },
 ];
 
-const lineReveal = {
-  hidden: { y: "100%", opacity: 0 },
-  visible: (i: number) => ({
-    y: "0%",
-    opacity: 1,
-    transition: { duration: 0.7, delay: i * 0.12, ease: EASE },
-  }),
-};
-
 const tagVariant = {
   hidden: { opacity: 0, scale: 0.8, y: 10 },
   visible: (i: number) => ({
@@ -90,35 +82,14 @@ const tagVariant = {
 const SkillsSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElement> }) => {
   const { ref, opacity, y } = useSectionReveal(containerRef);
   return (
-    <section ref={ref} id="skills" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
+    <section ref={ref} id="skills" className="min-h-screen flex items-center py-14 sm:py-20 px-6">
       <motion.div style={{ opacity, y }} className="max-w-3xl mx-auto">
-        <div className="overflow-hidden">
-          <motion.p
-            className="font-mono text-accent text-xs tracking-[0.3em] uppercase mb-4"
-            variants={lineReveal} initial="hidden" whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }} custom={0}
-          >
-            Skills
-          </motion.p>
-        </div>
-        <motion.h2
-          className="text-4xl sm:text-5xl font-bold"
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.6, ease: EASE, delay: 0.05 }}
-        >
-          기술 스택
-        </motion.h2>
-        <motion.p
-          className="text-muted-foreground mt-4 mb-14"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.6, ease: EASE, delay: 0.12 }}
-        >
-          백엔드를 중심으로, 실무 프로젝트에서 사용해 온 기술들입니다.
-        </motion.p>
+        <SectionHeader
+          index="01"
+          label="Skills"
+          title="기술 스택"
+          description="백엔드를 중심으로, 실무 프로젝트에서 사용해 온 기술들입니다."
+        />
 
         <div className="space-y-10">
           {skillCategories.map((category, catIdx) => (

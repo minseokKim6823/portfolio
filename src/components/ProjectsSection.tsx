@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import { Github, ArrowUpRight, Trophy } from "lucide-react";
 import { type RefObject } from "react";
 import { useSectionReveal } from "@/hooks/useSectionReveal";
+import SectionHeader from "@/components/SectionHeader";
+import { SpotlightOverlay } from "@/components/SpotlightCard";
+import { spotlightMove } from "@/lib/spotlight";
 
 const projects = [
   {
@@ -49,47 +52,17 @@ const projects = [
   },
 ];
 
-const lineReveal = {
-  hidden: { y: "100%", opacity: 0 },
-  visible: (i: number) => ({
-    y: "0%",
-    opacity: 1,
-    transition: { duration: 0.7, delay: i * 0.12, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] },
-  }),
-};
-
 const ProjectsSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElement> }) => {
   const { ref, opacity, y } = useSectionReveal(containerRef);
   return (
-    <section ref={ref} id="projects" className="min-h-screen flex items-center py-14 sm:py-20 px-6 snap-start">
+    <section ref={ref} id="projects" className="min-h-screen flex items-center py-14 sm:py-20 px-6">
       <motion.div style={{ opacity, y }} className="max-w-3xl mx-auto">
-        <div className="overflow-hidden">
-          <motion.p
-            className="font-mono text-accent text-xs tracking-[0.3em] uppercase mb-4"
-            variants={lineReveal} initial="hidden" whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }} custom={0}
-          >
-            Projects
-          </motion.p>
-        </div>
-        <motion.h2
-          className="text-4xl sm:text-5xl font-bold"
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number], delay: 0.05 }}
-        >
-          프로젝트
-        </motion.h2>
-        <motion.p
-          className="text-muted-foreground mt-4 mb-14"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number], delay: 0.12 }}
-        >
-          기획부터 개발·배포까지 직접 참여한 프로젝트들입니다.
-        </motion.p>
+        <SectionHeader
+          index="03"
+          label="Projects"
+          title="프로젝트"
+          description="기획부터 개발·배포까지 직접 참여한 프로젝트들입니다."
+        />
 
         <div className="space-y-4">
           {projects.map((project, idx) => (
@@ -98,15 +71,21 @@ const ProjectsSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElem
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block border border-border rounded-xl p-6 hover:border-accent/40 transition-all duration-300 cursor-pointer"
+              className="group relative overflow-hidden block border border-border bg-card/40 rounded-xl p-6 hover:border-accent/40 hover:bg-card/80 hover:shadow-xl hover:shadow-accent/[0.04] transition-all duration-300 cursor-pointer"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.6, delay: idx * 0.12 }}
               whileHover={{ y: -4, transition: { duration: 0.25 } }}
+              whileTap={{ scale: 0.99 }}
+              onMouseMove={spotlightMove}
             >
+              <SpotlightOverlay />
               <div className="flex items-start justify-between mb-3">
                 <h3 className="text-lg font-bold group-hover:text-accent transition-colors duration-200 flex items-center gap-2">
+                  <span className="font-mono text-xs font-normal text-muted-foreground/50 tracking-wider">
+                    {String(idx + 1).padStart(2, "0")}
+                  </span>
                   {project.title}
                   <ArrowUpRight className="w-4 h-4 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all duration-300" />
                 </h3>

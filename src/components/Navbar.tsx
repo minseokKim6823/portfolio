@@ -16,13 +16,27 @@ const links = [
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [active, setActive] = useState("#about");
   const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     const container = document.querySelector('[data-scroll-container]');
     if (!container) return;
-    const handler = () => setScrolled(container.scrollTop > 50);
-    container.addEventListener('scroll', handler);
+    const handler = () => {
+      setScrolled(container.scrollTop > 50);
+      // Highlight the section currently occupying the upper half of the viewport
+      let current = "#about";
+      for (const link of links) {
+        const el = document.querySelector<HTMLElement>(link.href);
+        if (!el) continue;
+        if (el.offsetTop - container.scrollTop < container.clientHeight * 0.5) {
+          current = link.href;
+        }
+      }
+      setActive(current);
+    };
+    container.addEventListener('scroll', handler, { passive: true });
+    handler();
     return () => container.removeEventListener('scroll', handler);
   }, []);
 
@@ -43,19 +57,36 @@ const Navbar = () => {
         </a>
 
         <div className="hidden md:flex items-center gap-8">
-          {links.map((link, i) => (
-            <motion.a
-              key={link.href}
-              href={link.href}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors relative"
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: i * 0.06 }}
-              whileHover={{ y: -1 }}
-            >
-              {link.label}
-            </motion.a>
-          ))}
+          {links.map((link, i) => {
+            const isActive = active === link.href;
+            return (
+              <motion.a
+                key={link.href}
+                href={link.href}
+                className={`group text-sm transition-colors relative ${
+                  isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground"
+                }`}
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: i * 0.06 }}
+                whileHover={{ y: -1 }}
+              >
+                {link.label}
+                {isActive ? (
+                  <motion.span
+                    layoutId="nav-active-underline"
+                    className="absolute -bottom-1 left-0 h-px w-full bg-accent"
+                    transition={{ duration: 0.35, ease: [0.25, 0.46, 0.45, 0.94] }}
+                  />
+                ) : (
+                  <span
+                    aria-hidden
+                    className="absolute -bottom-1 left-0 h-px w-full bg-accent scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300"
+                  />
+                )}
+              </motion.a>
+            );
+          })}
           <Button variant="ghost" size="icon" onClick={toggleTheme} className="rounded-full w-8 h-8">
             <motion.div
               key={theme}
@@ -92,7 +123,11 @@ const Navbar = () => {
                 <motion.a
                   key={link.href}
                   href={link.href}
-                  className="block text-sm text-muted-foreground hover:text-foreground transition-colors py-2"
+                  className={`block text-sm transition-colors py-2 ${
+                    active === link.href
+                      ? "text-accent font-medium"
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
                   onClick={() => setOpen(false)}
                   initial={{ opacity: 0, x: -10 }}
                   animate={{ opacity: 1, x: 0 }}
