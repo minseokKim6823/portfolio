@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-01T23:21:26.351Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-07-03T23:12:20.353Z",
+  "theme": "AI 모델 출시, AI 시장 동향",
   "articles": [
     {
-      "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+      "title": "Anthropic is discussing a new custom chip with Samsung",
       "source": "TechCrunch",
-      "date": "2026.07.01",
-      "href": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
-      "description": "Venice AI 프라이버시 중시 플랫폼 발표."
+      "date": "2026.07.02",
+      "href": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "description": "Anthropic이 새로운 칩 개발 중이라는 글."
     },
     {
-      "title": "Anthropic’s long-sidelined Fable 5 is greenlit to return",
+      "title": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
+      "source": "TechCrunch",
+      "date": "2026.07.02",
+      "href": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "description": "OpenAI가 주요 기업에 지분 기부 제안한 글."
+    },
+    {
+      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+      "source": "TechCrunch",
+      "date": "2026.07.02",
+      "href": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "description": "Microsoft가 AI 배포 회사 론칭한 글."
+    },
+    {
+      "title": "Understand to participate",
+      "source": "Simon Willison",
+      "date": "2026.07.02",
+      "href": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
+      "description": "데이터 분석 및 개선을 위한 새로운 도구 소개 글."
+    },
+    {
+      "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
       "source": "The Verge",
-      "date": "2026.07.01",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
-      "description": "Anthropic의 Fable 5 모델 출시 발표."
+      "date": "2026.07.02",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+      "description": "AI 산업 내 주요 기업 간 경쟁 분석 글."
     },
     {
-      "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
+      "title": "The only AI glossary you’ll need this year",
       "source": "TechCrunch",
-      "date": "2026.07.01",
-      "href": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
-      "description": "Wayve 자율주행 기술 투자 유치 발표."
-    },
-    {
-      "title": "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
-      "source": "TechCrunch",
-      "date": "2026.06.30",
-      "href": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
-      "description": "DeepMind 포커 AI 개발자 헤지펀드 진출 보도."
-    },
-    {
-      "title": "Gemini Spark, Google’s agentic assistant, is now available on Mac",
-      "source": "TechCrunch",
-      "date": "2026.07.01",
-      "href": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
-      "description": "Gemini Spark 에이전트 어시스턴트 맥 출시 보도."
-    },
-    {
-      "title": "Meta, like SpaceX, looks to turn excess AI compute into cash",
-      "source": "TechCrunch",
-      "date": "2026.07.01",
-      "href": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
-      "description": "Meta 컴퓨팅 파워 상용화 발표."
+      "date": "2026.07.03",
+      "href": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "description": "업계 내 필수 AI 용어 정리 글."
     }
   ]
 }
