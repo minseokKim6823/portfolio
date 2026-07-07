@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-05T23:08:00.346Z",
+  "updatedAt": "2026-07-07T23:08:00.600Z",
   "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
-      "source": "TechCrunch",
-      "date": "2026.07.04",
-      "href": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-      "description": "Mistral AI 소개 기사."
-    },
-    {
-      "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
-      "source": "TechCrunch",
-      "date": "2026.07.02",
-      "href": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
-      "description": "Mark Zuckerberg의 AI 발전 현황 발표."
-    },
-    {
-      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
-      "source": "TechCrunch",
-      "date": "2026.07.04",
-      "href": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-      "description": "Midjourney의 AI 사용 상세 공개 요구."
-    },
-    {
-      "title": "The fanfiction community is at war with AI — and itself",
+      "title": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
       "source": "The Verge",
-      "date": "2026.07.04",
-      "href": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
-      "description": "팬피션 커뮤니티의 AI 논란 분석."
+      "date": "2026.07.07",
+      "href": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
+      "description": "Meta’s new Muse Image model can pull other Instagram users into AI photos기사."
     },
     {
-      "title": "Open Source AI Gap Map",
-      "source": "Simon Willison",
-      "date": "2026.07.03",
-      "href": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
-      "description": "오픈 소스 AI 격차 지도 발표."
-    },
-    {
-      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "title": "Why the rise of open source AI isn’t hurting Anthropic … yet",
       "source": "TechCrunch",
-      "date": "2026.07.04",
-      "href": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
-      "description": "Google의 AI 도움 받은 독립선언서 광고 분석."
+      "date": "2026.07.07",
+      "href": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+      "description": "Why the rise of open source AI isn’t hurting Anthropic … yet기사."
+    },
+    {
+      "title": "Anthropic is launching Claude Cowork on mobile and web",
+      "source": "The Verge",
+      "date": "2026.07.07",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+      "description": "Anthropic is launching Claude Cowork on mobile and web기사."
+    },
+    {
+      "title": "Claude Cowork expands to mobile and web",
+      "source": "TechCrunch",
+      "date": "2026.07.07",
+      "href": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+      "description": "Claude Cowork expands to mobile and web기사."
+    },
+    {
+      "title": "The ‘first’ AI-run ransomware attack still needed a human",
+      "source": "TechCrunch",
+      "date": "2026.07.06",
+      "href": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+      "description": "The ‘first’ AI-run ransomware attack still needed a human기사."
+    },
+    {
+      "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+      "source": "TechCrunch",
+      "date": "2026.07.06",
+      "href": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "description": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta기사."
     }
   ]
 }
