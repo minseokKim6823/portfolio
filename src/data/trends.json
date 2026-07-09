@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-07T23:08:00.600Z",
+  "updatedAt": "2026-07-09T23:18:29.553Z",
   "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
+      "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
       "source": "The Verge",
-      "date": "2026.07.07",
-      "href": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
-      "description": "Meta’s new Muse Image model can pull other Instagram users into AI photos기사."
+      "date": "2026.07.09",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+      "description": "오픈AI 최신 모델 출시 관련 정보 파악."
     },
     {
-      "title": "Why the rise of open source AI isn’t hurting Anthropic … yet",
+      "title": "An AI agent startup just let its agent run its $100 million fundraise",
       "source": "TechCrunch",
-      "date": "2026.07.07",
-      "href": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
-      "description": "Why the rise of open source AI isn’t hurting Anthropic … yet기사."
+      "date": "2026.07.09",
+      "href": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+      "description": "오픈AI 최신 모델 출시 관련 정보 파악."
     },
     {
-      "title": "Anthropic is launching Claude Cowork on mobile and web",
-      "source": "The Verge",
-      "date": "2026.07.07",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
-      "description": "Anthropic is launching Claude Cowork on mobile and web기사."
-    },
-    {
-      "title": "Claude Cowork expands to mobile and web",
+      "title": "Google will now disclose which ads are made with AI",
       "source": "TechCrunch",
-      "date": "2026.07.07",
-      "href": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
-      "description": "Claude Cowork expands to mobile and web기사."
+      "date": "2026.07.09",
+      "href": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+      "description": "구글의 AI 광고 정책 변화 파악."
     },
     {
-      "title": "The ‘first’ AI-run ransomware attack still needed a human",
+      "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
       "source": "TechCrunch",
-      "date": "2026.07.06",
-      "href": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
-      "description": "The ‘first’ AI-run ransomware attack still needed a human기사."
+      "date": "2026.07.09",
+      "href": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+      "description": "오픈AI 자금 모금 관련 정보 파악."
     },
     {
-      "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+      "title": "Introducing Muse Spark 1.1",
+      "source": "Simon Willison",
+      "date": "2026.07.09",
+      "href": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
+      "description": "메타의 최신 AI 모델 발표 관련 정보 파악."
+    },
+    {
+      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
       "source": "TechCrunch",
-      "date": "2026.07.06",
-      "href": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
-      "description": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta기사."
+      "date": "2026.07.09",
+      "href": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "description": "메타의 최신 AI 코딩 도구 발표 관련 정보 파악."
     }
   ]
 }
