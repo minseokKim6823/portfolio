@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-09T23:18:29.553Z",
+  "updatedAt": "2026-07-11T22:57:07.781Z",
   "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
+      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "source": "TechCrunch",
+      "date": "2026.07.09",
+      "href": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "description": "최신 모델 출시 발표 기사."
+    },
+    {
+      "title": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
+      "source": "TechCrunch",
+      "date": "2026.07.10",
+      "href": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "description": "업계 내 모델 경쟁 구도 파악 기사."
+    },
+    {
+      "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
       "source": "The Verge",
-      "date": "2026.07.09",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "description": "오픈AI 최신 모델 출시 관련 정보 파악."
+      "date": "2026.07.10",
+      "href": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+      "description": "인스타그램의 논란 AI 기능 철회 보도."
     },
     {
-      "title": "An AI agent startup just let its agent run its $100 million fundraise",
+      "title": "Apple sues OpenAI for allegedly stealing hardware secrets",
+      "source": "The Verge",
+      "date": "2026.07.10",
+      "href": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+      "description": "애플과 오픈AI의 법적 분쟁 보도."
+    },
+    {
+      "title": "Apple sues OpenAI over alleged trade secret theft",
       "source": "TechCrunch",
-      "date": "2026.07.09",
-      "href": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-      "description": "오픈AI 최신 모델 출시 관련 정보 파악."
+      "date": "2026.07.10",
+      "href": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "description": "애플과 오픈AI의 법적 분쟁 보도."
     },
     {
-      "title": "Google will now disclose which ads are made with AI",
+      "title": "Open source AI matters more than ever, according to Hugging Face’s Clem Delangue",
       "source": "TechCrunch",
-      "date": "2026.07.09",
-      "href": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
-      "description": "구글의 AI 광고 정책 변화 파악."
-    },
-    {
-      "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
-      "source": "TechCrunch",
-      "date": "2026.07.09",
-      "href": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-      "description": "오픈AI 자금 모금 관련 정보 파악."
-    },
-    {
-      "title": "Introducing Muse Spark 1.1",
-      "source": "Simon Willison",
-      "date": "2026.07.09",
-      "href": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
-      "description": "메타의 최신 AI 모델 발표 관련 정보 파악."
-    },
-    {
-      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
-      "source": "TechCrunch",
-      "date": "2026.07.09",
-      "href": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-      "description": "메타의 최신 AI 코딩 도구 발표 관련 정보 파악."
+      "date": "2026.07.10",
+      "href": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+      "description": "오픈소스 AI 중요성 분석 기사."
     }
   ]
 }
