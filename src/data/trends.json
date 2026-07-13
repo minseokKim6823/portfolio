@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-11T22:57:07.781Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-07-13T23:01:36.470Z",
+  "theme": "AI 모델 경쟁",
   "articles": [
     {
-      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "title": "Satya Nadella has issued a shocking warning to companies using AI",
       "source": "TechCrunch",
-      "date": "2026.07.09",
-      "href": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-      "description": "최신 모델 출시 발표 기사."
+      "date": "2026.07.13",
+      "href": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+      "description": "Satya Nadella의 경고기사."
     },
     {
-      "title": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
+      "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
       "source": "TechCrunch",
-      "date": "2026.07.10",
-      "href": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
-      "description": "업계 내 모델 경쟁 구도 파악 기사."
+      "date": "2026.07.13",
+      "href": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+      "description": "Apple의 소송 주장 분석기사."
     },
     {
-      "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
-      "source": "The Verge",
-      "date": "2026.07.10",
-      "href": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-      "description": "인스타그램의 논란 AI 기능 철회 보도."
+      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+      "source": "get-inscribe.com",
+      "date": "2026.07.13",
+      "href": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+      "description": "Apple의 새로운 API 비교기사."
     },
     {
-      "title": "Apple sues OpenAI for allegedly stealing hardware secrets",
-      "source": "The Verge",
-      "date": "2026.07.10",
-      "href": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
-      "description": "애플과 오픈AI의 법적 분쟁 보도."
-    },
-    {
-      "title": "Apple sues OpenAI over alleged trade secret theft",
+      "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
       "source": "TechCrunch",
-      "date": "2026.07.10",
-      "href": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
-      "description": "애플과 오픈AI의 법적 분쟁 보도."
+      "date": "2026.07.13",
+      "href": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
+      "description": "Anthropic의 가격 전략 발표기사."
     },
     {
-      "title": "Open source AI matters more than ever, according to Hugging Face’s Clem Delangue",
-      "source": "TechCrunch",
-      "date": "2026.07.10",
-      "href": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
-      "description": "오픈소스 AI 중요성 분석 기사."
+      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+      "source": "raymyers.org",
+      "date": "2026.07.13",
+      "href": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+      "description": "Zig 언어 개발자의 의견글."
+    },
+    {
+      "title": "A graph that should be front-page news",
+      "source": "lyrebirddreaming.com",
+      "date": "2026.07.13",
+      "href": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
+      "description": "중요한 그래프 분석기사."
     }
   ]
 }
