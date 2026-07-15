@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-13T23:01:36.470Z",
-  "theme": "AI 모델 경쟁",
+  "updatedAt": "2026-07-15T23:02:52.212Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "Satya Nadella has issued a shocking warning to companies using AI",
+      "title": "OpenAI finally launches hardware… for Codex",
+      "source": "The Verge",
+      "date": "2026.07.15",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+      "description": "코덱스 하드웨어 발표기사."
+    },
+    {
+      "title": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
       "source": "TechCrunch",
-      "date": "2026.07.13",
-      "href": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
-      "description": "Satya Nadella의 경고기사."
+      "date": "2026.07.15",
+      "href": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+      "description": "인클링 오픈 모델 발표기사."
     },
     {
-      "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+      "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
       "source": "TechCrunch",
-      "date": "2026.07.13",
-      "href": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
-      "description": "Apple의 소송 주장 분석기사."
+      "date": "2026.07.15",
+      "href": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+      "description": "오픈AI 코덱스 키보드 출시기사."
     },
     {
-      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
-      "source": "get-inscribe.com",
-      "date": "2026.07.13",
-      "href": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
-      "description": "Apple의 새로운 API 비교기사."
+      "title": "Inkling: Our Open-Weights Model",
+      "source": "thinkingmachines.ai",
+      "date": "2026.07.15",
+      "href": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "description": "인클링 오픈 모델 소개기사."
     },
     {
-      "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
+      "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
       "source": "TechCrunch",
-      "date": "2026.07.13",
-      "href": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
-      "description": "Anthropic의 가격 전략 발표기사."
+      "date": "2026.07.15",
+      "href": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+      "description": "선오 음악 데이터 스크레이핑 의혹기사."
     },
     {
-      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-      "source": "raymyers.org",
-      "date": "2026.07.13",
-      "href": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
-      "description": "Zig 언어 개발자의 의견글."
-    },
-    {
-      "title": "A graph that should be front-page news",
-      "source": "lyrebirddreaming.com",
-      "date": "2026.07.13",
-      "href": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
-      "description": "중요한 그래프 분석기사."
+      "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
+      "source": "The Verge",
+      "date": "2026.07.15",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+      "description": "선오 음악 데이터 스크레이핑 확인기사."
     }
   ]
 }
