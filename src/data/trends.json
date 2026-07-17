@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-15T23:02:52.212Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-07-17T22:55:29.341Z",
+  "theme": "AI 모델 경쟁",
   "articles": [
     {
-      "title": "OpenAI finally launches hardware… for Codex",
+      "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+      "source": "tryai.dev",
+      "date": "2026.07.16",
+      "href": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+      "description": "최신 AI 모델 경쟁 분석 기사."
+    },
+    {
+      "title": "The Zoom hack that says, ‘Don’t record me’",
+      "source": "TechCrunch",
+      "date": "2026.07.17",
+      "href": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
+      "description": "Databricks의 평가 증가에 대한 기사."
+    },
+    {
+      "title": "TikTok is testing an AI likeness detection tool",
       "source": "The Verge",
-      "date": "2026.07.15",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
-      "description": "코덱스 하드웨어 발표기사."
+      "date": "2026.07.17",
+      "href": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+      "description": "TikTok의 AI 유사성 탐지 도구 테스트 기사."
     },
     {
-      "title": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
+      "title": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
       "source": "TechCrunch",
-      "date": "2026.07.15",
-      "href": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
-      "description": "인클링 오픈 모델 발표기사."
+      "date": "2026.07.17",
+      "href": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+      "description": "Apple의 소송이 OpenAI IPO에 미칠 영향 기사."
     },
     {
-      "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+      "title": "Apple’s lawsuit couldn’t come at a worse time for OpenAI",
       "source": "TechCrunch",
-      "date": "2026.07.15",
-      "href": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
-      "description": "오픈AI 코덱스 키보드 출시기사."
+      "date": "2026.07.17",
+      "href": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/",
+      "description": "Apple의 소송이 OpenAI에 미칠 영향 기사."
     },
     {
-      "title": "Inkling: Our Open-Weights Model",
-      "source": "thinkingmachines.ai",
-      "date": "2026.07.15",
-      "href": "https://thinkingmachines.ai/news/introducing-inkling/",
-      "description": "인클링 오픈 모델 소개기사."
-    },
-    {
-      "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
+      "title": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
       "source": "TechCrunch",
-      "date": "2026.07.15",
-      "href": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
-      "description": "선오 음악 데이터 스크레이핑 의혹기사."
-    },
-    {
-      "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
-      "source": "The Verge",
-      "date": "2026.07.15",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
-      "description": "선오 음악 데이터 스크레이핑 확인기사."
+      "date": "2026.07.17",
+      "href": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+      "description": "Vertu의 AI 에이전트 가격 및 성능 기사."
     }
   ]
 }
