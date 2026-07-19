@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-17T22:55:29.341Z",
-  "theme": "AI 모델 경쟁",
+  "updatedAt": "2026-07-19T22:58:17.212Z",
+  "theme": "AI Regulation",
   "articles": [
     {
-      "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
-      "source": "tryai.dev",
-      "date": "2026.07.16",
-      "href": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-      "description": "최신 AI 모델 경쟁 분석 기사."
+      "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
+      "source": "petapixel.com",
+      "date": "2026.07.18",
+      "href": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "description": "NYC may require landlords and realtors to disclose the use of AI in listings기사."
     },
     {
-      "title": "The Zoom hack that says, ‘Don’t record me’",
-      "source": "TechCrunch",
-      "date": "2026.07.17",
-      "href": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
-      "description": "Databricks의 평가 증가에 대한 기사."
-    },
-    {
-      "title": "TikTok is testing an AI likeness detection tool",
+      "title": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
       "source": "The Verge",
-      "date": "2026.07.17",
-      "href": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
-      "description": "TikTok의 AI 유사성 탐지 도구 테스트 기사."
+      "date": "2026.07.18",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "description": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’기사."
     },
     {
-      "title": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
+      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
       "source": "TechCrunch",
-      "date": "2026.07.17",
-      "href": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
-      "description": "Apple의 소송이 OpenAI IPO에 미칠 영향 기사."
+      "date": "2026.07.19",
+      "href": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "description": "Can an Apple lawsuit derail OpenAI’s hardware plans?기사."
     },
     {
-      "title": "Apple’s lawsuit couldn’t come at a worse time for OpenAI",
+      "title": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
       "source": "TechCrunch",
-      "date": "2026.07.17",
-      "href": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/",
-      "description": "Apple의 소송이 OpenAI에 미칠 영향 기사."
+      "date": "2026.07.19",
+      "href": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+      "description": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’기사."
     },
     {
-      "title": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
-      "source": "TechCrunch",
-      "date": "2026.07.17",
-      "href": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
-      "description": "Vertu의 AI 에이전트 가격 및 성능 기사."
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "source": "Simon Willison",
+      "date": "2026.07.19",
+      "href": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+      "description": "AI Mania Is Eviscerating Global Decision-Making기사."
+    },
+    {
+      "title": "Claude make Fable 5 permanent",
+      "source": "Simon Willison",
+      "date": "2026.07.18",
+      "href": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+      "description": "Claude make Fable 5 permanent기사."
     }
   ]
 }
