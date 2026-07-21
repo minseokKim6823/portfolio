@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-19T22:58:17.212Z",
-  "theme": "AI Regulation",
+  "updatedAt": "2026-07-21T23:03:15.937Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
-      "source": "petapixel.com",
-      "date": "2026.07.18",
-      "href": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
-      "description": "NYC may require landlords and realtors to disclose the use of AI in listings기사."
-    },
-    {
-      "title": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
-      "source": "The Verge",
-      "date": "2026.07.18",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
-      "description": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’기사."
-    },
-    {
-      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+      "title": "Google releases three new Gemini models — but no 3.5 Pro",
       "source": "TechCrunch",
-      "date": "2026.07.19",
-      "href": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
-      "description": "Can an Apple lawsuit derail OpenAI’s hardware plans?기사."
+      "date": "2026.07.21",
+      "href": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+      "description": "Google releases three new Gemini models — but no 3.5 Pro 기사."
     },
     {
-      "title": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+      "title": "US threatens sanctions against Chinese AI models over IP theft",
       "source": "TechCrunch",
-      "date": "2026.07.19",
-      "href": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
-      "description": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’기사."
+      "date": "2026.07.21",
+      "href": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
+      "description": "US threatens sanctions against Chinese AI models over IP theft 기사."
     },
     {
-      "title": "AI Mania Is Eviscerating Global Decision-Making",
-      "source": "Simon Willison",
-      "date": "2026.07.19",
-      "href": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
-      "description": "AI Mania Is Eviscerating Global Decision-Making기사."
+      "title": "Google is working on a new AI chip designed to make Gemini more efficient",
+      "source": "TechCrunch",
+      "date": "2026.07.20",
+      "href": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+      "description": "Google is working on a new AI chip designed to make Gemini more efficient 기사."
     },
     {
-      "title": "Claude make Fable 5 permanent",
-      "source": "Simon Willison",
-      "date": "2026.07.18",
-      "href": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
-      "description": "Claude make Fable 5 permanent기사."
+      "title": "Gritt exits stealth with $32 million for robots to build solar plants — then, everything else",
+      "source": "TechCrunch",
+      "date": "2026.07.21",
+      "href": "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/",
+      "description": "Gritt exits stealth with $32 million for robots to build solar plants — then, everything e"
+    },
+    {
+      "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+      "source": "asia.nikkei.com",
+      "date": "2026.07.21",
+      "href": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+      "description": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding 기사."
+    },
+    {
+      "title": "AI’s most important protocol is getting a little bit easier to use",
+      "source": "TechCrunch",
+      "date": "2026.07.20",
+      "href": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+      "description": "AI’s most important protocol is getting a little bit easier to use 기사."
     }
   ]
 }
