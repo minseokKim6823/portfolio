@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-25T22:59:56.677Z",
-  "theme": "AI Regulation",
+  "updatedAt": "2026-07-27T23:10:57.423Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+      "title": "Satya Nadella says companies that trust one AI for everything may not survive",
       "source": "TechCrunch",
-      "date": "2026.07.24",
-      "href": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
-      "description": "미국이 중국 AI에 대한 대응을 고민하는 가운데 업계의 입장 파악."
+      "date": "2026.07.27",
+      "href": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+      "description": "Satya Nadella의 발표는 모든 회사의 AI 전략에 영향을 미칠 글."
     },
     {
-      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
-      "source": "cnbc.com",
-      "date": "2026.07.24",
-      "href": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "description": "주요 기업들이 오픈 웨이트 모델 과도한 규제에 대해 경고."
+      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+      "source": "TechCrunch",
+      "date": "2026.07.27",
+      "href": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+      "description": "마이크로소프트의 새로운 시스템 발표 기사."
     },
     {
-      "title": "You can’t ignore Google Zero anymore",
+      "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+      "source": "TechCrunch",
+      "date": "2026.07.27",
+      "href": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+      "description": "오픈AI의 보안 문제로 인한 논란 기사."
+    },
+    {
+      "title": "Why China is giving away its best AI models",
       "source": "The Verge",
-      "date": "2026.07.24",
-      "href": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast",
-      "description": "Google Zero 무시할 수 없는 상황 설명."
+      "date": "2026.07.27",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+      "description": "중국의 AI 모델 배포 전략 분석 기사."
     },
     {
-      "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+      "title": "Google’s AI search is rapidly becoming the default, new data shows",
       "source": "TechCrunch",
-      "date": "2026.07.25",
-      "href": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
-      "description": "라이브러리언들이 AI 피하기 워크숍을 진행하는 이유 분석."
+      "date": "2026.07.27",
+      "href": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+      "description": "구글의 AI 검색 기술 보급 현황 기사."
     },
     {
-      "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
       "source": "TechCrunch",
-      "date": "2026.07.25",
-      "href": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
-      "description": "전력선 고장으로 드러난 AI 데이터 센터 문제 해결 방안 제시."
-    },
-    {
-      "title": "Anthropic launches Opus 5",
-      "source": "TechCrunch",
-      "date": "2026.07.24",
-      "href": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
-      "description": "Anthropic이 Opus 5 출시한 배경 분석."
+      "date": "2026.07.27",
+      "href": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+      "description": "Ilya Sutskever의 새로운 파트너십 발표 기사."
     }
   ]
 }
