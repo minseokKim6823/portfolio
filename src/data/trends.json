@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-27T23:10:57.423Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-07-29T23:03:25.798Z",
+  "theme": "AI Agent, AI Safety",
   "articles": [
     {
-      "title": "Satya Nadella says companies that trust one AI for everything may not survive",
-      "source": "TechCrunch",
-      "date": "2026.07.27",
-      "href": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
-      "description": "Satya Nadella의 발표는 모든 회사의 AI 전략에 영향을 미칠 글."
-    },
-    {
-      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
-      "source": "TechCrunch",
-      "date": "2026.07.27",
-      "href": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
-      "description": "마이크로소프트의 새로운 시스템 발표 기사."
-    },
-    {
-      "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
-      "source": "TechCrunch",
-      "date": "2026.07.27",
-      "href": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
-      "description": "오픈AI의 보안 문제로 인한 논란 기사."
-    },
-    {
-      "title": "Why China is giving away its best AI models",
+      "title": "Mark Zuckerberg is planning a big push into personal AI agents",
       "source": "The Verge",
-      "date": "2026.07.27",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
-      "description": "중국의 AI 모델 배포 전략 분석 기사."
+      "date": "2026.07.29",
+      "href": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
+      "description": "Microsoft confirms Copilot ‘super app’ coming this year 기사."
     },
     {
-      "title": "Google’s AI search is rapidly becoming the default, new data shows",
+      "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
       "source": "TechCrunch",
-      "date": "2026.07.27",
-      "href": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
-      "description": "구글의 AI 검색 기술 보급 현황 기사."
+      "date": "2026.07.29",
+      "href": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
+      "description": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five year"
     },
     {
-      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+      "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
       "source": "TechCrunch",
-      "date": "2026.07.27",
-      "href": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
-      "description": "Ilya Sutskever의 새로운 파트너십 발표 기사."
+      "date": "2026.07.29",
+      "href": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
+      "description": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents 기사."
+    },
+    {
+      "title": "We’re running out of reasons to ignore AI safety",
+      "source": "The Verge",
+      "date": "2026.07.29",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
+      "description": "We’re running out of reasons to ignore AI safety 기사."
+    },
+    {
+      "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
+      "source": "The Verge",
+      "date": "2026.07.29",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+      "description": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face 기사."
+    },
+    {
+      "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
+      "source": "TechCrunch",
+      "date": "2026.07.29",
+      "href": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
+      "description": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents 기사."
     }
   ]
 }
