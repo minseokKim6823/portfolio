@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-29T23:03:25.798Z",
-  "theme": "AI Agent, AI Safety",
+  "updatedAt": "2026-07-31T23:09:19.390Z",
+  "theme": "AI Safety",
   "articles": [
     {
-      "title": "Mark Zuckerberg is planning a big push into personal AI agents",
+      "title": "It’s time to panic about AI safety",
       "source": "The Verge",
-      "date": "2026.07.29",
-      "href": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
-      "description": "Microsoft confirms Copilot ‘super app’ coming this year 기사."
+      "date": "2026.07.31",
+      "href": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+      "description": "AI 안전성 논란 발표."
     },
     {
-      "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
+      "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
       "source": "TechCrunch",
-      "date": "2026.07.29",
-      "href": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
-      "description": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five year"
+      "date": "2026.07.31",
+      "href": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+      "description": "초고속 음성 AI 개발 보도."
     },
     {
-      "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
-      "source": "TechCrunch",
-      "date": "2026.07.29",
-      "href": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
-      "description": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents 기사."
+      "title": "Advancing the price-performance frontier with GPT‑5.6",
+      "source": "Simon Willison",
+      "date": "2026.07.30",
+      "href": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+      "description": "최신 모델 성능 분석 글."
     },
     {
-      "title": "We’re running out of reasons to ignore AI safety",
-      "source": "The Verge",
-      "date": "2026.07.29",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
-      "description": "We’re running out of reasons to ignore AI safety 기사."
+      "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "source": "blog.google",
+      "date": "2026.07.31",
+      "href": "https://blog.google/security/chrome-stronger-with-every-update/",
+      "description": "AI 도움으로 크롬 버그 수정 보도."
     },
     {
-      "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
-      "source": "The Verge",
-      "date": "2026.07.29",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
-      "description": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face 기사."
+      "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
+      "source": "Simon Willison",
+      "date": "2026.07.31",
+      "href": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
+      "description": "모델 평가 도구 소개 글."
     },
     {
-      "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
-      "source": "TechCrunch",
-      "date": "2026.07.29",
-      "href": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
-      "description": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents 기사."
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "source": "Simon Willison",
+      "date": "2026.07.30",
+      "href": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+      "description": "실제 사이버 보안 사례 분석 글."
     }
   ]
 }
