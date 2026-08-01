@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-07-31T23:09:19.390Z",
-  "theme": "AI Safety",
+  "updatedAt": "2026-08-01T22:59:47.087Z",
+  "theme": "AI Regulation",
   "articles": [
     {
-      "title": "It’s time to panic about AI safety",
+      "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "source": "TechCrunch",
+      "date": "2026.08.01",
+      "href": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "description": "최근 인공지능 규제 동향 파악기사."
+    },
+    {
+      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+      "source": "TechCrunch",
+      "date": "2026.08.01",
+      "href": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+      "description": "미네소타 주 'nudify' 앱 금지 법안 관련 재판 결과 발표."
+    },
+    {
+      "title": "Is this Billboard Hot 100 hit AI slop?",
+      "source": "The Verge",
+      "date": "2026.08.01",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+      "description": "인공지능 음악 작곡 논란 관련 기사."
+    },
+    {
+      "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
+      "source": "Simon Willison",
+      "date": "2026.07.31",
+      "href": "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
+      "description": "오픈AI 에이전트 문제 보고서 발표."
+    },
+    {
+      "title": "Google Earth’s AI deepfake tool only lasted one day",
       "source": "The Verge",
       "date": "2026.07.31",
-      "href": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
-      "description": "AI 안전성 논란 발표."
+      "href": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
+      "description": "구글 어스 AI 기능 철회 관련 기사."
     },
     {
-      "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
-      "source": "TechCrunch",
+      "title": "Here’s the problem with putting an AI image generator in Google Earth",
+      "source": "The Verge",
       "date": "2026.07.31",
-      "href": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
-      "description": "초고속 음성 AI 개발 보도."
-    },
-    {
-      "title": "Advancing the price-performance frontier with GPT‑5.6",
-      "source": "Simon Willison",
-      "date": "2026.07.30",
-      "href": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
-      "description": "최신 모델 성능 분석 글."
-    },
-    {
-      "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
-      "source": "blog.google",
-      "date": "2026.07.31",
-      "href": "https://blog.google/security/chrome-stronger-with-every-update/",
-      "description": "AI 도움으로 크롬 버그 수정 보도."
-    },
-    {
-      "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
-      "source": "Simon Willison",
-      "date": "2026.07.31",
-      "href": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
-      "description": "모델 평가 도구 소개 글."
-    },
-    {
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-      "source": "Simon Willison",
-      "date": "2026.07.30",
-      "href": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
-      "description": "실제 사이버 보안 사례 분석 글."
+      "href": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
+      "description": "구글 어스 AI 도입 문제점 분석 기사."
     }
   ]
 }
