@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-08-01T22:59:47.087Z",
-  "theme": "AI Regulation",
+  "updatedAt": "2026-08-03T23:09:56.345Z",
+  "theme": "AI 모델 출시, 업계 영향",
   "articles": [
     {
-      "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
       "source": "TechCrunch",
-      "date": "2026.08.01",
-      "href": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-      "description": "최근 인공지능 규제 동향 파악기사."
+      "date": "2026.08.03",
+      "href": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+      "description": "AWS가 지원하는 스타트업 Superblocks의 의미 큰 기사."
     },
     {
-      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+      "title": "SQLite Critical CVEs or LLM Slop?",
+      "source": "research.jfrog.com",
+      "date": "2026.08.03",
+      "href": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "description": "SQLite 중요 보안 취약점 논의 기사."
+    },
+    {
+      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
       "source": "TechCrunch",
-      "date": "2026.08.01",
-      "href": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-      "description": "미네소타 주 'nudify' 앱 금지 법안 관련 재판 결과 발표."
+      "date": "2026.08.03",
+      "href": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+      "description": "AI 배포 문제 해결을 주장하는 스타트업 기사."
     },
     {
-      "title": "Is this Billboard Hot 100 hit AI slop?",
-      "source": "The Verge",
-      "date": "2026.08.01",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
-      "description": "인공지능 음악 작곡 논란 관련 기사."
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "source": "qwen.ai",
+      "date": "2026.08.03",
+      "href": "https://qwen.ai/blog?id=qwen3.8",
+      "description": "Qwen3.8-Max 코딩 및 협업 분야 최신 기사."
     },
     {
-      "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
-      "source": "Simon Willison",
-      "date": "2026.07.31",
-      "href": "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
-      "description": "오픈AI 에이전트 문제 보고서 발표."
+      "title": "Sam Altman and AI’s decel debate",
+      "source": "TechCrunch",
+      "date": "2026.08.02",
+      "href": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "description": "AI 감속 논쟁에 대한 샘 알트만 기사."
     },
     {
-      "title": "Google Earth’s AI deepfake tool only lasted one day",
-      "source": "The Verge",
-      "date": "2026.07.31",
-      "href": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
-      "description": "구글 어스 AI 기능 철회 관련 기사."
-    },
-    {
-      "title": "Here’s the problem with putting an AI image generator in Google Earth",
-      "source": "The Verge",
-      "date": "2026.07.31",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
-      "description": "구글 어스 AI 도입 문제점 분석 기사."
+      "title": "Karpathy’s Pelican",
+      "source": "twitter.com",
+      "date": "2026.08.02",
+      "href": "https://twitter.com/karpathy/status/2083749667410727319",
+      "description": "Karpathy의 최신 프로젝트 발표 기사."
     }
   ]
 }
