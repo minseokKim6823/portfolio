@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-08-03T23:09:56.345Z",
-  "theme": "AI 모델 출시, 업계 영향",
+  "updatedAt": "2026-08-05T23:07:13.677Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+      "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+      "source": "Simon Willison",
+      "date": "2026.08.05",
+      "href": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
+      "description": "새로운 AI 모델 출시 발표 기사."
+    },
+    {
+      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
       "source": "TechCrunch",
-      "date": "2026.08.03",
-      "href": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
-      "description": "AWS가 지원하는 스타트업 Superblocks의 의미 큰 기사."
+      "date": "2026.08.05",
+      "href": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+      "description": "최고 수준의 AI 연구자들이 Google을 떠나 새 스타트업 창업 발표 기사."
     },
     {
-      "title": "SQLite Critical CVEs or LLM Slop?",
-      "source": "research.jfrog.com",
-      "date": "2026.08.03",
-      "href": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
-      "description": "SQLite 중요 보안 취약점 논의 기사."
+      "title": "Google just announced a major shakeup of its top AI leadership",
+      "source": "The Verge",
+      "date": "2026.08.05",
+      "href": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+      "description": "Google의 상위 AI 리더십 교체 발표 기사."
     },
     {
-      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+      "source": "blog.google",
+      "date": "2026.08.05",
+      "href": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "description": "Google DeepMind의 지도자 교체 발표 기사."
+    },
+    {
+      "title": "Reddit is introducing a new moderator: AI",
+      "source": "The Verge",
+      "date": "2026.08.05",
+      "href": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+      "description": "Reddit이 AI 모더레이터 도입 발표 기사."
+    },
+    {
+      "title": "Anthropic is hiring an AI chip design team",
       "source": "TechCrunch",
-      "date": "2026.08.03",
-      "href": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
-      "description": "AI 배포 문제 해결을 주장하는 스타트업 기사."
-    },
-    {
-      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-      "source": "qwen.ai",
-      "date": "2026.08.03",
-      "href": "https://qwen.ai/blog?id=qwen3.8",
-      "description": "Qwen3.8-Max 코딩 및 협업 분야 최신 기사."
-    },
-    {
-      "title": "Sam Altman and AI’s decel debate",
-      "source": "TechCrunch",
-      "date": "2026.08.02",
-      "href": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
-      "description": "AI 감속 논쟁에 대한 샘 알트만 기사."
-    },
-    {
-      "title": "Karpathy’s Pelican",
-      "source": "twitter.com",
-      "date": "2026.08.02",
-      "href": "https://twitter.com/karpathy/status/2083749667410727319",
-      "description": "Karpathy의 최신 프로젝트 발표 기사."
+      "date": "2026.08.05",
+      "href": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
+      "description": "Anthropic이 AI 칩 설계 팀 구성 발표 기사."
     }
   ]
 }
