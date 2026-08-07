@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-08-05T23:07:13.677Z",
+  "updatedAt": "2026-08-07T22:44:17.885Z",
   "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
-      "source": "Simon Willison",
-      "date": "2026.08.05",
-      "href": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
-      "description": "새로운 AI 모델 출시 발표 기사."
-    },
-    {
-      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
-      "source": "TechCrunch",
-      "date": "2026.08.05",
-      "href": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
-      "description": "최고 수준의 AI 연구자들이 Google을 떠나 새 스타트업 창업 발표 기사."
-    },
-    {
-      "title": "Google just announced a major shakeup of its top AI leadership",
+      "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
       "source": "The Verge",
-      "date": "2026.08.05",
-      "href": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
-      "description": "Google의 상위 AI 리더십 교체 발표 기사."
+      "date": "2026.08.07",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "description": "OpenAI가 새로운 모델 출시를 억제한 이유 파악기사."
     },
     {
-      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
-      "source": "blog.google",
-      "date": "2026.08.05",
-      "href": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "description": "Google DeepMind의 지도자 교체 발표 기사."
-    },
-    {
-      "title": "Reddit is introducing a new moderator: AI",
-      "source": "The Verge",
-      "date": "2026.08.05",
-      "href": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
-      "description": "Reddit이 AI 모더레이터 도입 발표 기사."
-    },
-    {
-      "title": "Anthropic is hiring an AI chip design team",
+      "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
       "source": "TechCrunch",
-      "date": "2026.08.05",
-      "href": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
-      "description": "Anthropic이 AI 칩 설계 팀 구성 발표 기사."
+      "date": "2026.08.06",
+      "href": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+      "description": "새로운 AI 스마트 스피커 출시 가격 발표기사."
+    },
+    {
+      "title": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+      "source": "The Verge",
+      "date": "2026.08.06",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+      "description": "첫 AI 가제트 출시 예상 크기 및 모양 파악기사."
+    },
+    {
+      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "source": "artificialanalysis.ai",
+      "date": "2026.08.06",
+      "href": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "description": "최고 모델 순위 변화 분석기사."
+    },
+    {
+      "title": "ChatGPT brings unlimited text chats to free users",
+      "source": "TechCrunch",
+      "date": "2026.08.06",
+      "href": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+      "description": "무료 사용자를 위한 무제한 텍스트 챗 기능 소개기사."
+    },
+    {
+      "title": "OpenAI is giving ChatGPT free users unlimited text chats",
+      "source": "The Verge",
+      "date": "2026.08.06",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+      "description": "무료 사용자를 위한 무제한 텍스트 챗 기능 소개기사."
     }
   ]
 }
