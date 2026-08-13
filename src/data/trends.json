@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-08-11T22:51:42.138Z",
-  "theme": "AI 모델 경쟁",
+  "updatedAt": "2026-08-13T22:50:57.545Z",
+  "theme": "AI 모델 발표와 업계 변화",
   "articles": [
     {
-      "title": "ChatGPT and Gemini both just passed 1 billion users",
-      "source": "The Verge",
-      "date": "2026.08.11",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
-      "description": "10억 유저 돌파 발표."
-    },
-    {
-      "title": "Google’s Gemini app surges to 1 billion users",
+      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
       "source": "TechCrunch",
-      "date": "2026.08.11",
-      "href": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
-      "description": "챗지피티 데스크톱 앱 출시 기사."
+      "date": "2026.08.13",
+      "href": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "description": "최신 모델 성능 향상 기사."
     },
     {
-      "title": "The AI takeover of mathematics has begun",
-      "source": "The Verge",
-      "date": "2026.08.11",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
-      "description": "앤서픽 모델의 수학 문제 해결 발표."
-    },
-    {
-      "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
       "source": "TechCrunch",
-      "date": "2026.08.10",
-      "href": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
-      "description": "오픈에이아이의 사이버 모델 출시 기사."
+      "date": "2026.08.13",
+      "href": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "description": "새로운 AI 모델 소개 기사."
     },
     {
-      "title": "The UK's war on anonymity has come to America",
-      "source": "effort.news",
-      "date": "2026.08.10",
-      "href": "https://www.effort.news/uk-lobby",
-      "description": "미국의 익명성 보호 법안 변화 기사."
+      "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+      "source": "TechCrunch",
+      "date": "2026.08.13",
+      "href": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+      "description": "실패한 AI 기능 정리 기사."
     },
     {
-      "title": "Mark Zuckerberg doesn’t understand how to live",
-      "source": "The Verge",
-      "date": "2026.08.10",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision",
-      "description": "마크 저커버그의 AI 관련 발표 비판 기사."
+      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "source": "TechCrunch",
+      "date": "2026.08.13",
+      "href": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+      "description": "높은 평가 받은 데이터 기업 기사."
+    },
+    {
+      "title": "IBM partners with OpenAI to bolster enterprise AI push",
+      "source": "TechCrunch",
+      "date": "2026.08.13",
+      "href": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+      "description": "기업간 협업 발표 기사."
+    },
+    {
+      "title": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
+      "source": "TechCrunch",
+      "date": "2026.08.13",
+      "href": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
+      "description": "논란의 많은 기업 계획 기사."
     }
   ]
 }
