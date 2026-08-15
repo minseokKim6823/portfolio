@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-08-13T22:50:57.545Z",
-  "theme": "AI 모델 발표와 업계 변화",
+  "updatedAt": "2026-08-15T22:29:02.953Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
-      "source": "TechCrunch",
-      "date": "2026.08.13",
-      "href": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
-      "description": "최신 모델 성능 향상 기사."
+      "title": "Seven books I keep close because I love them",
+      "source": "blog.plover.com",
+      "date": "2026.08.14",
+      "href": "https://blog.plover.com/2026/08/02/",
+      "description": "Google is making private AI practical with homomorphic encryption 기사."
     },
     {
-      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
-      "source": "TechCrunch",
-      "date": "2026.08.13",
-      "href": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
-      "description": "새로운 AI 모델 소개 기사."
+      "title": "Qwen3.8-27B",
+      "source": "twitter.com",
+      "date": "2026.08.14",
+      "href": "https://twitter.com/alibaba_qwen/status/2088280182356611304",
+      "description": "Qwen3.8-27B 발표."
     },
     {
-      "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
-      "source": "TechCrunch",
-      "date": "2026.08.13",
-      "href": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
-      "description": "실패한 AI 기능 정리 기사."
+      "title": "Qwen 3.8 27B",
+      "source": "huggingface.co",
+      "date": "2026.08.14",
+      "href": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "description": "Qwen 3.8 27B 발표."
     },
     {
-      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
-      "source": "TechCrunch",
-      "date": "2026.08.13",
-      "href": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
-      "description": "높은 평가 받은 데이터 기업 기사."
+      "title": "Why does Opus 5 feel worse to work with?",
+      "source": "mun-logadan.github.io",
+      "date": "2026.08.14",
+      "href": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+      "description": "Why does Opus 5 feel worse to work with? 글."
     },
     {
-      "title": "IBM partners with OpenAI to bolster enterprise AI push",
-      "source": "TechCrunch",
-      "date": "2026.08.13",
-      "href": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
-      "description": "기업간 협업 발표 기사."
+      "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+      "source": "z.ai",
+      "date": "2026.08.14",
+      "href": "https://z.ai/blog/glm-5.3",
+      "description": "GLM-5.3: Frontier coding with emergent cyber capabilities 발표."
     },
     {
-      "title": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
-      "source": "TechCrunch",
-      "date": "2026.08.13",
-      "href": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
-      "description": "논란의 많은 기업 계획 기사."
+      "title": "Apple trained its own AI model for China with help from Alibaba",
+      "source": "The Verge",
+      "date": "2026.08.14",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "description": "Apple trained its own AI model for China with help from Alibaba 기사."
     }
   ]
 }
