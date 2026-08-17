@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-08-15T22:29:02.953Z",
+  "updatedAt": "2026-08-17T22:30:39.408Z",
   "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "Seven books I keep close because I love them",
-      "source": "blog.plover.com",
-      "date": "2026.08.14",
-      "href": "https://blog.plover.com/2026/08/02/",
-      "description": "Google is making private AI practical with homomorphic encryption 기사."
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "source": "blog.roboflow.com",
+      "date": "2026.08.17",
+      "href": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "description": "최신 비전 모델 출시 기사."
     },
     {
-      "title": "Qwen3.8-27B",
-      "source": "twitter.com",
-      "date": "2026.08.14",
-      "href": "https://twitter.com/alibaba_qwen/status/2088280182356611304",
-      "description": "Qwen3.8-27B 발표."
-    },
-    {
-      "title": "Qwen 3.8 27B",
-      "source": "huggingface.co",
-      "date": "2026.08.14",
-      "href": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "description": "Qwen 3.8 27B 발표."
-    },
-    {
-      "title": "Why does Opus 5 feel worse to work with?",
-      "source": "mun-logadan.github.io",
-      "date": "2026.08.14",
-      "href": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
-      "description": "Why does Opus 5 feel worse to work with? 글."
-    },
-    {
-      "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
-      "source": "z.ai",
-      "date": "2026.08.14",
-      "href": "https://z.ai/blog/glm-5.3",
-      "description": "GLM-5.3: Frontier coding with emergent cyber capabilities 발표."
-    },
-    {
-      "title": "Apple trained its own AI model for China with help from Alibaba",
+      "title": "Anthropic explains how Claude’s invisible text watermarks will work",
       "source": "The Verge",
-      "date": "2026.08.14",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
-      "description": "Apple trained its own AI model for China with help from Alibaba 기사."
+      "date": "2026.08.17",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+      "description": "안드로픽의 텍스트 워터마킹 기술 설명 기사."
+    },
+    {
+      "title": "AI;DR (AI; Didn't Read)",
+      "source": "rickmanelius.com",
+      "date": "2026.08.17",
+      "href": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "description": "최신 AI 모델 리뷰 글."
+    },
+    {
+      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "source": "TechCrunch",
+      "date": "2026.08.17",
+      "href": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "description": "아마존의 희귀 도서 훈련 데이터 논란 기사."
+    },
+    {
+      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "source": "TechCrunch",
+      "date": "2026.08.16",
+      "href": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "description": "오픈루터 인수 보도 기사."
+    },
+    {
+      "title": "Models Are Getting Dumber on Purpose",
+      "source": "w4g1.dev",
+      "date": "2026.08.16",
+      "href": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+      "description": "모델 성능 저하 논의 기사."
     }
   ]
 }
