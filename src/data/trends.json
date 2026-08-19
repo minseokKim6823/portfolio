@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-08-17T22:30:39.408Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-08-19T22:30:47.402Z",
+  "theme": "AI Regulation, AI Impact",
   "articles": [
     {
-      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
-      "source": "blog.roboflow.com",
-      "date": "2026.08.17",
-      "href": "https://blog.roboflow.com/openai-gpt-5-6/",
-      "description": "최신 비전 모델 출시 기사."
+      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "source": "TechCrunch",
+      "date": "2026.08.19",
+      "href": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+      "description": "고객 프라이버시 보호 강화 발표기사."
     },
     {
-      "title": "Anthropic explains how Claude’s invisible text watermarks will work",
+      "title": "AI was supposed to win people over by now — it hasn’t",
+      "source": "TechCrunch",
+      "date": "2026.08.19",
+      "href": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+      "description": "AI 채택 속도 짚은 글."
+    },
+    {
+      "title": "Google packs Search and Gemini with new AI study tools",
+      "source": "TechCrunch",
+      "date": "2026.08.19",
+      "href": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "description": "검색 및 인공지능 도구 업데이트기사."
+    },
+    {
+      "title": "Researchers say OpenAI revoked their access to limited cyber program",
+      "source": "TechCrunch",
+      "date": "2026.08.19",
+      "href": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
+      "description": "인공지능 프로그램 접근 차단 발표기사."
+    },
+    {
+      "title": "OpenAI hit the brakes. Now what?",
       "source": "The Verge",
-      "date": "2026.08.17",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
-      "description": "안드로픽의 텍스트 워터마킹 기술 설명 기사."
+      "date": "2026.08.19",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "description": "인공지능 회사 행보 분석글."
     },
     {
-      "title": "AI;DR (AI; Didn't Read)",
-      "source": "rickmanelius.com",
-      "date": "2026.08.17",
-      "href": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "description": "최신 AI 모델 리뷰 글."
-    },
-    {
-      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
-      "source": "TechCrunch",
-      "date": "2026.08.17",
-      "href": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-      "description": "아마존의 희귀 도서 훈련 데이터 논란 기사."
-    },
-    {
-      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "source": "TechCrunch",
-      "date": "2026.08.16",
-      "href": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-      "description": "오픈루터 인수 보도 기사."
-    },
-    {
-      "title": "Models Are Getting Dumber on Purpose",
-      "source": "w4g1.dev",
-      "date": "2026.08.16",
-      "href": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
-      "description": "모델 성능 저하 논의 기사."
+      "title": "Civic Hygiene – avoid building technologies that could be used by a police state (2013)",
+      "source": "shkspr.mobi",
+      "date": "2026.08.19",
+      "href": "https://shkspr.mobi/blog/2013/11/civic-hygiene/",
+      "description": "기술 윤리 논의 글."
     }
   ]
 }
