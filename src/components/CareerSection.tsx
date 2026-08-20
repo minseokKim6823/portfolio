@@ -7,9 +7,27 @@ import SectionHeader from "@/components/SectionHeader";
 
 const careers = [
   {
+    company: "더존비즈온",
+    team: "ONEAI개발 Cell",
+    period: "2026.07 - 현재",
+    role: "ONEAI 백엔드 리팩토링 및 API 구조 표준화",
+    projects: [
+      {
+        title: "레거시 백엔드 리팩토링 및 API 명세 표준화",
+        desc: "Map 기반으로 느슨하게 정의되어 있던 API 요청/응답 구조를 DTO로 마이그레이션하고, Swagger(OpenAPI)를 도입해 API 문서화 체계를 구축하는 백엔드 리팩토링을 진행하고 있습니다.",
+        details: [
+          "Swagger(OpenAPI) 도입으로 API 명세 자동화 및 문서화 체계 구축",
+          "Map 기반 request/response 구조를 명시적 DTO로 마이그레이션하여 타입 안정성 확보",
+          "API 계약(Contract) 명확화를 통한 협업 효율성 및 코드 유지보수성 개선",
+        ],
+        tech: ["Spring Boot", "Swagger(OpenAPI)"],
+      },
+    ],
+  },
+  {
     company: "태화이노베이션",
     team: "기술연구소",
-    period: "2025.03 - 현재",
+    period: "2025.03 - 2026.07",
     role: "AI-OCR 솔루션 및 금융권 프로젝트 백엔드 개발",
     projects: [
       {

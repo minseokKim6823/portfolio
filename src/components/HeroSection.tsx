@@ -51,7 +51,7 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
         >
           <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
           <span className="font-mono text-[11px] text-muted-foreground tracking-wider uppercase">
-            Backend · ERP · SAP
+            Backend · AI · SAP
           </span>
         </motion.div>
 
@@ -74,7 +74,7 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
               animate={{ y: "0%" }}
               transition={{ duration: 1, delay: 0.5, ease: EASE }}
             >
-              백엔드 · ERP · SAP
+              백엔드 · AI · SAP
             </motion.p>
           </div>
         </div>
@@ -95,9 +95,9 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.9, ease: EASE }}
           >
-            금융권 프로젝트에서 검증된 백엔드 역량과
+            AI·금융권 프로젝트로 검증된 백엔드 설계력과
             <br className="hidden sm:block" />
-            SAP·ERP 도메인 경험을 갖춘 개발자입니다.
+            SAP·ERP 도메인 전문성을 더해가는 개발자입니다.
           </motion.p>
 
           <motion.div
