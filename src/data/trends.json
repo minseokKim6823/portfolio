@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-08-19T22:30:47.402Z",
-  "theme": "AI Regulation, AI Impact",
+  "updatedAt": "2026-08-21T22:31:21.482Z",
+  "theme": "AI 모델 경쟁",
   "articles": [
     {
-      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
       "source": "TechCrunch",
-      "date": "2026.08.19",
-      "href": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
-      "description": "고객 프라이버시 보호 강화 발표기사."
+      "date": "2026.08.20",
+      "href": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+      "description": "AI 모델 경쟁 구도를 정리한 기사."
     },
     {
-      "title": "AI was supposed to win people over by now — it hasn’t",
+      "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
       "source": "TechCrunch",
-      "date": "2026.08.19",
-      "href": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
-      "description": "AI 채택 속도 짚은 글."
+      "date": "2026.08.20",
+      "href": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+      "description": "새로운 기능 출시에 대한 글."
     },
     {
-      "title": "Google packs Search and Gemini with new AI study tools",
+      "title": "A third of web pages published since ChatGPT launched were written by AI, study finds",
       "source": "TechCrunch",
-      "date": "2026.08.19",
-      "href": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
-      "description": "검색 및 인공지능 도구 업데이트기사."
+      "date": "2026.08.20",
+      "href": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+      "description": "AI 생성 콘텐츠 증가에 대한 분석 발표."
     },
     {
-      "title": "Researchers say OpenAI revoked their access to limited cyber program",
+      "title": "OK, can we actually cool data centers with our pee?",
       "source": "TechCrunch",
-      "date": "2026.08.19",
-      "href": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
-      "description": "인공지능 프로그램 접근 차단 발표기사."
+      "date": "2026.08.20",
+      "href": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
+      "description": "혁신적인 아이디어에 대한 기사."
     },
     {
-      "title": "OpenAI hit the brakes. Now what?",
+      "title": "Grok keeps sending gibberish responses to users",
+      "source": "TechCrunch",
+      "date": "2026.08.20",
+      "href": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
+      "description": "인공지능 모델의 문제점에 대한 글."
+    },
+    {
+      "title": "It’s Greg Brockman’s OpenAI now",
       "source": "The Verge",
-      "date": "2026.08.19",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-      "description": "인공지능 회사 행보 분석글."
-    },
-    {
-      "title": "Civic Hygiene – avoid building technologies that could be used by a police state (2013)",
-      "source": "shkspr.mobi",
-      "date": "2026.08.19",
-      "href": "https://shkspr.mobi/blog/2013/11/civic-hygiene/",
-      "description": "기술 윤리 논의 글."
+      "date": "2026.08.20",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "description": "인공지능 산업의 리더십 변화에 대한 기사."
     }
   ]
 }
