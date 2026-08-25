@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-08-23T22:28:55.715Z",
-  "theme": "AI 모델 경쟁",
+  "updatedAt": "2026-08-25T22:33:45.335Z",
+  "theme": "AI Chip Performance",
   "articles": [
     {
-      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
       "source": "TechCrunch",
-      "date": "2026.08.22",
-      "href": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "description": "Inherent의 AI 팀메이트가 Anthropic과 OpenAI를 능가했다는 발표."
+      "date": "2026.08.25",
+      "href": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "description": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show 기사."
     },
     {
-      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+      "source": "The Verge",
+      "date": "2026.08.25",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+      "description": "OpenAI says its Jalapeño chip can power faster AI responses than the competition 기사."
+    },
+    {
+      "title": "Claude Cowork finally remembers what you told the app in chat",
       "source": "TechCrunch",
-      "date": "2026.08.23",
-      "href": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
-      "description": "Anthropic의 최신 AI 모델이 사용자를 끌어모으는 데 어려움을 겪고 있다는 기사."
+      "date": "2026.08.25",
+      "href": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+      "description": "Claude Cowork finally remembers what you told the app in chat 기사."
     },
     {
-      "title": "Scientists release biggest 2D map of the universe",
-      "source": "newscenter.lbl.gov",
-      "date": "2026.08.21",
-      "href": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
-      "description": "세계 최대 2D 우주 지도가 공개되었다는 기사."
-    },
-    {
-      "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
+      "title": "Gamma acquires Accel-backed design startup Lica",
       "source": "TechCrunch",
-      "date": "2026.08.23",
-      "href": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
-      "description": "저작권 문제로 인해 AI 모델 학습이 법적으로 복잡해졌다는 기사."
+      "date": "2026.08.25",
+      "href": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+      "description": "Gamma acquires Accel-backed design startup Lica 기사."
     },
     {
-      "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
+      "title": "Accel-backed Keenable is indexing the web for AI agents",
       "source": "TechCrunch",
-      "date": "2026.08.23",
-      "href": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
-      "description": "Flock CEO가 감시 회사로서의 입장에 대해 타협을 요구하는 발표."
+      "date": "2026.08.25",
+      "href": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
+      "description": "Accel-backed Keenable is indexing the web for AI agents 기사."
     },
     {
-      "title": "Quoting Drew Breunig",
-      "source": "Simon Willison",
-      "date": "2026.08.23",
-      "href": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
-      "description": "Ox Alpha라는 새로운 스텔스 모델의 배후를 파헤친 기사."
+      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
+      "source": "TechCrunch",
+      "date": "2026.08.24",
+      "href": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
+      "description": "OpenAI is building AI agents for everything. Will everyone use them? 기사."
     }
   ]
 }
