@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-08-25T22:33:45.335Z",
-  "theme": "AI Chip Performance",
+  "updatedAt": "2026-08-28T06:03:06.999Z",
+  "theme": "AI Regulation, AI Model Release",
   "articles": [
     {
-      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
       "source": "TechCrunch",
-      "date": "2026.08.25",
-      "href": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
-      "description": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show 기사."
+      "date": "2026.08.27",
+      "href": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+      "description": "AI 관련 기업들의 긴밀한 협력과 대응 전략 발표."
     },
     {
-      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+      "source": "TechCrunch",
+      "date": "2026.08.27",
+      "href": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+      "description": "AI 모델 출시와 그 영향에 대한 분석."
+    },
+    {
+      "title": "Google’s AI note-taking app now allows you to interact with books",
       "source": "The Verge",
-      "date": "2026.08.25",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
-      "description": "OpenAI says its Jalapeño chip can power faster AI responses than the competition 기사."
+      "date": "2026.08.27",
+      "href": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
+      "description": "구글의 새로운 AI 기능 발표."
     },
     {
-      "title": "Claude Cowork finally remembers what you told the app in chat",
-      "source": "TechCrunch",
-      "date": "2026.08.25",
-      "href": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
-      "description": "Claude Cowork finally remembers what you told the app in chat 기사."
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "source": "Simon Willison",
+      "date": "2026.08.27",
+      "href": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "description": "AI 기술의 발전과 그 영향에 대한 기사."
     },
     {
-      "title": "Gamma acquires Accel-backed design startup Lica",
+      "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
       "source": "TechCrunch",
-      "date": "2026.08.25",
-      "href": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
-      "description": "Gamma acquires Accel-backed design startup Lica 기사."
+      "date": "2026.08.27",
+      "href": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+      "description": "구글의 AI 모드 기능 업데이트 발표."
     },
     {
-      "title": "Accel-backed Keenable is indexing the web for AI agents",
+      "title": "AI’s memory crunch is coming for Android apps",
       "source": "TechCrunch",
-      "date": "2026.08.25",
-      "href": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
-      "description": "Accel-backed Keenable is indexing the web for AI agents 기사."
-    },
-    {
-      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
-      "source": "TechCrunch",
-      "date": "2026.08.24",
-      "href": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
-      "description": "OpenAI is building AI agents for everything. Will everyone use them? 기사."
+      "date": "2026.08.27",
+      "href": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+      "description": "AI 기술이 안드로이드 앱에 미치는 영향 분석."
     }
   ]
 }
