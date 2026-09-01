@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-08-30T00:02:14.298Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-09-01T01:10:30.962Z",
+  "theme": "AI Regulation, AI Model Release",
   "articles": [
     {
-      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
-      "source": "TechCrunch",
-      "date": "2026.08.28",
-      "href": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
-      "description": "GLM-5.3 오픈 웨이트 발표기사."
-    },
-    {
-      "title": "GLM-5.3 is now open-weight",
-      "source": "huggingface.co",
-      "date": "2026.08.28",
-      "href": "https://huggingface.co/zai-org/GLM-5.3",
-      "description": "GLM-5.3 오픈 웨이트 발표기사."
-    },
-    {
-      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
-      "source": "blog.luanti.org",
-      "date": "2026.08.28",
-      "href": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-      "description": "Luanti 앱 삭제 관련 글."
-    },
-    {
-      "title": "Sony Music and Warner Chappell are suing Anthropic",
+      "title": "ChatGPT to face tougher regulation in the EU",
       "source": "The Verge",
-      "date": "2026.08.29",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-      "description": "인터넷 침해 주제 깊이 있는 분석글."
+      "date": "2026.08.31",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+      "description": "AI 규제 관련 발표 중 가장 중요한 기사."
     },
     {
-      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+      "title": "Instagram cracks down on AI accounts pretending to be human",
       "source": "The Verge",
-      "date": "2026.08.28",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
-      "description": "트럼프 행정부의 Anthropic 블랙리스트 불법 판결 보도."
+      "date": "2026.08.31",
+      "href": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
+      "description": "인스타그램의 AI 계정 규제 관련 기사."
     },
     {
-      "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+      "title": "The Pentagon now has its own version of ChatGPT and Grok",
       "source": "TechCrunch",
-      "date": "2026.08.28",
-      "href": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
-      "description": "메타 임원의 오픈AI 이적 보도기사."
+      "date": "2026.08.31",
+      "href": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "description": "미국 국방부의 자체 AI 도입 관련 기사."
+    },
+    {
+      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+      "source": "TechCrunch",
+      "date": "2026.08.31",
+      "href": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+      "description": "엔비디아의 메디아텍 투자 관련 기사."
+    },
+    {
+      "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+      "source": "TechCrunch",
+      "date": "2026.08.31",
+      "href": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+      "description": "AI 기술 활용한 클립토 서비스 관련 기사."
+    },
+    {
+      "title": "Introducing wrapture",
+      "source": "Simon Willison",
+      "date": "2026.08.31",
+      "href": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "description": "새로운 라이브러리 소개 관련 기사."
     }
   ]
 }
