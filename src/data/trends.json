@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-01T01:10:30.962Z",
-  "theme": "AI Regulation, AI Model Release",
+  "updatedAt": "2026-09-01T23:55:49.459Z",
+  "theme": "AI 모델 경쟁",
   "articles": [
     {
-      "title": "ChatGPT to face tougher regulation in the EU",
+      "title": "Open AI’s Astra model is on the way — and very good at breaking into computer systems",
+      "source": "TechCrunch",
+      "date": "2026.09.01",
+      "href": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "description": "Open AI의 새로운 모델 발표기사."
+    },
+    {
+      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
       "source": "The Verge",
-      "date": "2026.08.31",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-      "description": "AI 규제 관련 발표 중 가장 중요한 기사."
+      "date": "2026.09.01",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+      "description": "새로운 모델 개발 지연 발표기사."
     },
     {
-      "title": "Instagram cracks down on AI accounts pretending to be human",
-      "source": "The Verge",
-      "date": "2026.08.31",
-      "href": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
-      "description": "인스타그램의 AI 계정 규제 관련 기사."
-    },
-    {
-      "title": "The Pentagon now has its own version of ChatGPT and Grok",
+      "title": "Anthropic’s new Fable release is cheaper, less restrictive",
       "source": "TechCrunch",
-      "date": "2026.08.31",
-      "href": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-      "description": "미국 국방부의 자체 AI 도입 관련 기사."
+      "date": "2026.09.01",
+      "href": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+      "description": "Anthropic의 새 모델 발표기사."
     },
     {
-      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "source": "anthropic.com",
+      "date": "2026.09.01",
+      "href": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "description": "Anthropic의 새 모델 발표기사."
+    },
+    {
+      "title": "Google’s answer to Canva is an AI tool where you prompt instead of design",
       "source": "TechCrunch",
-      "date": "2026.08.31",
-      "href": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-      "description": "엔비디아의 메디아텍 투자 관련 기사."
+      "date": "2026.09.01",
+      "href": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+      "description": "Google의 새 AI 도구 발표기사."
     },
     {
-      "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+      "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
       "source": "TechCrunch",
-      "date": "2026.08.31",
-      "href": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-      "description": "AI 기술 활용한 클립토 서비스 관련 기사."
-    },
-    {
-      "title": "Introducing wrapture",
-      "source": "Simon Willison",
-      "date": "2026.08.31",
-      "href": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-      "description": "새로운 라이브러리 소개 관련 기사."
+      "date": "2026.09.01",
+      "href": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+      "description": "의료 데이터 통합 기능 발표기사."
     }
   ]
 }
