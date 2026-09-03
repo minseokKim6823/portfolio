@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-01T23:55:49.459Z",
-  "theme": "AI 모델 경쟁",
+  "updatedAt": "2026-09-03T23:55:49.780Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "Open AI’s Astra model is on the way — and very good at breaking into computer systems",
+      "title": "OpenAI launches Astra, its powerful (and controversial) new model",
       "source": "TechCrunch",
-      "date": "2026.09.01",
-      "href": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-      "description": "Open AI의 새로운 모델 발표기사."
+      "date": "2026.09.03",
+      "href": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+      "description": "OpenAI의 새로운 모델 출시 기사."
     },
     {
-      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+      "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
       "source": "The Verge",
-      "date": "2026.09.01",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
-      "description": "새로운 모델 개발 지연 발표기사."
+      "date": "2026.09.03",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "description": "AGI 시대 진입 발표 기사."
     },
     {
-      "title": "Anthropic’s new Fable release is cheaper, less restrictive",
+      "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
       "source": "TechCrunch",
-      "date": "2026.09.01",
-      "href": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
-      "description": "Anthropic의 새 모델 발표기사."
+      "date": "2026.09.03",
+      "href": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "description": "대규모 투자 소식 기사."
     },
     {
-      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
-      "source": "anthropic.com",
-      "date": "2026.09.01",
-      "href": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "description": "Anthropic의 새 모델 발표기사."
+      "title": "Nvidia is buying Hugging Face for almost $13 billion",
+      "source": "The Verge",
+      "date": "2026.09.03",
+      "href": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+      "description": "인공지능 업계 대형 인수 기사."
     },
     {
-      "title": "Google’s answer to Canva is an AI tool where you prompt instead of design",
-      "source": "TechCrunch",
-      "date": "2026.09.01",
-      "href": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
-      "description": "Google의 새 AI 도구 발표기사."
+      "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
+      "source": "The Verge",
+      "date": "2026.09.02",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "description": "새로운 모델 출시에 따른 안전성 우려 기사."
     },
     {
-      "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
-      "source": "TechCrunch",
-      "date": "2026.09.01",
-      "href": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
-      "description": "의료 데이터 통합 기능 발표기사."
+      "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+      "source": "The Verge",
+      "date": "2026.09.02",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+      "description": "구글의 새로운 모델 발표 기사."
     }
   ]
 }
