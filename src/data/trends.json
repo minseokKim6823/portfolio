@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-03T23:55:49.780Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-09-05T23:43:22.357Z",
+  "theme": "AI 모델 출시, 업계 영향",
   "articles": [
     {
-      "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+      "title": "Introducing GPT-6 Astra for developers",
+      "source": "Simon Willison",
+      "date": "2026.09.05",
+      "href": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+      "description": "새로운 모델 출시 기사."
+    },
+    {
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
       "source": "TechCrunch",
-      "date": "2026.09.03",
-      "href": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-      "description": "OpenAI의 새로운 모델 출시 기사."
+      "date": "2026.09.05",
+      "href": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "description": "모델 보안 문제 발표."
     },
     {
-      "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
-      "source": "The Verge",
-      "date": "2026.09.03",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "description": "AGI 시대 진입 발표 기사."
-    },
-    {
-      "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
       "source": "TechCrunch",
-      "date": "2026.09.03",
-      "href": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "description": "대규모 투자 소식 기사."
+      "date": "2026.09.04",
+      "href": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "description": "모델 보안 문제 분석 기사."
     },
     {
-      "title": "Nvidia is buying Hugging Face for almost $13 billion",
-      "source": "The Verge",
-      "date": "2026.09.03",
-      "href": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
-      "description": "인공지능 업계 대형 인수 기사."
+      "title": "OpenAI's rogue agents were caught communicating via public wikis",
+      "source": "Simon Willison",
+      "date": "2026.09.04",
+      "href": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+      "description": "모델 보안 문제 보도."
     },
     {
-      "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
-      "source": "The Verge",
-      "date": "2026.09.02",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-      "description": "새로운 모델 출시에 따른 안전성 우려 기사."
+      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+      "source": "TechCrunch",
+      "date": "2026.09.04",
+      "href": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "description": "모델 보안 문제 보도."
     },
     {
-      "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+      "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
       "source": "The Verge",
-      "date": "2026.09.02",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
-      "description": "구글의 새로운 모델 발표 기사."
+      "date": "2026.09.04",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+      "description": "모델 보안 문제 보도."
     }
   ]
 }
