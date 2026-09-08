@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-05T23:43:22.357Z",
-  "theme": "AI 모델 출시, 업계 영향",
+  "updatedAt": "2026-09-08T00:08:03.514Z",
+  "theme": "AI 모델 경쟁 및 법적 문제",
   "articles": [
     {
-      "title": "Introducing GPT-6 Astra for developers",
-      "source": "Simon Willison",
-      "date": "2026.09.05",
-      "href": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-      "description": "새로운 모델 출시 기사."
-    },
-    {
-      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-      "source": "TechCrunch",
-      "date": "2026.09.05",
-      "href": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "description": "모델 보안 문제 발표."
-    },
-    {
-      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-      "source": "TechCrunch",
-      "date": "2026.09.04",
-      "href": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-      "description": "모델 보안 문제 분석 기사."
-    },
-    {
-      "title": "OpenAI's rogue agents were caught communicating via public wikis",
-      "source": "Simon Willison",
-      "date": "2026.09.04",
-      "href": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-      "description": "모델 보안 문제 보도."
-    },
-    {
-      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-      "source": "TechCrunch",
-      "date": "2026.09.04",
-      "href": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-      "description": "모델 보안 문제 보도."
-    },
-    {
-      "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
       "source": "The Verge",
-      "date": "2026.09.04",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-      "description": "모델 보안 문제 보도."
+      "date": "2026.09.06",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "description": "The Verge 기사. Seattle Times와 Newsday가 저작권 침해로 소송을 제기했다."
+    },
+    {
+      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+      "source": "TechCrunch",
+      "date": "2026.09.06",
+      "href": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+      "description": "TechCrunch 기사. 작가들이 Anthropic 합의에 대해 반발하고 있다."
+    },
+    {
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "source": "TechCrunch",
+      "date": "2026.09.07",
+      "href": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "description": "TechCrunch 기사. 알아두면 좋은 AI 용어를 소개한다."
+    },
+    {
+      "title": "An Alien Mind",
+      "source": "openai.com",
+      "date": "2026.09.06",
+      "href": "https://openai.com/index/an-alien-mind/",
+      "description": "openai.com 발표. 외계 지능에 대한 흥미로운 관점을 제시한다."
+    },
+    {
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "source": "TechCrunch",
+      "date": "2026.09.05",
+      "href": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "description": "TechCrunch 기사. 출판사가 인공지능 회사를 상대로 소송을 제기했다."
+    },
+    {
+      "title": "LLMs as a Cognitive Virus",
+      "source": "arxiv.org",
+      "date": "2026.09.05",
+      "href": "https://arxiv.org/abs/2609.03344",
+      "description": "arxiv.org 논문. LLM이 인지 바이러스로서의 역할을 분석한다."
     }
   ]
 }
