@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-08T00:08:03.514Z",
-  "theme": "AI 모델 경쟁 및 법적 문제",
+  "updatedAt": "2026-09-10T00:00:01.896Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "title": "Suno releases its first AI music model made with record industry help",
       "source": "The Verge",
-      "date": "2026.09.06",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "description": "The Verge 기사. Seattle Times와 Newsday가 저작권 침해로 소송을 제기했다."
+      "date": "2026.09.09",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+      "description": "Suno 첫 AI 음악 모델 출시 기사."
     },
     {
-      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+      "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+      "source": "The Verge",
+      "date": "2026.09.09",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+      "description": "OpenAI 새로운 수학적 돌파구 발표 기사."
+    },
+    {
+      "title": "Apple CEO John Ternus says the best AI device is still the iPhone",
       "source": "TechCrunch",
-      "date": "2026.09.06",
-      "href": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-      "description": "TechCrunch 기사. 작가들이 Anthropic 합의에 대해 반발하고 있다."
+      "date": "2026.09.09",
+      "href": "https://techcrunch.com/2026/09/09/apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone/",
+      "description": "Apple CEO, 최고의 AI 기기는 iPhone이라는 발언 기사."
     },
     {
-      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "title": "Microsoft has new AI privacy rules for schools",
+      "source": "The Verge",
+      "date": "2026.09.09",
+      "href": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
+      "description": "Microsoft, 학교용 AI 프라이버시 규정 발표 기사."
+    },
+    {
+      "title": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’",
       "source": "TechCrunch",
-      "date": "2026.09.07",
-      "href": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "description": "TechCrunch 기사. 알아두면 좋은 AI 용어를 소개한다."
+      "date": "2026.09.09",
+      "href": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
+      "description": "ControlAI 창업자, 초지능은 무기가 아닌 적이라는 견해 기사."
     },
     {
-      "title": "An Alien Mind",
-      "source": "openai.com",
-      "date": "2026.09.06",
-      "href": "https://openai.com/index/an-alien-mind/",
-      "description": "openai.com 발표. 외계 지능에 대한 흥미로운 관점을 제시한다."
-    },
-    {
-      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "title": "Viral AI assistant Instinct now has its own email address",
       "source": "TechCrunch",
-      "date": "2026.09.05",
-      "href": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "description": "TechCrunch 기사. 출판사가 인공지능 회사를 상대로 소송을 제기했다."
-    },
-    {
-      "title": "LLMs as a Cognitive Virus",
-      "source": "arxiv.org",
-      "date": "2026.09.05",
-      "href": "https://arxiv.org/abs/2609.03344",
-      "description": "arxiv.org 논문. LLM이 인지 바이러스로서의 역할을 분석한다."
+      "date": "2026.09.09",
+      "href": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+      "description": "인기 AI 어시스턴트 Instinct, 이메일 주소 발표 기사."
     }
   ]
 }
