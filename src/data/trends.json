@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-10T00:00:01.896Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-09-12T00:03:02.748Z",
+  "theme": "AI 모델 출시, 업계 경쟁",
   "articles": [
     {
-      "title": "Suno releases its first AI music model made with record industry help",
-      "source": "The Verge",
-      "date": "2026.09.09",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
-      "description": "Suno 첫 AI 음악 모델 출시 기사."
-    },
-    {
-      "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
-      "source": "The Verge",
-      "date": "2026.09.09",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
-      "description": "OpenAI 새로운 수학적 돌파구 발표 기사."
-    },
-    {
-      "title": "Apple CEO John Ternus says the best AI device is still the iPhone",
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
       "source": "TechCrunch",
-      "date": "2026.09.09",
-      "href": "https://techcrunch.com/2026/09/09/apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone/",
-      "description": "Apple CEO, 최고의 AI 기기는 iPhone이라는 발언 기사."
+      "date": "2026.09.11",
+      "href": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+      "description": "Mecka AI 투자 발표 기사."
     },
     {
-      "title": "Microsoft has new AI privacy rules for schools",
-      "source": "The Verge",
-      "date": "2026.09.09",
-      "href": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
-      "description": "Microsoft, 학교용 AI 프라이버시 규정 발표 기사."
-    },
-    {
-      "title": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’",
+      "title": "OpenAI’s feud with mathematicians is only escalating",
       "source": "TechCrunch",
-      "date": "2026.09.09",
-      "href": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
-      "description": "ControlAI 창업자, 초지능은 무기가 아닌 적이라는 견해 기사."
+      "date": "2026.09.11",
+      "href": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+      "description": "OpenAI와 수학자 간 갈등 발표."
     },
     {
-      "title": "Viral AI assistant Instinct now has its own email address",
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
       "source": "TechCrunch",
-      "date": "2026.09.09",
-      "href": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
-      "description": "인기 AI 어시스턴트 Instinct, 이메일 주소 발표 기사."
+      "date": "2026.09.11",
+      "href": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+      "description": "Moonshot AI 새로운 목표 발표."
+    },
+    {
+      "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+      "source": "TechCrunch",
+      "date": "2026.09.11",
+      "href": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+      "description": "Anthropic 연구원 경고 기사."
+    },
+    {
+      "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+      "source": "TechCrunch",
+      "date": "2026.09.10",
+      "href": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+      "description": "OpenAI Pro 구독 중단 발표."
+    },
+    {
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "source": "TechCrunch",
+      "date": "2026.09.10",
+      "href": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "description": "Anthropic 새로운 파트너 발표."
     }
   ]
 }
