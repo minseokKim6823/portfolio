@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-14T00:01:38.131Z",
-  "theme": "AI Regulation",
+  "updatedAt": "2026-09-16T00:05:19.944Z",
+  "theme": "AI 모델 출시, 업계 변화",
   "articles": [
     {
-      "title": "California Brown Pelican",
-      "source": "Simon Willison",
-      "date": "2026.09.12",
-      "href": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
-      "description": "Anthropic CEO says it’s time to pump the brakes on AI 기사."
-    },
-    {
-      "title": "Anthropic CEO outlines plan to slow AI development",
+      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
       "source": "TechCrunch",
-      "date": "2026.09.12",
-      "href": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-      "description": "Anthropic CEO outlines plan to slow AI development 기사."
+      "date": "2026.09.15",
+      "href": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "description": "최근 AI 안전성 논의 상황 파악기사."
     },
     {
-      "title": "We must pace the frontier",
-      "source": "darioamodei.com",
-      "date": "2026.09.12",
-      "href": "https://darioamodei.com/post/we-must-pace-the-frontier",
-      "description": "We must pace the frontier 발표."
-    },
-    {
-      "title": "What’s behind the AI industry’s latest warnings of doom?",
+      "title": "The AI data center boom is colliding with cities scarred by big industry",
       "source": "TechCrunch",
-      "date": "2026.09.13",
-      "href": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
-      "description": "What’s behind the AI industry’s latest warnings of doom? 기사."
+      "date": "2026.09.15",
+      "href": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+      "description": "새로운 AI 모델 소개 글."
     },
     {
-      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-      "source": "TechCrunch",
-      "date": "2026.09.13",
-      "href": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
-      "description": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards 기사."
-    },
-    {
-      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+      "title": "Meta’s new One subscriptions put a price on social media and AI",
       "source": "The Verge",
-      "date": "2026.09.12",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
-      "description": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’ 기사."
+      "date": "2026.09.15",
+      "href": "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai",
+      "description": "메타의 새로운 서비스 발표 글."
+    },
+    {
+      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+      "source": "TechCrunch",
+      "date": "2026.09.15",
+      "href": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+      "description": "AI 데이터 센터 업계 변화 분석 기사."
+    },
+    {
+      "title": "The contagion of fear",
+      "source": "Simon Willison",
+      "date": "2026.09.14",
+      "href": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+      "description": "AI 발전에 대한 두려움 분석 글."
+    },
+    {
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "source": "The Verge",
+      "date": "2026.09.14",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "description": "대기업 AI 개발 지연 논란 기사."
     }
   ]
 }
