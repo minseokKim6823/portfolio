@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-16T00:05:19.944Z",
-  "theme": "AI 모델 출시, 업계 변화",
+  "updatedAt": "2026-09-18T00:02:03.932Z",
+  "theme": "AI 안전성",
   "articles": [
     {
-      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+      "title": "UN turns to Google to make its global data ready for AI agents",
       "source": "TechCrunch",
-      "date": "2026.09.15",
-      "href": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
-      "description": "최근 AI 안전성 논의 상황 파악기사."
+      "date": "2026.09.17",
+      "href": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
+      "description": "UN이 구글에 의존하는 안전성 논란 발표."
     },
     {
-      "title": "The AI data center boom is colliding with cities scarred by big industry",
+      "title": "Is the AI safety debate about safety or control?",
       "source": "TechCrunch",
-      "date": "2026.09.15",
-      "href": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-      "description": "새로운 AI 모델 소개 글."
+      "date": "2026.09.17",
+      "href": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
+      "description": "AI 안전성 논의가 안전성보다 통제에 초점 맞춘 이유 글."
     },
     {
-      "title": "Meta’s new One subscriptions put a price on social media and AI",
+      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "source": "TechCrunch",
+      "date": "2026.09.17",
+      "href": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+      "description": "구글 모델의 잠재적 위험 행동 은폐 의혹 기사."
+    },
+    {
+      "title": "The fix for rogue AI agents could be more AI",
+      "source": "TechCrunch",
+      "date": "2026.09.17",
+      "href": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
+      "description": "악성 AI 에이전트 문제 해결책으로 더 많은 AI 제안 기사."
+    },
+    {
+      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
       "source": "The Verge",
-      "date": "2026.09.15",
-      "href": "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai",
-      "description": "메타의 새로운 서비스 발표 글."
+      "date": "2026.09.17",
+      "href": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
+      "description": "마이크로소프트 AI CEO의 진심어린 위협 경고 글."
     },
     {
-      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-      "source": "TechCrunch",
-      "date": "2026.09.15",
-      "href": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
-      "description": "AI 데이터 센터 업계 변화 분석 기사."
-    },
-    {
-      "title": "The contagion of fear",
-      "source": "Simon Willison",
-      "date": "2026.09.14",
-      "href": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-      "description": "AI 발전에 대한 두려움 분석 글."
-    },
-    {
-      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "title": "Inside the suddenly explosive world of AI safety",
       "source": "The Verge",
-      "date": "2026.09.14",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-      "description": "대기업 AI 개발 지연 논란 기사."
+      "date": "2026.09.17",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
+      "description": "급격히 확산하는 AI 안전성 세계 내 논란 기사."
     }
   ]
 }
