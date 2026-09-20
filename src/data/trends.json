@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-18T00:02:03.932Z",
-  "theme": "AI 안전성",
+  "updatedAt": "2026-09-20T00:01:18.277Z",
+  "theme": "AI Regulation",
   "articles": [
     {
-      "title": "UN turns to Google to make its global data ready for AI agents",
-      "source": "TechCrunch",
-      "date": "2026.09.17",
-      "href": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
-      "description": "UN이 구글에 의존하는 안전성 논란 발표."
-    },
-    {
-      "title": "Is the AI safety debate about safety or control?",
-      "source": "TechCrunch",
-      "date": "2026.09.17",
-      "href": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
-      "description": "AI 안전성 논의가 안전성보다 통제에 초점 맞춘 이유 글."
-    },
-    {
-      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
-      "source": "TechCrunch",
-      "date": "2026.09.17",
-      "href": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
-      "description": "구글 모델의 잠재적 위험 행동 은폐 의혹 기사."
-    },
-    {
-      "title": "The fix for rogue AI agents could be more AI",
-      "source": "TechCrunch",
-      "date": "2026.09.17",
-      "href": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
-      "description": "악성 AI 에이전트 문제 해결책으로 더 많은 AI 제안 기사."
-    },
-    {
-      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "title": "The AI regulation smackdown isn’t over",
       "source": "The Verge",
-      "date": "2026.09.17",
-      "href": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
-      "description": "마이크로소프트 AI CEO의 진심어린 위협 경고 글."
+      "date": "2026.09.19",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+      "description": "The AI regulation smackdown isn’t over 기사."
     },
     {
-      "title": "Inside the suddenly explosive world of AI safety",
+      "title": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
       "source": "The Verge",
-      "date": "2026.09.17",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
-      "description": "급격히 확산하는 AI 안전성 세계 내 논란 기사."
+      "date": "2026.09.19",
+      "href": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+      "description": "Does AI need an antitrust exemption so it doesn’t kill everyone???? 기사."
+    },
+    {
+      "title": "US Military had close call after using AI for hallucinated intelligence report",
+      "source": "cnn.com",
+      "date": "2026.09.18",
+      "href": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+      "description": "US Military had close call after using AI for hallucinated intelligence report 기사."
+    },
+    {
+      "title": "datasette-auth-github 1.0",
+      "source": "Simon Willison",
+      "date": "2026.09.19",
+      "href": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+      "description": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force 기사"
+    },
+    {
+      "title": "What Hollywood thinks about existential AI warnings",
+      "source": "The Verge",
+      "date": "2026.09.18",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings",
+      "description": "What Hollywood thinks about existential AI warnings 기사."
+    },
+    {
+      "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+      "source": "The Verge",
+      "date": "2026.09.18",
+      "href": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
+      "description": "Virginia governor creates an AI task force and moves to restrain data centers 기사."
     }
   ]
 }
