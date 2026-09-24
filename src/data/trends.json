@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-22T00:40:58.160Z",
+  "updatedAt": "2026-09-24T00:21:16.544Z",
   "theme": "AI 모델 경쟁, 규제",
   "articles": [
     {
-      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
       "source": "Simon Willison",
-      "date": "2026.09.21",
-      "href": "https://simonwillison.net/2026/Sep/21/jev/",
-      "description": "Jev의 새로운 LLM 모델 소개기사."
+      "date": "2026.09.22",
+      "href": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "description": "최신 AI 모델 출시 및 가격 전쟁 소개."
     },
     {
-      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+      "source": "foxscript.org",
+      "date": "2026.09.22",
+      "href": "https://foxscript.org/",
+      "description": "최신 AI 모델 경쟁 구조 파악."
+    },
+    {
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "source": "anthropic.com",
+      "date": "2026.09.23",
+      "href": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "description": "최신 생물학 연구 발표."
+    },
+    {
+      "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
       "source": "TechCrunch",
-      "date": "2026.09.21",
-      "href": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
-      "description": "OpenAI의 수학 문제 해결 능력 발표기사."
+      "date": "2026.09.23",
+      "href": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
+      "description": "새로운 자연 유래 AI 약물 개발 투자."
     },
     {
-      "title": "Grok 4.7",
-      "source": "x.ai",
-      "date": "2026.09.21",
-      "href": "https://x.ai/news/grok-4-7",
-      "description": "Grok 4.7 출시 발표기사."
+      "title": "Even Americans who use AI every day are worried about it",
+      "source": "TechCrunch",
+      "date": "2026.09.23",
+      "href": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
+      "description": "미국인의 AI 사용 및 우려 조사."
     },
     {
-      "title": "Attention is all you have",
-      "source": "alicegg.tech",
-      "date": "2026.09.21",
-      "href": "https://alicegg.tech/2026/09/21/attention",
-      "description": "주목해야 할 기술 주제 소개기사."
-    },
-    {
-      "title": "UN says AI safeguards can’t wait for certainty",
-      "source": "The Verge",
-      "date": "2026.09.21",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
-      "description": "유엔의 AI 안전 보장 촉구 발표기사."
-    },
-    {
-      "title": "Amazon blocks Meta’s Muse AI agent",
-      "source": "The Verge",
-      "date": "2026.09.21",
-      "href": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-      "description": "Amazon의 Meta AI 차단 보도기사."
+      "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
+      "source": "TechCrunch",
+      "date": "2026.09.23",
+      "href": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital/",
+      "description": "벤처 캐피탈 규칙 변화 분석."
     }
   ]
 }
