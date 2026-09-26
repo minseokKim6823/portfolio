@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-24T00:21:16.544Z",
-  "theme": "AI 모델 경쟁, 규제",
+  "updatedAt": "2026-09-26T00:28:31.263Z",
+  "theme": "AI 모델 경쟁",
   "articles": [
     {
-      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-      "source": "Simon Willison",
-      "date": "2026.09.22",
-      "href": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-      "description": "최신 AI 모델 출시 및 가격 전쟁 소개."
-    },
-    {
-      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
-      "source": "foxscript.org",
-      "date": "2026.09.22",
-      "href": "https://foxscript.org/",
-      "description": "최신 AI 모델 경쟁 구조 파악."
-    },
-    {
-      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "source": "anthropic.com",
-      "date": "2026.09.23",
-      "href": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "description": "최신 생물학 연구 발표."
-    },
-    {
-      "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
       "source": "TechCrunch",
-      "date": "2026.09.23",
-      "href": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
-      "description": "새로운 자연 유래 AI 약물 개발 투자."
+      "date": "2026.09.25",
+      "href": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+      "description": "잘못된 데이터 노출 문제 기사."
     },
     {
-      "title": "Even Americans who use AI every day are worried about it",
+      "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
       "source": "TechCrunch",
-      "date": "2026.09.23",
-      "href": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
-      "description": "미국인의 AI 사용 및 우려 조사."
+      "date": "2026.09.25",
+      "href": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+      "description": "클라우드 계약 발표 기사."
     },
     {
-      "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
+      "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
       "source": "TechCrunch",
-      "date": "2026.09.23",
-      "href": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital/",
-      "description": "벤처 캐피탈 규칙 변화 분석."
+      "date": "2026.09.25",
+      "href": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+      "description": "메타 뮤즈 인기 기사."
+    },
+    {
+      "title": "Meta makes the Muse filesystem even more accessible",
+      "source": "The Verge",
+      "date": "2026.09.25",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
+      "description": "메타 뮤즈 파일시스템 기사."
+    },
+    {
+      "title": "Meta’s AI Tamagotchi bet is…working?",
+      "source": "TechCrunch",
+      "date": "2026.09.25",
+      "href": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
+      "description": "메타 뮤즈 성공 기사."
+    },
+    {
+      "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
+      "source": "TechCrunch",
+      "date": "2026.09.25",
+      "href": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
+      "description": "오픈AI 데이터 수집 기사."
     }
   ]
 }
