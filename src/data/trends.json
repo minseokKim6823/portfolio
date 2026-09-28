@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-26T00:28:31.263Z",
+  "updatedAt": "2026-09-28T00:28:36.346Z",
   "theme": "AI 모델 경쟁",
   "articles": [
     {
-      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-      "source": "TechCrunch",
-      "date": "2026.09.25",
-      "href": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-      "description": "잘못된 데이터 노출 문제 기사."
+      "title": "2026 in LLMs (so far)",
+      "source": "Simon Willison",
+      "date": "2026.09.27",
+      "href": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "description": "2026년 AI 모델 경쟁 구도를 정리한 기사."
     },
     {
-      "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
-      "source": "TechCrunch",
-      "date": "2026.09.25",
-      "href": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
-      "description": "클라우드 계약 발표 기사."
-    },
-    {
-      "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
-      "source": "TechCrunch",
-      "date": "2026.09.25",
-      "href": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
-      "description": "메타 뮤즈 인기 기사."
-    },
-    {
-      "title": "Meta makes the Muse filesystem even more accessible",
+      "title": "Engram is a sampler that turns broken AI hallucinations into music",
       "source": "The Verge",
-      "date": "2026.09.25",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
-      "description": "메타 뮤즈 파일시스템 기사."
+      "date": "2026.09.27",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+      "description": "깨진 AI 환각을 음악으로 바꾸는 새로운 샘플러 발표."
     },
     {
-      "title": "Meta’s AI Tamagotchi bet is…working?",
+      "title": "Anthropic’s CEO is about to have dinner with President Trump",
       "source": "TechCrunch",
-      "date": "2026.09.25",
-      "href": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
-      "description": "메타 뮤즈 성공 기사."
+      "date": "2026.09.27",
+      "href": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+      "description": "인공지능 기업 CEO와 대통령의 만남 보도."
     },
     {
-      "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
+      "title": "Can Muse overcome Meta’s trust issues?",
       "source": "TechCrunch",
-      "date": "2026.09.25",
-      "href": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
-      "description": "오픈AI 데이터 수집 기사."
+      "date": "2026.09.27",
+      "href": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+      "description": "메타의 신뢰 문제를 해결할 수 있는지 분석."
+    },
+    {
+      "title": "Ember-1",
+      "source": "fireworks.ai",
+      "date": "2026.09.27",
+      "href": "https://fireworks.ai/blog/ember-1",
+      "description": "새로운 인공지능 모델 발표."
+    },
+    {
+      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "source": "The Verge",
+      "date": "2026.09.27",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "description": "인공지능 에이전트가 유엔 웹사이트를 탐색한 기사."
     }
   ]
 }
