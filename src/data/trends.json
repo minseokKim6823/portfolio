@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-28T00:28:36.346Z",
-  "theme": "AI 모델 경쟁",
+  "updatedAt": "2026-09-30T01:11:14.374Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "2026 in LLMs (so far)",
-      "source": "Simon Willison",
-      "date": "2026.09.27",
-      "href": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-      "description": "2026년 AI 모델 경쟁 구도를 정리한 기사."
-    },
-    {
-      "title": "Engram is a sampler that turns broken AI hallucinations into music",
-      "source": "The Verge",
-      "date": "2026.09.27",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
-      "description": "깨진 AI 환각을 음악으로 바꾸는 새로운 샘플러 발표."
-    },
-    {
-      "title": "Anthropic’s CEO is about to have dinner with President Trump",
+      "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
       "source": "TechCrunch",
-      "date": "2026.09.27",
-      "href": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-      "description": "인공지능 기업 CEO와 대통령의 만남 보도."
+      "date": "2026.09.29",
+      "href": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+      "description": "최신 모델 출시 관련 중요 정보 파악기사."
     },
     {
-      "title": "Can Muse overcome Meta’s trust issues?",
+      "title": "OpenAI’s latest features take direct aim at the app store model",
       "source": "TechCrunch",
-      "date": "2026.09.27",
-      "href": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
-      "description": "메타의 신뢰 문제를 해결할 수 있는지 분석."
+      "date": "2026.09.29",
+      "href": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+      "description": "업계 내 모델 경쟁 구도 변화 파악기사."
     },
     {
-      "title": "Ember-1",
-      "source": "fireworks.ai",
-      "date": "2026.09.27",
-      "href": "https://fireworks.ai/blog/ember-1",
-      "description": "새로운 인공지능 모델 발표."
+      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+      "source": "TechCrunch",
+      "date": "2026.09.29",
+      "href": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+      "description": "새로운 서비스 출시 관련 중요 정보 파악기사."
     },
     {
-      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "title": "OpenAI gives Codex reusable cloud environments that work across devices",
+      "source": "TechCrunch",
+      "date": "2026.09.29",
+      "href": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+      "description": "클라우드 환경 관련 중요 기능 업데이트 파악기사."
+    },
+    {
+      "title": "OpenAI expands ChatGPT’s plug-ins with app-like interfaces and automations",
+      "source": "TechCrunch",
+      "date": "2026.09.29",
+      "href": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
+      "description": "플러그인 기능 업데이트 관련 중요 정보 파악기사."
+    },
+    {
+      "title": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
       "source": "The Verge",
-      "date": "2026.09.27",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
-      "description": "인공지능 에이전트가 유엔 웹사이트를 탐색한 기사."
+      "date": "2026.09.29",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
+      "description": "슈퍼인텔리전스 위험성 논의 관련 중요 정보 파악기사."
     }
   ]
 }
