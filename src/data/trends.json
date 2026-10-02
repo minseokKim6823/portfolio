@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-09-30T01:11:14.374Z",
+  "updatedAt": "2026-10-02T01:29:58.222Z",
   "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
-      "source": "TechCrunch",
-      "date": "2026.09.29",
-      "href": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
-      "description": "최신 모델 출시 관련 중요 정보 파악기사."
-    },
-    {
-      "title": "OpenAI’s latest features take direct aim at the app store model",
-      "source": "TechCrunch",
-      "date": "2026.09.29",
-      "href": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
-      "description": "업계 내 모델 경쟁 구도 변화 파악기사."
-    },
-    {
-      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
-      "source": "TechCrunch",
-      "date": "2026.09.29",
-      "href": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-      "description": "새로운 서비스 출시 관련 중요 정보 파악기사."
-    },
-    {
-      "title": "OpenAI gives Codex reusable cloud environments that work across devices",
-      "source": "TechCrunch",
-      "date": "2026.09.29",
-      "href": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
-      "description": "클라우드 환경 관련 중요 기능 업데이트 파악기사."
-    },
-    {
-      "title": "OpenAI expands ChatGPT’s plug-ins with app-like interfaces and automations",
-      "source": "TechCrunch",
-      "date": "2026.09.29",
-      "href": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
-      "description": "플러그인 기능 업데이트 관련 중요 정보 파악기사."
-    },
-    {
-      "title": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
+      "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
       "source": "The Verge",
-      "date": "2026.09.29",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
-      "description": "슈퍼인텔리전스 위험성 논의 관련 중요 정보 파악기사."
+      "date": "2026.09.30",
+      "href": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+      "description": "Google의 가장 강력한 모델 발표 기사."
+    },
+    {
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "source": "TechCrunch",
+      "date": "2026.09.30",
+      "href": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "description": "Google의 가장 강력한 모델 발표 기사."
+    },
+    {
+      "title": "ChatGPT can now virtually try on clothes for you",
+      "source": "TechCrunch",
+      "date": "2026.10.01",
+      "href": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "description": "옷 시도 기능 도입 기사."
+    },
+    {
+      "title": "Brian Chesky interview: AI agents need their own operating system",
+      "source": "TechCrunch",
+      "date": "2026.10.01",
+      "href": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
+      "description": "AI 에이전트 운영체제 필요성 발표."
+    },
+    {
+      "title": "He Built This City",
+      "source": "Simon Willison",
+      "date": "2026.09.30",
+      "href": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
+      "description": "프런티어 모델 경쟁 구도를 정리한 기사."
+    },
+    {
+      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
+      "source": "The Verge",
+      "date": "2026.10.01",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+      "description": "메타의 새 에이전트 출시 기사."
     }
   ]
 }
