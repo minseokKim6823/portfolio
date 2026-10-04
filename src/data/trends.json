@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-02T01:29:58.222Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-10-04T00:27:54.091Z",
+  "theme": "AI Regulation, AI Safety",
   "articles": [
     {
-      "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "source": "TechCrunch",
+      "date": "2026.10.03",
+      "href": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "description": "오픈AI 안전 직원의 퇴사와 회사 문화 문제 폭로기사."
+    },
+    {
+      "title": "Capcom is preparing for a ‘future where we create games together with AI’",
       "source": "The Verge",
-      "date": "2026.09.30",
-      "href": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
-      "description": "Google의 가장 강력한 모델 발표 기사."
+      "date": "2026.10.03",
+      "href": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+      "description": "아마존의 데이터 센터 반발에 대한 회사 입장 발표기사."
     },
     {
-      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
       "source": "TechCrunch",
-      "date": "2026.09.30",
-      "href": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-      "description": "Google의 가장 강력한 모델 발표 기사."
+      "date": "2026.10.03",
+      "href": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "description": "캡콤의 AI와 함께 게임 제작 미래 전망 발표기사."
     },
     {
-      "title": "ChatGPT can now virtually try on clothes for you",
+      "title": "All the AI agents that can live in your text messages",
       "source": "TechCrunch",
-      "date": "2026.10.01",
-      "href": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-      "description": "옷 시도 기능 도입 기사."
+      "date": "2026.10.03",
+      "href": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "description": "텍스트 메시지 내 살아있는 AI 에이전트 소개기사."
     },
     {
-      "title": "Brian Chesky interview: AI agents need their own operating system",
-      "source": "TechCrunch",
-      "date": "2026.10.01",
-      "href": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
-      "description": "AI 에이전트 운영체제 필요성 발표."
+      "title": "Extra Big Ass Intelligence",
+      "source": "extrabigassintelligence.com",
+      "date": "2026.10.03",
+      "href": "https://www.extrabigassintelligence.com/",
+      "description": "독일의 주권 LLM 작동 원리 분석기사."
     },
     {
-      "title": "He Built This City",
-      "source": "Simon Willison",
-      "date": "2026.09.30",
-      "href": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
-      "description": "프런티어 모델 경쟁 구도를 정리한 기사."
-    },
-    {
-      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-      "source": "The Verge",
-      "date": "2026.10.01",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
-      "description": "메타의 새 에이전트 출시 기사."
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "source": "dwarfstar.sh",
+      "date": "2026.10.02",
+      "href": "https://dwarfstar.sh/",
+      "description": "레디스 제작자의 로컬 LLM 실행 도구 소개기사."
     }
   ]
 }
