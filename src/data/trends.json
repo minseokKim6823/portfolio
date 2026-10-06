@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-04T00:27:54.091Z",
-  "theme": "AI Regulation, AI Safety",
+  "updatedAt": "2026-10-06T02:10:36.211Z",
+  "theme": "AI Model Release",
   "articles": [
     {
-      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
       "source": "TechCrunch",
-      "date": "2026.10.03",
-      "href": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-      "description": "오픈AI 안전 직원의 퇴사와 회사 문화 문제 폭로기사."
+      "date": "2026.10.05",
+      "href": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+      "description": "Reflection이 새로운 오픈 웨이트 AI 모델을 출시한 기사."
     },
     {
-      "title": "Capcom is preparing for a ‘future where we create games together with AI’",
-      "source": "The Verge",
-      "date": "2026.10.03",
-      "href": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
-      "description": "아마존의 데이터 센터 반발에 대한 회사 입장 발표기사."
-    },
-    {
-      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
       "source": "TechCrunch",
-      "date": "2026.10.03",
-      "href": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-      "description": "캡콤의 AI와 함께 게임 제작 미래 전망 발표기사."
+      "date": "2026.10.05",
+      "href": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+      "description": "TikTok이 AI 쇼핑 어시스턴트를 출시한 기사."
     },
     {
-      "title": "All the AI agents that can live in your text messages",
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
       "source": "TechCrunch",
-      "date": "2026.10.03",
-      "href": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "description": "텍스트 메시지 내 살아있는 AI 에이전트 소개기사."
+      "date": "2026.10.05",
+      "href": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "description": "유럽에서의 텍스트 워터마킹 도입 발표 기사."
     },
     {
-      "title": "Extra Big Ass Intelligence",
-      "source": "extrabigassintelligence.com",
-      "date": "2026.10.03",
-      "href": "https://www.extrabigassintelligence.com/",
-      "description": "독일의 주권 LLM 작동 원리 분석기사."
+      "title": "OpenAI launches visual ads that appear alongside image generation results",
+      "source": "TechCrunch",
+      "date": "2026.10.05",
+      "href": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+      "description": "오픈AI가 이미지 생성 결과에 광고를 추가한 기사."
     },
     {
-      "title": "From the creator of Redis; run LLM locally with ds4",
-      "source": "dwarfstar.sh",
-      "date": "2026.10.02",
-      "href": "https://dwarfstar.sh/",
-      "description": "레디스 제작자의 로컬 LLM 실행 도구 소개기사."
+      "title": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
+      "source": "TechCrunch",
+      "date": "2026.10.05",
+      "href": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/",
+      "description": "오픈 또는 클로즈드 AI에 대한 기업가의 선택 기사."
+    },
+    {
+      "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+      "source": "TechCrunch",
+      "date": "2026.10.05",
+      "href": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+      "description": "중국의 AI 에이전트 플릿 추적 기사."
     }
   ]
 }
