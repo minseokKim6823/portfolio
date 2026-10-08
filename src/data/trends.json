@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-06T02:10:36.211Z",
-  "theme": "AI Model Release",
+  "updatedAt": "2026-10-08T01:43:43.475Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
       "source": "TechCrunch",
-      "date": "2026.10.05",
-      "href": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-      "description": "Reflection이 새로운 오픈 웨이트 AI 모델을 출시한 기사."
+      "date": "2026.10.07",
+      "href": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "description": "Nous Research 발표 기사."
     },
     {
-      "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
       "source": "TechCrunch",
-      "date": "2026.10.05",
-      "href": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
-      "description": "TikTok이 AI 쇼핑 어시스턴트를 출시한 기사."
+      "date": "2026.10.07",
+      "href": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+      "description": "마이크로소프트 발표 기사."
     },
     {
-      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
-      "source": "TechCrunch",
-      "date": "2026.10.05",
-      "href": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-      "description": "유럽에서의 텍스트 워터마킹 도입 발표 기사."
+      "title": "ChatGPT’s ‘Intelligent UI’ update fills its responses with pictures, charts, and buttons",
+      "source": "The Verge",
+      "date": "2026.10.07",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "description": "챗지피티 업데이트 기사."
     },
     {
-      "title": "OpenAI launches visual ads that appear alongside image generation results",
-      "source": "TechCrunch",
-      "date": "2026.10.05",
-      "href": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
-      "description": "오픈AI가 이미지 생성 결과에 광고를 추가한 기사."
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "source": "openai.com",
+      "date": "2026.10.07",
+      "href": "https://openai.com/index/gpt-6-for-everyone/",
+      "description": "오픈에이아이 발표 기사."
     },
     {
-      "title": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
+      "title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
       "source": "TechCrunch",
-      "date": "2026.10.05",
-      "href": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/",
-      "description": "오픈 또는 클로즈드 AI에 대한 기업가의 선택 기사."
+      "date": "2026.10.07",
+      "href": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+      "description": "챗지피티 인터페이스 업데이트 기사."
     },
     {
-      "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+      "title": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
       "source": "TechCrunch",
-      "date": "2026.10.05",
-      "href": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
-      "description": "중국의 AI 에이전트 플릿 추적 기사."
+      "date": "2026.10.07",
+      "href": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
+      "description": "헬스리프 투자 기사."
     }
   ]
 }
