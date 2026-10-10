@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-08T01:43:43.475Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-10-10T01:38:44.503Z",
+  "theme": "AI 모델 출시, AI 안전성",
   "articles": [
     {
-      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-      "source": "TechCrunch",
-      "date": "2026.10.07",
-      "href": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
-      "description": "Nous Research 발표 기사."
-    },
-    {
-      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-      "source": "TechCrunch",
-      "date": "2026.10.07",
-      "href": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-      "description": "마이크로소프트 발표 기사."
-    },
-    {
-      "title": "ChatGPT’s ‘Intelligent UI’ update fills its responses with pictures, charts, and buttons",
+      "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
       "source": "The Verge",
-      "date": "2026.10.07",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-      "description": "챗지피티 업데이트 기사."
+      "date": "2026.10.09",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "description": "'Pure insanity': Mathematicians will need years to make sense of OpenAI’s latest drop 기사."
     },
     {
-      "title": "GPT‑6 and Intelligent UI for everyone",
-      "source": "openai.com",
-      "date": "2026.10.07",
-      "href": "https://openai.com/index/gpt-6-for-everyone/",
-      "description": "오픈에이아이 발표 기사."
-    },
-    {
-      "title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
+      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
       "source": "TechCrunch",
-      "date": "2026.10.07",
-      "href": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
-      "description": "챗지피티 인터페이스 업데이트 기사."
+      "date": "2026.10.09",
+      "href": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "description": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch 기사."
     },
     {
-      "title": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
+      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "source": "The Verge",
+      "date": "2026.10.09",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "description": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide 기사."
+    },
+    {
+      "title": "OpenAI doubles down on decision to fire three AI safety researchers",
+      "source": "The Verge",
+      "date": "2026.10.09",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+      "description": "OpenAI doubles down on decision to fire three AI safety researchers 기사."
+    },
+    {
+      "title": "Ben Affleck is an AI nerd, and the internet is impressed",
       "source": "TechCrunch",
-      "date": "2026.10.07",
-      "href": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
-      "description": "헬스리프 투자 기사."
+      "date": "2026.10.08",
+      "href": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+      "description": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect 기사."
+    },
+    {
+      "title": "Anthropic launches free AI security scans for open-source projects",
+      "source": "The Verge",
+      "date": "2026.10.08",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "description": "Anthropic launches free AI security scans for open-source projects 기사."
     }
   ]
 }
