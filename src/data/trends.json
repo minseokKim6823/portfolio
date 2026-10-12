@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-10T01:38:44.503Z",
-  "theme": "AI 모델 출시, AI 안전성",
+  "updatedAt": "2026-10-12T01:09:42.281Z",
+  "theme": "AI 모델 안전성",
   "articles": [
     {
-      "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
+      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
       "source": "The Verge",
-      "date": "2026.10.09",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
-      "description": "'Pure insanity': Mathematicians will need years to make sense of OpenAI’s latest drop 기사."
+      "date": "2026.10.10",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "description": "Satya Nadella가 AI 모델의 안전성 문제를 지적한 기사."
     },
     {
-      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
       "source": "TechCrunch",
-      "date": "2026.10.09",
-      "href": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-      "description": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch 기사."
+      "date": "2026.10.10",
+      "href": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "description": "Microsoft의 Nadella가 AI 모델의 안전성 문제에 대한 대책을 제안한 기사."
     },
     {
-      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "title": "Anthropic is cutting off its internal evaluations from the internet",
       "source": "The Verge",
-      "date": "2026.10.09",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
-      "description": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide 기사."
+      "date": "2026.10.10",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+      "description": "Anthropic이 AI 모델의 안전성 문제에 대응하기 위해 조치를 취한 기사."
     },
     {
-      "title": "OpenAI doubles down on decision to fire three AI safety researchers",
-      "source": "The Verge",
-      "date": "2026.10.09",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
-      "description": "OpenAI doubles down on decision to fire three AI safety researchers 기사."
-    },
-    {
-      "title": "Ben Affleck is an AI nerd, and the internet is impressed",
+      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
       "source": "TechCrunch",
-      "date": "2026.10.08",
-      "href": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
-      "description": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect 기사."
+      "date": "2026.10.10",
+      "href": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "description": "Anthropic이 AI 에이전트의 안전성 문제를 해결하기 위해 조치를 취한 기사."
     },
     {
-      "title": "Anthropic launches free AI security scans for open-source projects",
+      "title": "AI agent makers are promising privacy — will they deliver?",
       "source": "The Verge",
-      "date": "2026.10.08",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
-      "description": "Anthropic launches free AI security scans for open-source projects 기사."
+      "date": "2026.10.10",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "description": "AI 에이전트 제작사의 프라이버시 약속 문제를 다룬 기사."
+    },
+    {
+      "title": "A city-building game in which the city would prefer you didn't",
+      "source": "housing.over.pizza",
+      "date": "2026.10.10",
+      "href": "https://housing.over.pizza/",
+      "description": "Satya Nadella가 AI 모델의 안전성 문제를 지적한 기사."
     }
   ]
 }
