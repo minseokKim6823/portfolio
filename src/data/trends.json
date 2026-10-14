@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-12T01:09:42.281Z",
-  "theme": "AI 모델 안전성",
+  "updatedAt": "2026-10-14T01:03:36.993Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
-      "source": "The Verge",
-      "date": "2026.10.10",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-      "description": "Satya Nadella가 AI 모델의 안전성 문제를 지적한 기사."
+      "title": "Gemini 4 Argon",
+      "source": "deepmind.google",
+      "date": "2026.10.13",
+      "href": "https://deepmind.google/models/gemini/",
+      "description": "Google finally releases Gemini 4 Argon 기사."
     },
     {
-      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "title": "Google finally releases Gemini 4 Argon",
+      "source": "The Verge",
+      "date": "2026.10.13",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+      "description": "Google finally releases Gemini 4 Argon 기사."
+    },
+    {
+      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
       "source": "TechCrunch",
-      "date": "2026.10.10",
-      "href": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-      "description": "Microsoft의 Nadella가 AI 모델의 안전성 문제에 대한 대책을 제안한 기사."
+      "date": "2026.10.13",
+      "href": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "description": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at hom"
     },
     {
-      "title": "Anthropic is cutting off its internal evaluations from the internet",
-      "source": "The Verge",
-      "date": "2026.10.10",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-      "description": "Anthropic이 AI 모델의 안전성 문제에 대응하기 위해 조치를 취한 기사."
-    },
-    {
-      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+      "title": "Cerebras CEO pushes back on AI doomsday warnings",
       "source": "TechCrunch",
-      "date": "2026.10.10",
-      "href": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-      "description": "Anthropic이 AI 에이전트의 안전성 문제를 해결하기 위해 조치를 취한 기사."
+      "date": "2026.10.13",
+      "href": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "description": "Cerebras CEO pushes back on AI doomsday warnings 발표."
     },
     {
-      "title": "AI agent makers are promising privacy — will they deliver?",
-      "source": "The Verge",
-      "date": "2026.10.10",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
-      "description": "AI 에이전트 제작사의 프라이버시 약속 문제를 다룬 기사."
+      "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+      "source": "TechCrunch",
+      "date": "2026.10.13",
+      "href": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+      "description": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads 기사"
     },
     {
-      "title": "A city-building game in which the city would prefer you didn't",
-      "source": "housing.over.pizza",
-      "date": "2026.10.10",
-      "href": "https://housing.over.pizza/",
-      "description": "Satya Nadella가 AI 모델의 안전성 문제를 지적한 기사."
+      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "source": "TechCrunch",
+      "date": "2026.10.13",
+      "href": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "description": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world"
     }
   ]
 }
