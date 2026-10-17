@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-16T00:13:13.000Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-10-17T23:55:32.061Z",
+  "theme": "AI Regulation, AI Model Release",
   "articles": [
     {
-      "title": "Meta launches an open-weight AI model that runs on Macs",
-      "source": "TechCrunch",
-      "date": "2026.10.15",
-      "href": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-      "description": "Meta 오픈 웨이트 AI 모델 발표기사."
-    },
-    {
-      "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+      "title": "Meta removes language that may have allowed it to scrape news sites",
       "source": "The Verge",
-      "date": "2026.10.15",
-      "href": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-      "description": "Meta와 Apple 협업 기사."
+      "date": "2026.10.17",
+      "href": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "description": "Meta removes language that may have allowed it to scrape news sites기사."
     },
     {
-      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "title": "Meta removes language that raised scraping and AI training concerns",
       "source": "TechCrunch",
-      "date": "2026.10.15",
-      "href": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-      "description": "Anthropic 내부 접근 기사."
+      "date": "2026.10.17",
+      "href": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "description": "Meta removes language that raised scraping and AI training concerns기사."
     },
     {
-      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
-      "source": "TechCrunch",
-      "date": "2026.10.15",
-      "href": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
-      "description": "Bluesky AI 도구 확장 기사."
+      "title": "Websites are closing their doors to AI agents",
+      "source": "The Verge",
+      "date": "2026.10.17",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "description": "Websites are closing their doors to AI agents기사."
     },
     {
-      "title": "Figma announces new features to define how agents work on its platform",
+      "title": "India becomes the latest country to report rogue AI agent activity",
       "source": "TechCrunch",
-      "date": "2026.10.15",
-      "href": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-      "description": "Figma 에이전트 기능 발표기사."
+      "date": "2026.10.16",
+      "href": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "description": "India becomes the latest country to report rogue AI agent activity기사."
     },
     {
-      "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
       "source": "TechCrunch",
-      "date": "2026.10.15",
-      "href": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-      "description": "AI 설계 칩 투자 기사."
+      "date": "2026.10.16",
+      "href": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "description": "Elorian’s first AI model wants to reason with images, not just about them기사."
+    },
+    {
+      "title": "Jev is Vercel’s fastest-adopted AI model ever",
+      "source": "TechCrunch",
+      "date": "2026.10.16",
+      "href": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "description": "Jev is Vercel’s fastest-adopted AI model ever기사."
     }
   ]
 }
