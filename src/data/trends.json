@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-17T23:55:32.061Z",
-  "theme": "AI Regulation, AI Model Release",
+  "updatedAt": "2026-10-20T01:01:11.452Z",
+  "theme": "AI 모델 경쟁",
   "articles": [
     {
-      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+      "source": "TechCrunch",
+      "date": "2026.10.19",
+      "href": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "description": "Nscale과 Anthropic의 거액 계약 발표기사."
+    },
+    {
+      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "source": "TechCrunch",
+      "date": "2026.10.19",
+      "href": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "description": "마이크로소프트의 AI 에이전트 발표기사."
+    },
+    {
+      "title": "The fossil fuel comeback is here",
       "source": "The Verge",
-      "date": "2026.10.17",
-      "href": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-      "description": "Meta removes language that may have allowed it to scrape news sites기사."
+      "date": "2026.10.19",
+      "href": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
+      "description": "화석 연료 부활 관련 기사."
     },
     {
-      "title": "Meta removes language that raised scraping and AI training concerns",
+      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
       "source": "TechCrunch",
-      "date": "2026.10.17",
-      "href": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-      "description": "Meta removes language that raised scraping and AI training concerns기사."
+      "date": "2026.10.19",
+      "href": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "description": "아마존의 새로운 개발 도구 발표기사."
     },
     {
-      "title": "Websites are closing their doors to AI agents",
-      "source": "The Verge",
-      "date": "2026.10.17",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "description": "Websites are closing their doors to AI agents기사."
-    },
-    {
-      "title": "India becomes the latest country to report rogue AI agent activity",
+      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
       "source": "TechCrunch",
-      "date": "2026.10.16",
-      "href": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "description": "India becomes the latest country to report rogue AI agent activity기사."
+      "date": "2026.10.19",
+      "href": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "description": "Tenstorrent의 신규 평가 발표기사."
     },
     {
-      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
       "source": "TechCrunch",
-      "date": "2026.10.16",
-      "href": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-      "description": "Elorian’s first AI model wants to reason with images, not just about them기사."
-    },
-    {
-      "title": "Jev is Vercel’s fastest-adopted AI model ever",
-      "source": "TechCrunch",
-      "date": "2026.10.16",
-      "href": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-      "description": "Jev is Vercel’s fastest-adopted AI model ever기사."
+      "date": "2026.10.19",
+      "href": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "description": "엔비디아의 새로운 오픈 모델 발표기사."
     }
   ]
 }
