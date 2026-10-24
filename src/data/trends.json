@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-22T00:34:13.943Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-10-24T00:25:45.719Z",
+  "theme": "AI 모델 경쟁",
   "articles": [
     {
-      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
-      "source": "scotthelme.co.uk",
-      "date": "2026.10.21",
-      "href": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-      "description": "PHP2Shell: AI 발견 중요 취약점 기사."
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "source": "The Verge",
+      "date": "2026.10.23",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "description": "프런티어 모델 경쟁 구도를 정리한 기사."
     },
     {
-      "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
       "source": "TechCrunch",
-      "date": "2026.10.21",
-      "href": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
-      "description": "PHP 심각 취약점 발견, 인터넷 공포 기사."
+      "date": "2026.10.22",
+      "href": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "description": "AI 의료 분야 발전에 대한 발표."
     },
     {
-      "title": "Meta to create a new class of shares to fund AI push",
-      "source": "The Verge",
-      "date": "2026.10.21",
-      "href": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
-      "description": "데이터 센터 공해 문제 기사."
-    },
-    {
-      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-      "source": "The Verge",
-      "date": "2026.10.21",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-      "description": "Anthropic, Muse 경쟁 새 AI 에이전트 발표."
-    },
-    {
-      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
       "source": "TechCrunch",
-      "date": "2026.10.20",
-      "href": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-      "description": "Anthropic, AI 안전 법안 제안 기사."
+      "date": "2026.10.22",
+      "href": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "description": "Jev 경쟁 모델 출시 발표."
     },
     {
-      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+      "title": "Canva’s first AI image model plans designs before generating them",
       "source": "The Verge",
-      "date": "2026.10.21",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
-      "description": "오픈AI, 안전 모니터링 시스템 중요 오류 기사."
+      "date": "2026.10.22",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "description": "Canva의 첫 AI 이미지 모델 발표."
+    },
+    {
+      "title": "Quick Study",
+      "source": "Simon Willison",
+      "date": "2026.10.23",
+      "href": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+      "description": "인터넷 접근 없이 모델 학습하는 방식 발표."
+    },
+    {
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "source": "TechCrunch",
+      "date": "2026.10.23",
+      "href": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "description": "AI 에이전트의 자율 활동 분석 글."
     }
   ]
 }
