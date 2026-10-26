@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-24T00:25:45.719Z",
-  "theme": "AI 모델 경쟁",
+  "updatedAt": "2026-10-26T00:01:44.149Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "source": "TechCrunch",
+      "date": "2026.10.25",
+      "href": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "description": "Grok 초기 출시 영상 공개 기사."
+    },
+    {
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "source": "lynchlab.net",
+      "date": "2026.10.25",
+      "href": "https://lynchlab.net/llm-skin-cancer",
+      "description": "10년 된 CNN 모델이 최신 LLM 경쟁 기사."
+    },
+    {
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "source": "cerebras.ai",
+      "date": "2026.10.25",
+      "href": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "description": "거대 파라미터 모델 배포 발표 기사."
+    },
+    {
+      "title": "No signs of AI payoff outside the tech sector",
+      "source": "apollo.com",
+      "date": "2026.10.24",
+      "href": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "description": "기업 외 부문에서의 AI 효과 분석 기사."
+    },
+    {
+      "title": "Pennsylvania will require labels on AI-generated ads",
       "source": "The Verge",
-      "date": "2026.10.23",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-      "description": "프런티어 모델 경쟁 구도를 정리한 기사."
+      "date": "2026.10.24",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "description": "펜실베이니아의 AI 광고 레이블 요구 기사."
     },
     {
-      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
       "source": "TechCrunch",
-      "date": "2026.10.22",
-      "href": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
-      "description": "AI 의료 분야 발전에 대한 발표."
-    },
-    {
-      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "source": "TechCrunch",
-      "date": "2026.10.22",
-      "href": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-      "description": "Jev 경쟁 모델 출시 발표."
-    },
-    {
-      "title": "Canva’s first AI image model plans designs before generating them",
-      "source": "The Verge",
-      "date": "2026.10.22",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
-      "description": "Canva의 첫 AI 이미지 모델 발표."
-    },
-    {
-      "title": "Quick Study",
-      "source": "Simon Willison",
-      "date": "2026.10.23",
-      "href": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
-      "description": "인터넷 접근 없이 모델 학습하는 방식 발표."
-    },
-    {
-      "title": "Left alone with nothing to do, AI agents started playing",
-      "source": "TechCrunch",
-      "date": "2026.10.23",
-      "href": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-      "description": "AI 에이전트의 자율 활동 분석 글."
+      "date": "2026.10.24",
+      "href": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "description": "정치적 선호도 예측 기사."
     }
   ]
 }
