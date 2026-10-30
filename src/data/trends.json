@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-28T01:05:14.821Z",
+  "updatedAt": "2026-10-30T01:47:21.246Z",
   "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "GPT-6.1 Terra",
-      "source": "openai.com",
-      "date": "2026.10.26",
-      "href": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "description": "프런티어 모델 경쟁 구도를 정리한 기사."
-    },
-    {
-      "title": "Quoting Jason Koebler",
-      "source": "Simon Willison",
-      "date": "2026.10.26",
-      "href": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
-      "description": "새로운 모델 출시에 대한 기대치를 높인 글."
-    },
-    {
-      "title": "The Exponential Time Hypothesis Is False [pdf]",
-      "source": "github.com",
-      "date": "2026.10.26",
-      "href": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-      "description": "지난 몇 년간의 지속적인 연구 발표 소식."
-    },
-    {
-      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
-      "source": "The Verge",
-      "date": "2026.10.26",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
-      "description": "새로운 모델 출시에 대한 기대치를 높인 글."
-    },
-    {
-      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
       "source": "TechCrunch",
-      "date": "2026.10.27",
-      "href": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-      "description": "구글의 새로운 모델 출시 소식."
+      "date": "2026.10.29",
+      "href": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "description": "Mistral 모델 출시 기사."
     },
     {
-      "title": "Google’s next Genie AI model generates more realistic experiences",
+      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+      "source": "TechCrunch",
+      "date": "2026.10.29",
+      "href": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+      "description": "중국 스파이 조사 기사."
+    },
+    {
+      "title": "The NYT Cooking app is testing AI recipe modifications",
       "source": "The Verge",
-      "date": "2026.10.27",
-      "href": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
-      "description": "구글의 새로운 모델 출시 소식."
+      "date": "2026.10.29",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+      "description": "NYT 요리 앱 AI 수정 기사."
+    },
+    {
+      "title": "Anthropic is asking Wall Street to believe in AGI",
+      "source": "The Verge",
+      "date": "2026.10.29",
+      "href": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+      "description": "Anthropic AGI 믿음 요청 기사."
+    },
+    {
+      "title": "Anthropic’s business plan: Build God or die trying",
+      "source": "The Verge",
+      "date": "2026.10.29",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "description": "Anthropic 비즈니스 계획 기사."
+    },
+    {
+      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "source": "TechCrunch",
+      "date": "2026.10.29",
+      "href": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "description": "Deepgram 인수 기사."
     }
   ]
 }
