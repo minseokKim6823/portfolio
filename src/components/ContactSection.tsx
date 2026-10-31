@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useSectionReveal } from "@/hooks/useSectionReveal";
 import SectionHeader from "@/components/SectionHeader";
+import { profile } from "@/data/profile";
 
 // Opens the visitor's mail client with the form contents pre-filled
 const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
@@ -16,7 +17,7 @@ const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
   const subject = String(data.get("subject") ?? "문의");
   const message = String(data.get("message") ?? "");
   const body = `보낸 사람: ${name} (${email})\n\n${message}`;
-  window.location.href = `mailto:minseokkim6823@gmail.com?subject=${encodeURIComponent(
+  window.location.href = `mailto:${profile.email}?subject=${encodeURIComponent(
     `[포트폴리오] ${subject}`
   )}&body=${encodeURIComponent(body)}`;
 };
@@ -40,13 +41,13 @@ const ContactSection = ({ containerRef }: { containerRef: RefObject<HTMLDivEleme
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <a href="mailto:minseokkim6823@gmail.com" className="flex items-center gap-2 hover:text-foreground transition-colors group">
+          <a href={`mailto:${profile.email}`} className="flex items-center gap-2 hover:text-foreground transition-colors group">
             <Mail className="w-4 h-4 text-accent group-hover:rotate-12 transition-transform" />
-            minseokkim6823@gmail.com
+            {profile.email}
           </a>
           <span className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-accent" />
-            송파구, 서울
+            {profile.location}
           </span>
         </motion.div>
 

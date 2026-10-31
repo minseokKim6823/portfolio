@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, ArrowUpRight, Trophy } from "lucide-react";
+import { ArrowUpRight, Trophy } from "lucide-react";
 import { type RefObject } from "react";
 import { useSectionReveal } from "@/hooks/useSectionReveal";
 import SectionHeader from "@/components/SectionHeader";
@@ -12,7 +12,6 @@ const projects = [
     description: "디자이너·프론트엔드 개발자와 협업하여 학교 축제 사이트를 기획부터 배포까지 제작. 접속자 폭증 대비 캐싱 전략을 도입하여 장애를 사전에 예방했습니다.",
     highlights: ["Spring Boot 캐싱 전략으로 DB 부하 감소", "실사용자 피드백 기반 개선"],
     tags: ["Spring Boot", "협업", "캐싱"],
-    github: "https://likelion.university",
   },
   {
     title: "멋쟁이사자처럼 통합 홈페이지",
@@ -23,11 +22,11 @@ const projects = [
   },
   {
     title: "Coy",
-    description: "2024 멋쟁이사자처럼 운영진 헤커톤에 참여하여 사이드 프로젝트 홍보 & 채용 공고 탐색 플랫폼을 만들었습니다.",
+    description: "2024 멋쟁이사자처럼 운영진 해커톤에서 포트폴리오 홍보 및 기업 정보 제공 서비스를 개발했습니다. 백엔드를 담당해 이미지 업로드와 실시간 알림 기능을 구현했습니다.",
     highlights: ["SSE를 이용한 알림 서비스", "AWS S3를 이용한 데이터 저장"],
     tags: ["Spring Boot", "SSE", "AWS"],
     github: "https://github.com/Trendithon-Spin-Off",
-    award: "헤커톤 최우수상 수상",
+    award: "해커톤 최우수상",
   },
   {
     title: "SGMA",
@@ -38,17 +37,23 @@ const projects = [
   },
   {
     title: "WeShareU",
-    description: "팀 협업 기반 풀스택 프로젝트. Jira를 활용한 코드 컨벤션·DB 컬럼명 규칙 정립, 코드 리뷰를 통한 팀 전체 기술 역량 향상에 기여했습니다.",
+    description: "내·외국인 여행자의 여행 중 물품 구매 부담을 줄이기 위한 공유 서비스. Jira로 업무를 관리하고 코드 컨벤션·DB 컬럼명 규칙을 정립했으며, 코드 리뷰로 구현 방식과 지식을 공유했습니다.",
     highlights: ["협업 프로세스 정립 (Jira 기반)", "코드 리뷰 문화 도입"],
     tags: ["Spring Boot", "MariaDB", "팀 프로젝트"],
     github: "https://github.com/STANL-2/WeShareU",
   },
   {
     title: "MOTIVE (영업관리 ERP)",
-    description: "최적의 영업을 위한 영업관리 ERP 시스템. AWS RDS를 활용한 DB 이중화 구조 설계와 원시/참조 타입 성능 차이를 분석하여 최적화했습니다.",
-    highlights: ["AWS RDS DB 이중화 구조 설계", "박싱/언박싱 최적화로 성능 개선", "GitHub Actions 기반 CI/CD 파이프라인"],
+    description: "자동차 판매 영업사원의 업무 효율을 높이기 위한 영업관리 ERP 시스템. 읽기·쓰기 작업을 분리하는 AWS RDS DB 이중화 구조로 데이터 접근 병목을 줄이고 안정성을 높였습니다.",
+    highlights: ["Primary DB 쓰기 / Read Replica 읽기 분리 및 트랜잭션별 DB 라우팅", "불필요한 박싱/언박싱을 줄여 코드 수준의 성능 개선", "GitHub Actions 기반 CI/CD 파이프라인"],
     tags: ["Spring Boot", "Vue.js", "AWS RDS", "Docker"],
     github: "https://github.com/STANL-2/MOTIVE",
+  },
+  {
+    title: "tripcut 모니터링 환경 구축",
+    description: "개인 프로젝트에 Docker Compose 기반 모니터링 환경을 구성했습니다. 애플리케이션 지표와 로그를 함께 확인하며 운영 중 문제의 원인을 파악할 수 있는 구조를 경험했습니다.",
+    highlights: ["Prometheus·Grafana·Loki 직접 구성", "애플리케이션 지표 수집 및 로그 확인 환경 구축"],
+    tags: ["Docker Compose", "Prometheus", "Grafana", "Loki"],
   },
 ];
 
@@ -66,28 +71,34 @@ const ProjectsSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElem
 
         <div className="space-y-4">
           {projects.map((project, idx) => (
-            <motion.a
+            <motion.article
               key={project.title}
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative overflow-hidden block border border-border bg-card/40 rounded-xl p-6 hover:border-accent/40 hover:bg-card/80 hover:shadow-xl hover:shadow-accent/[0.04] transition-all duration-300 cursor-pointer"
+              className="group relative overflow-hidden block border border-border bg-card/40 rounded-xl p-6 hover:border-accent/40 hover:bg-card/80 hover:shadow-xl hover:shadow-accent/[0.04] transition-all duration-300"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.6, delay: idx * 0.12 }}
               whileHover={{ y: -4, transition: { duration: 0.25 } }}
-              whileTap={{ scale: 0.99 }}
               onMouseMove={spotlightMove}
             >
               <SpotlightOverlay />
-              <div className="flex items-start justify-between mb-3">
-                <h3 className="text-lg font-bold group-hover:text-accent transition-colors duration-200 flex items-center gap-2">
+              <div className="flex flex-wrap items-start justify-between gap-3 mb-3">
+                <h3 className="min-w-0 text-lg font-bold group-hover:text-accent transition-colors duration-200 flex items-center gap-2">
                   <span className="font-mono text-xs font-normal text-muted-foreground/50 tracking-wider">
                     {String(idx + 1).padStart(2, "0")}
                   </span>
-                  {project.title}
-                  <ArrowUpRight className="w-4 h-4 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all duration-300" />
+                  {project.github ? (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 rounded-sm after:absolute after:inset-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"
+                      aria-label={`${project.title} GitHub 열기`}
+                    >
+                      {project.title}
+                      <ArrowUpRight className="w-4 h-4 shrink-0" aria-hidden />
+                    </a>
+                  ) : project.title}
                 </h3>
                 <div className="flex items-center gap-2">
                   {project.award && (
@@ -96,7 +107,6 @@ const ProjectsSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElem
                       {project.award}
                     </span>
                   )}
-                  <Github className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors" />
                 </div>
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed mb-3">
@@ -122,7 +132,7 @@ const ProjectsSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElem
                   </span>
                 ))}
               </div>
-            </motion.a>
+            </motion.article>
           ))}
         </div>
       </motion.div>

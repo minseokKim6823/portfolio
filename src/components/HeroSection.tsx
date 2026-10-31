@@ -3,6 +3,7 @@ import { ArrowDown, Github, Mail, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Magnetic from "@/components/Magnetic";
 import { useRef } from "react";
+import { profile } from "@/data/profile";
 
 const EASE: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -64,7 +65,7 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
               animate={{ y: "0%" }}
               transition={{ duration: 1, delay: 0.3, ease: EASE }}
             >
-              김민석
+              {profile.name}
             </motion.h1>
           </div>
           <div className="overflow-hidden mt-1">
@@ -95,9 +96,10 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.9, ease: EASE }}
           >
-            AI·금융권 프로젝트로 검증된 백엔드 설계력과
-            <br className="hidden sm:block" />
-            SAP·ERP 도메인 전문성을 더해가는 개발자입니다.
+            {profile.introduction}
+            <br />
+            AI 서비스와 금융권 시스템의 API 설계·성능 개선 경험을 바탕으로,
+            운영 환경에서 안정적으로 관리할 수 있는 시스템을 만듭니다.
           </motion.p>
 
           <motion.div
@@ -108,7 +110,7 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
           >
             <Magnetic>
               <Button size="lg" className="rounded-full font-mono text-xs gap-2 group" asChild>
-                <a href="mailto:minseokkim6823@gmail.com">
+                <a href={`mailto:${profile.email}`}>
                   <Mail className="w-4 h-4 group-hover:rotate-12 transition-transform" />
                   Contact
                 </a>
@@ -116,7 +118,7 @@ const HeroSection = ({ containerRef }: { containerRef: React.RefObject<HTMLDivEl
             </Magnetic>
             <Magnetic>
               <Button variant="outline" size="icon" className="rounded-full h-11 w-11 group" asChild>
-                <a href="https://github.com/minseokKim6823" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href={profile.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 </a>
               </Button>

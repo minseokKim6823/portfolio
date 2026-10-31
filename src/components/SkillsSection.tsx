@@ -1,10 +1,11 @@
 import type { ElementType } from "react";
 import { motion } from "framer-motion";
-import { Cloud, GitBranch, Workflow, Server } from "lucide-react";
+import { Cloud, Code2, Database, Workflow, Server, Radio } from "lucide-react";
 import {
   SiSpringboot, SiFastapi, SiTypescript, SiVuedotjs, SiReact,
   SiMariadb, SiRedis, SiMongodb, SiNginx, SiDocker, SiGithubactions,
-  SiGit, SiGithub, SiSap,
+  SiGit, SiGithub, SiSap, SiPython, SiFlask, SiMysql, SiNextdotjs,
+  SiPrometheus, SiGrafana, SiApachekafka,
 } from "react-icons/si";
 import { type IconType } from "react-icons";
 import { type LucideIcon } from "lucide-react";
@@ -23,12 +24,18 @@ const skillCategories: { title: string; skills: SkillItem[] }[] = [
       { name: "Spring Boot", icon: SiSpringboot, color: "text-green-500" },
       { name: "FastAPI", icon: SiFastapi, color: "text-teal-500" },
       { name: "MyBatis", icon: SiSpringboot, color: "text-orange-500" },
+      { name: "Spring Batch", icon: SiSpringboot, color: "text-green-500" },
+      { name: "WebFlux", icon: SiSpringboot, color: "text-green-500" },
+      { name: "Python", icon: SiPython, color: "text-blue-400" },
+      { name: "Flask", icon: SiFlask, color: "text-foreground" },
+      { name: "C# / .NET", icon: Code2, color: "text-violet-500" },
     ],
   },
   {
     title: "SAP / ERP",
     skills: [
       { name: "SAP", icon: SiSap, color: "text-blue-500" },
+      { name: "ABAP", icon: SiSap, color: "text-blue-400" },
       { name: "ERP 프로세스", icon: Workflow, color: "text-purple-500", isLucide: true },
     ],
   },
@@ -36,6 +43,8 @@ const skillCategories: { title: string; skills: SkillItem[] }[] = [
     title: "데이터베이스",
     skills: [
       { name: "MariaDB", icon: SiMariadb, color: "text-amber-600" },
+      { name: "MySQL", icon: SiMysql, color: "text-blue-500" },
+      { name: "OracleDB", icon: Database, color: "text-red-500" },
       { name: "Redis", icon: SiRedis, color: "text-red-400" },
       { name: "MongoDB", icon: SiMongodb, color: "text-green-600" },
     ],
@@ -46,6 +55,7 @@ const skillCategories: { title: string; skills: SkillItem[] }[] = [
       { name: "TypeScript", icon: SiTypescript, color: "text-blue-500" },
       { name: "Vue.js", icon: SiVuedotjs, color: "text-emerald-500" },
       { name: "React", icon: SiReact, color: "text-cyan-500" },
+      { name: "Next.js", icon: SiNextdotjs, color: "text-foreground" },
     ],
   },
   {
@@ -53,10 +63,32 @@ const skillCategories: { title: string; skills: SkillItem[] }[] = [
     skills: [
       { name: "AWS EC2", icon: Cloud, color: "text-orange-400", isLucide: true },
       { name: "AWS RDS", icon: Cloud, color: "text-orange-500", isLucide: true },
+      { name: "AWS S3", icon: Cloud, color: "text-orange-400" },
+      { name: "AWS EKS", icon: Cloud, color: "text-orange-500" },
+      { name: "AWS Bedrock", icon: Cloud, color: "text-orange-400" },
       { name: "Elastic Beanstalk", icon: Cloud, color: "text-orange-300", isLucide: true },
       { name: "Nginx", icon: SiNginx, color: "text-green-500" },
       { name: "Docker", icon: SiDocker, color: "text-blue-400" },
+      { name: "Docker Compose", icon: SiDocker, color: "text-blue-400" },
       { name: "GitHub Actions", icon: SiGithubactions, color: "text-violet-500" },
+    ],
+  },
+  {
+    title: "모니터링",
+    skills: [
+      { name: "Prometheus", icon: SiPrometheus, color: "text-orange-500" },
+      { name: "Grafana", icon: SiGrafana, color: "text-orange-400" },
+      { name: "Loki", icon: Server, color: "text-amber-500" },
+    ],
+  },
+  {
+    title: "통신 & 메시징",
+    skills: [
+      { name: "gRPC / Protobuf", icon: Radio, color: "text-teal-500" },
+      { name: "Kafka", icon: SiApachekafka, color: "text-foreground" },
+      { name: "STOMP / SockJS", icon: Radio, color: "text-violet-500" },
+      { name: "Redis Pub/Sub", icon: SiRedis, color: "text-red-400" },
+      { name: "SSE", icon: Radio, color: "text-blue-400" },
     ],
   },
   {
@@ -88,7 +120,7 @@ const SkillsSection = ({ containerRef }: { containerRef: RefObject<HTMLDivElemen
           index="01"
           label="Skills"
           title="기술 스택"
-          description="백엔드를 중심으로, 실무 프로젝트에서 사용해 온 기술들입니다."
+          description="실무와 개인 프로젝트, 교육을 통해 활용한 백엔드·AI·SAP 및 운영 기술입니다."
         />
 
         <div className="space-y-10">
