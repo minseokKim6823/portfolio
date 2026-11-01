@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-30T01:47:21.246Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-11-01T00:52:38.004Z",
+  "theme": "AI Regulation",
   "articles": [
     {
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "source": "TechCrunch",
-      "date": "2026.10.29",
-      "href": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-      "description": "Mistral 모델 출시 기사."
-    },
-    {
-      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
-      "source": "TechCrunch",
-      "date": "2026.10.29",
-      "href": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
-      "description": "중국 스파이 조사 기사."
-    },
-    {
-      "title": "The NYT Cooking app is testing AI recipe modifications",
+      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
       "source": "The Verge",
-      "date": "2026.10.29",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
-      "description": "NYT 요리 앱 AI 수정 기사."
+      "date": "2026.10.30",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "description": "Pope Leo 발표 기사."
     },
     {
-      "title": "Anthropic is asking Wall Street to believe in AGI",
+      "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
       "source": "The Verge",
-      "date": "2026.10.29",
-      "href": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-      "description": "Anthropic AGI 믿음 요청 기사."
+      "date": "2026.10.30",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "description": "Sam Altman 발표 기사."
     },
     {
-      "title": "Anthropic’s business plan: Build God or die trying",
-      "source": "The Verge",
-      "date": "2026.10.29",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
-      "description": "Anthropic 비즈니스 계획 기사."
+      "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
+      "source": "wired.com",
+      "date": "2026.10.30",
+      "href": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+      "description": "Binance 해킹 기사."
     },
     {
-      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
       "source": "TechCrunch",
-      "date": "2026.10.29",
-      "href": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
-      "description": "Deepgram 인수 기사."
+      "date": "2026.10.31",
+      "href": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "description": "datasette-llm 0.1a9 발표 기사."
+    },
+    {
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "source": "TechCrunch",
+      "date": "2026.10.31",
+      "href": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "description": "OpenAI 자금 조달 기사."
+    },
+    {
+      "title": "Florilegium: Procedural Flowers in LaTeX",
+      "source": "github.com",
+      "date": "2026.10.30",
+      "href": "https://github.com/kevinraymond/florilegium",
+      "description": "AI 기술 분석 기사."
     }
   ]
 }
