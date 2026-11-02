@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-11-01T00:52:38.004Z",
+  "updatedAt": "2026-11-02T01:24:46.496Z",
   "theme": "AI Regulation",
   "articles": [
     {
-      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
-      "source": "The Verge",
-      "date": "2026.10.30",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
-      "description": "Pope Leo 발표 기사."
-    },
-    {
-      "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
-      "source": "The Verge",
-      "date": "2026.10.30",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
-      "description": "Sam Altman 발표 기사."
-    },
-    {
-      "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
-      "source": "wired.com",
-      "date": "2026.10.30",
-      "href": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
-      "description": "Binance 해킹 기사."
-    },
-    {
-      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
       "source": "TechCrunch",
       "date": "2026.10.31",
-      "href": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
-      "description": "datasette-llm 0.1a9 발표 기사."
+      "href": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "description": "NAACP 소송 진행 기사."
     },
     {
-      "title": "OpenAI reportedly lowers funding target for new round",
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
       "source": "TechCrunch",
       "date": "2026.10.31",
-      "href": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-      "description": "OpenAI 자금 조달 기사."
+      "href": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "description": "TechCrunch Founder Summit 소개 기사."
     },
     {
-      "title": "Florilegium: Procedural Flowers in LaTeX",
+      "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+      "source": "bostonglobe.com",
+      "date": "2026.10.30",
+      "href": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+      "description": "Patrick Stewart 리더십 교훈 글."
+    },
+    {
+      "title": "Patrick Stewart taught us what good men do with power",
+      "source": "vox.com",
+      "date": "2026.11.01",
+      "href": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
+      "description": "AI 기술 CEO 생활 짚은 글."
+    },
+    {
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
       "source": "github.com",
+      "date": "2026.10.31",
+      "href": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "description": "Memdoor 모델 경쟁 발표 기사."
+    },
+    {
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "source": "The Verge",
       "date": "2026.10.30",
-      "href": "https://github.com/kevinraymond/florilegium",
-      "description": "AI 기술 분석 기사."
+      "href": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "description": "Apple Intelligence 중국 출시 기사."
     }
   ]
 }
