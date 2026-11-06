@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-11-04T02:04:11.897Z",
-  "theme": "AI 모델 경쟁",
+  "updatedAt": "2026-11-06T02:08:58.110Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "OpenAI says ChatGPT is catching up to Google in search",
+      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "source": "TechCrunch",
+      "date": "2026.11.05",
+      "href": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "description": "OpenAI 회장의 2027년 IPO 발표 기사."
+    },
+    {
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "source": "TechCrunch",
+      "date": "2026.11.05",
+      "href": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "description": "새로운 오픈AI 보안 모델 출시 기사."
+    },
+    {
+      "title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
       "source": "The Verge",
-      "date": "2026.11.03",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
-      "description": "OpenAI says ChatGPT is catching up to Google in search 기사."
+      "date": "2026.11.05",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
+      "description": "오픈AI 보안 모델의 안전성 발표 기사."
     },
     {
-      "title": "Anthropic is working on a system to prove AI models’ identity",
-      "source": "TechCrunch",
-      "date": "2026.11.03",
-      "href": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-      "description": "TechCrunch Anthropic is working on a system to prove AI models’ identity 기사."
-    },
-    {
-      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
-      "source": "TechCrunch",
-      "date": "2026.11.03",
-      "href": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
-      "description": "TechCrunch Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cyber"
-    },
-    {
-      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
-      "source": "TechCrunch",
-      "date": "2026.11.03",
-      "href": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
-      "description": "TechCrunch AI inference startup Fal doubles its valuation to $16B as demand surges 기사."
-    },
-    {
-      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
-      "source": "TechCrunch",
-      "date": "2026.11.03",
-      "href": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
-      "description": "TechCrunch Netflix’s new AI Discover tab helps you find something to watch based on your m"
-    },
-    {
-      "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+      "title": "Muse has a voice mode now",
       "source": "The Verge",
-      "date": "2026.11.03",
-      "href": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
-      "description": "The Verge Apple’s latest watchOS beta includes its new always-on Audio Intelligence featur"
+      "date": "2026.11.05",
+      "href": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+      "description": "Muse의 음성 모드 출시 기사."
+    },
+    {
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "source": "TechCrunch",
+      "date": "2026.11.05",
+      "href": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "description": "에어비앤비 AI 여행 에이전트 출시 기사."
+    },
+    {
+      "title": "Perplexity launches its own take on AI agents for work",
+      "source": "The Verge",
+      "date": "2026.11.05",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "description": "에어비앤비 AI 여행 에이전트 출시 기사."
     }
   ]
 }
