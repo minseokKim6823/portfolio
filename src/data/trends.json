@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-11-06T02:08:58.110Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-11-08T01:13:37.773Z",
+  "theme": "AI 모델 출시, 업계 변화",
   "articles": [
     {
-      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "title": "Deus Ex",
+      "source": "filfre.net",
+      "date": "2026.11.06",
+      "href": "https://www.filfre.net/2026/11/deus-ex/",
+      "description": "최신 게임 기술 발표 기사."
+    },
+    {
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
       "source": "TechCrunch",
-      "date": "2026.11.05",
-      "href": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-      "description": "OpenAI 회장의 2027년 IPO 발표 기사."
+      "date": "2026.11.06",
+      "href": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "description": "AI 산업 투자 동향 분석 기사."
     },
     {
-      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "title": "Big Tech lost big in the 2026 election",
+      "source": "The Verge",
+      "date": "2026.11.06",
+      "href": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+      "description": "최근 선거 결과가 AI 산업에 미칠 영향 기사."
+    },
+    {
+      "title": "AI is the new dating dealbreaker",
+      "source": "The Verge",
+      "date": "2026.11.06",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "description": "AI 기술이 데이팅에 미치는 영향 기사."
+    },
+    {
+      "title": "Quoting Nilay Patel",
+      "source": "Simon Willison",
+      "date": "2026.11.06",
+      "href": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "description": "인공지능 발전에 대한 전문가 인터뷰 기사."
+    },
+    {
+      "title": "After the midterms, is the AI industry in for a rough two years?",
       "source": "TechCrunch",
-      "date": "2026.11.05",
-      "href": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-      "description": "새로운 오픈AI 보안 모델 출시 기사."
-    },
-    {
-      "title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
-      "source": "The Verge",
-      "date": "2026.11.05",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
-      "description": "오픈AI 보안 모델의 안전성 발표 기사."
-    },
-    {
-      "title": "Muse has a voice mode now",
-      "source": "The Verge",
-      "date": "2026.11.05",
-      "href": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
-      "description": "Muse의 음성 모드 출시 기사."
-    },
-    {
-      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-      "source": "TechCrunch",
-      "date": "2026.11.05",
-      "href": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-      "description": "에어비앤비 AI 여행 에이전트 출시 기사."
-    },
-    {
-      "title": "Perplexity launches its own take on AI agents for work",
-      "source": "The Verge",
-      "date": "2026.11.05",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
-      "description": "에어비앤비 AI 여행 에이전트 출시 기사."
+      "date": "2026.11.06",
+      "href": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "description": "미국 중간선거 결과가 AI 산업에 미칠 영향 기사."
     }
   ]
 }
