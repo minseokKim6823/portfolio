@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-11-08T01:13:37.773Z",
-  "theme": "AI 모델 출시, 업계 변화",
+  "updatedAt": "2026-11-10T04:01:12.786Z",
+  "theme": "Jensen Huang, AI Regulation",
   "articles": [
     {
-      "title": "Deus Ex",
-      "source": "filfre.net",
-      "date": "2026.11.06",
-      "href": "https://www.filfre.net/2026/11/deus-ex/",
-      "description": "최신 게임 기술 발표 기사."
-    },
-    {
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
       "source": "TechCrunch",
-      "date": "2026.11.06",
-      "href": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "description": "AI 산업 투자 동향 분석 기사."
+      "date": "2026.11.09",
+      "href": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "description": "Jensen Huang의 논란과 그에 따른 소송 발표."
     },
     {
-      "title": "Big Tech lost big in the 2026 election",
+      "title": "The future of AI hinges on… Jensen Huang’s sex life?",
       "source": "The Verge",
-      "date": "2026.11.06",
-      "href": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
-      "description": "최근 선거 결과가 AI 산업에 미칠 영향 기사."
+      "date": "2026.11.09",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+      "description": "Jensen Huang의 성생활 논란이 중국 진출에 미치는 영향 분석."
     },
     {
-      "title": "AI is the new dating dealbreaker",
+      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
       "source": "The Verge",
-      "date": "2026.11.06",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
-      "description": "AI 기술이 데이팅에 미치는 영향 기사."
+      "date": "2026.11.09",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "description": "Anthropic의 새로운 AI 모델 출시 발표."
     },
     {
-      "title": "Quoting Nilay Patel",
-      "source": "Simon Willison",
-      "date": "2026.11.06",
-      "href": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
-      "description": "인공지능 발전에 대한 전문가 인터뷰 기사."
-    },
-    {
-      "title": "After the midterms, is the AI industry in for a rough two years?",
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
       "source": "TechCrunch",
-      "date": "2026.11.06",
-      "href": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "description": "미국 중간선거 결과가 AI 산업에 미칠 영향 기사."
+      "date": "2026.11.09",
+      "href": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "description": "Meta의 새로운 경량 AI 모델 출시 발표."
+    },
+    {
+      "title": "Disney and Adobe are building generative AI tools together",
+      "source": "The Verge",
+      "date": "2026.11.09",
+      "href": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "description": "Disney와 Adobe의 협업 발표."
+    },
+    {
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "source": "The Verge",
+      "date": "2026.11.10",
+      "href": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "description": "AI의 창조적 잠재력에 대한 깊이 있는 분석."
     }
   ]
 }
