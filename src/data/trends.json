@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-11-14T02:10:08.992Z",
-  "theme": "Jensen Huang scandal",
+  "updatedAt": "2026-11-16T01:44:59.200Z",
+  "theme": "AI Regulation",
   "articles": [
     {
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "source": "TechCrunch",
-      "date": "2026.11.13",
-      "href": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "description": "Jensen Huang의 스캔들이 업계에 미칠 영향을 파악하기 위해."
-    },
-    {
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "source": "TechCrunch",
-      "date": "2026.11.13",
-      "href": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "description": "AI 스타트업 자금 조달에 미칠 영향을 파악하기 위해."
-    },
-    {
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "source": "TechCrunch",
-      "date": "2026.11.13",
-      "href": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "description": "Jensen Huang 스캔들의 전개 상황을 파악하기 위해."
-    },
-    {
-      "title": "What’s really at stake in the Jensen Huang saga",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
       "source": "The Verge",
-      "date": "2026.11.13",
-      "href": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
-      "description": "Jensen Huang 스캔들의 배경과 영향을 파악하기 위해."
+      "date": "2026.11.15",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "description": "의회가 AI 칩 수출 규제를 강화하려는 발표."
     },
     {
-      "title": "Nvidia employees petition to bring back Jensen Huang",
-      "source": "wired.com",
-      "date": "2026.11.13",
-      "href": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
-      "description": "Jensen Huang 스캔들에 대한 직원들의 반응을 파악하기 위해."
-    },
-    {
-      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
       "source": "TechCrunch",
-      "date": "2026.11.12",
-      "href": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-      "description": "Jensen Huang 스캔들에 대한 정치적 반응을 파악하기 위해."
+      "date": "2026.11.15",
+      "href": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "description": "Jensen Huang의 퇴임이 AI 산업에 미치는 영향 분석."
+    },
+    {
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "source": "The Verge",
+      "date": "2026.11.14",
+      "href": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "description": "오픈AI 이사회 멤버가 AI CEO 신뢰성에 대해 언급."
+    },
+    {
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "source": "TechCrunch",
+      "date": "2026.11.15",
+      "href": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "description": "인도 칩 스타트업 Bharat Semi의 글로벌 AI 센서 시장 진출."
+    },
+    {
+      "title": "datasette-llm 0.1a11",
+      "source": "Simon Willison",
+      "date": "2026.11.14",
+      "href": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "description": "오픈소스 데이터셋 도구의 새로운 업데이트."
+    },
+    {
+      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "source": "The Verge",
+      "date": "2026.11.16",
+      "href": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "description": "애플의 새로운 연구가 AI 헬스 도구 효율성을 향상시키기 위한 것."
     }
   ]
 }
