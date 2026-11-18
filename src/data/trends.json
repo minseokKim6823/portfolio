@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-11-16T01:44:59.200Z",
-  "theme": "AI Regulation",
+  "updatedAt": "2026-11-18T03:32:26.832Z",
+  "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "title": "Satya Nadella says he’s AGI-pilled now",
       "source": "The Verge",
-      "date": "2026.11.15",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-      "description": "의회가 AI 칩 수출 규제를 강화하려는 발표."
+      "date": "2026.11.17",
+      "href": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "description": "새로운 AI 모델 출시 관련 기사."
     },
     {
-      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
-      "source": "TechCrunch",
-      "date": "2026.11.15",
-      "href": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
-      "description": "Jensen Huang의 퇴임이 AI 산업에 미치는 영향 분석."
-    },
-    {
-      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
-      "source": "The Verge",
-      "date": "2026.11.14",
-      "href": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-      "description": "오픈AI 이사회 멤버가 AI CEO 신뢰성에 대해 언급."
-    },
-    {
-      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
-      "source": "TechCrunch",
-      "date": "2026.11.15",
-      "href": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
-      "description": "인도 칩 스타트업 Bharat Semi의 글로벌 AI 센서 시장 진출."
-    },
-    {
-      "title": "datasette-llm 0.1a11",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
       "source": "Simon Willison",
-      "date": "2026.11.14",
-      "href": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-      "description": "오픈소스 데이터셋 도구의 새로운 업데이트."
+      "date": "2026.11.17",
+      "href": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "description": "최신 모델 발표 관련 기사."
     },
     {
-      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
-      "source": "The Verge",
-      "date": "2026.11.16",
-      "href": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
-      "description": "애플의 새로운 연구가 AI 헬스 도구 효율성을 향상시키기 위한 것."
+      "title": "GPT‑6.2 Astra and Sol",
+      "source": "openai.com",
+      "date": "2026.11.17",
+      "href": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "description": "최신 모델 발표 관련 기사."
+    },
+    {
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "source": "TechCrunch",
+      "date": "2026.11.18",
+      "href": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "description": "최근 주요 기업의 새로운 발표 관련 기사."
+    },
+    {
+      "title": "As decision model use skyrockets, is customization the next frontier?",
+      "source": "TechCrunch",
+      "date": "2026.11.17",
+      "href": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+      "description": "최근 모델 사용 증가 관련 기사."
+    },
+    {
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "source": "TechCrunch",
+      "date": "2026.11.17",
+      "href": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "description": "최근 주요 기업의 새로운 발표 관련 기사."
     }
   ]
 }
