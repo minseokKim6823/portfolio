@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-11-18T03:32:26.832Z",
+  "updatedAt": "2026-11-20T02:55:54.152Z",
   "theme": "AI 모델 출시",
   "articles": [
     {
-      "title": "Satya Nadella says he’s AGI-pilled now",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "source": "anthropic.com",
+      "date": "2026.11.19",
+      "href": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "description": "Claude 발표로 인한 물결 확인 기사."
+    },
+    {
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "source": "TechCrunch",
+      "date": "2026.11.19",
+      "href": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "description": "Google의 새로운 기능 발표 기사."
+    },
+    {
+      "title": "Gemini on Mac can now use your computer",
       "source": "The Verge",
-      "date": "2026.11.17",
-      "href": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
-      "description": "새로운 AI 모델 출시 관련 기사."
+      "date": "2026.11.19",
+      "href": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "description": "경쟁사의 새로운 기능 발표 기사."
     },
     {
-      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-      "source": "Simon Willison",
-      "date": "2026.11.17",
-      "href": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-      "description": "최신 모델 발표 관련 기사."
-    },
-    {
-      "title": "GPT‑6.2 Astra and Sol",
-      "source": "openai.com",
-      "date": "2026.11.17",
-      "href": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-      "description": "최신 모델 발표 관련 기사."
-    },
-    {
-      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "title": "Meta’s new Muse Charm device may cost $300",
       "source": "TechCrunch",
-      "date": "2026.11.18",
-      "href": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
-      "description": "최근 주요 기업의 새로운 발표 관련 기사."
+      "date": "2026.11.19",
+      "href": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "description": "Meta의 새로운 제품 발표 기사."
     },
     {
-      "title": "As decision model use skyrockets, is customization the next frontier?",
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
       "source": "TechCrunch",
-      "date": "2026.11.17",
-      "href": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
-      "description": "최근 모델 사용 증가 관련 기사."
+      "date": "2026.11.19",
+      "href": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "description": "Anthropic의 주가 상승 분석 기사."
     },
     {
-      "title": "SEC reportedly investigating Nvidia amid Huang exit",
-      "source": "TechCrunch",
-      "date": "2026.11.17",
-      "href": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
-      "description": "최근 주요 기업의 새로운 발표 관련 기사."
+      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+      "source": "The Verge",
+      "date": "2026.11.19",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+      "description": "새로운 기능 발표 기사."
     }
   ]
 }
