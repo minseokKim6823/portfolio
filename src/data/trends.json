@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-11-20T02:55:54.152Z",
-  "theme": "AI 모델 출시",
+  "updatedAt": "2026-11-22T02:00:37.661Z",
+  "theme": "AI 모델 경쟁, 규제 논란",
   "articles": [
     {
-      "title": "Claude solves two open problems in the physics of black holes",
-      "source": "anthropic.com",
-      "date": "2026.11.19",
-      "href": "https://www.anthropic.com/research/claude-black-hole-physics",
-      "description": "Claude 발표로 인한 물결 확인 기사."
-    },
-    {
-      "title": "Google gives Gemini the ability to use your Mac for you",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
       "source": "TechCrunch",
-      "date": "2026.11.19",
-      "href": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-      "description": "Google의 새로운 기능 발표 기사."
+      "date": "2026.11.21",
+      "href": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "description": "Signal 제한 모바일 스크린샷 기사."
     },
     {
-      "title": "Gemini on Mac can now use your computer",
+      "title": "A tale of two Nvidias",
+      "source": "TechCrunch",
+      "date": "2026.11.21",
+      "href": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "description": "최고 AI 에이전트 소개 기사."
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "source": "TechCrunch",
+      "date": "2026.11.21",
+      "href": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "description": "안토피크 안전성 논란 기사."
+    },
+    {
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "source": "theguardian.com",
+      "date": "2026.11.20",
+      "href": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "description": "췌장암 치료제 발표 기사."
+    },
+    {
+      "title": "Inkling 2 Mini",
+      "source": "thinkingmachines.ai",
+      "date": "2026.11.20",
+      "href": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "description": "인클링 2 미니 소개 기사."
+    },
+    {
+      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
       "source": "The Verge",
-      "date": "2026.11.19",
-      "href": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-      "description": "경쟁사의 새로운 기능 발표 기사."
-    },
-    {
-      "title": "Meta’s new Muse Charm device may cost $300",
-      "source": "TechCrunch",
-      "date": "2026.11.19",
-      "href": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
-      "description": "Meta의 새로운 제품 발표 기사."
-    },
-    {
-      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-      "source": "TechCrunch",
-      "date": "2026.11.19",
-      "href": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-      "description": "Anthropic의 주가 상승 분석 기사."
-    },
-    {
-      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-      "source": "The Verge",
-      "date": "2026.11.19",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-      "description": "새로운 기능 발표 기사."
+      "date": "2026.11.20",
+      "href": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "description": "트럼프 AI 데이터센터 세금 위협 기사."
     }
   ]
 }
