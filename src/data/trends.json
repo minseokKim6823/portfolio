@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-11-22T02:00:37.661Z",
-  "theme": "AI 모델 경쟁, 규제 논란",
+  "updatedAt": "2026-11-24T05:50:39.724Z",
+  "theme": "Jensen Huang",
   "articles": [
     {
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
+      "source": "github.com",
+      "date": "2026.11.23",
+      "href": "https://github.com/os6/nospeaker",
+      "description": "Jensen Huang Reinstated as Nvidia CEO 기사."
+    },
+    {
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "source": "cnbc.com",
+      "date": "2026.11.23",
+      "href": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "description": "Nvidia Reinstates Jensen Huang as CEO 기사."
+    },
+    {
+      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
       "source": "TechCrunch",
-      "date": "2026.11.21",
-      "href": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-      "description": "Signal 제한 모바일 스크린샷 기사."
+      "date": "2026.11.23",
+      "href": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "description": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium ch"
     },
     {
-      "title": "A tale of two Nvidias",
+      "title": "Apple removed my open-source app from EU App Stores after 9 years",
+      "source": "github.com",
+      "date": "2026.11.23",
+      "href": "https://github.com/glushchenko/fsnotes/discussions/2056",
+      "description": "Apple removed my open-source app from EU App Stores after 9 years 글."
+    },
+    {
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "source": "Simon Willison",
+      "date": "2026.11.23",
+      "href": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "description": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer 발표."
+    },
+    {
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
       "source": "TechCrunch",
-      "date": "2026.11.21",
-      "href": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-      "description": "최고 AI 에이전트 소개 기사."
-    },
-    {
-      "title": "Here are the top AI agents that can live in your text messages",
-      "source": "TechCrunch",
-      "date": "2026.11.21",
-      "href": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "description": "안토피크 안전성 논란 기사."
-    },
-    {
-      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-      "source": "theguardian.com",
-      "date": "2026.11.20",
-      "href": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "description": "췌장암 치료제 발표 기사."
-    },
-    {
-      "title": "Inkling 2 Mini",
-      "source": "thinkingmachines.ai",
-      "date": "2026.11.20",
-      "href": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "description": "인클링 2 미니 소개 기사."
-    },
-    {
-      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
-      "source": "The Verge",
-      "date": "2026.11.20",
-      "href": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-      "description": "트럼프 AI 데이터센터 세금 위협 기사."
+      "date": "2026.11.23",
+      "href": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "description": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes 기사"
     }
   ]
 }
