@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-11-24T05:50:39.724Z",
-  "theme": "Jensen Huang",
+  "updatedAt": "2026-11-26T04:03:11.066Z",
+  "theme": "AI 모델 경쟁",
   "articles": [
     {
-      "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
-      "source": "github.com",
-      "date": "2026.11.23",
-      "href": "https://github.com/os6/nospeaker",
-      "description": "Jensen Huang Reinstated as Nvidia CEO 기사."
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "source": "The Verge",
+      "date": "2026.11.25",
+      "href": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "description": "S&P가 거버넌스 및 '핵심 인물' 리스크로 인해 엔비디아 신용 등급 하향 고려 기사."
     },
     {
-      "title": "Nvidia Reinstates Jensen Huang as CEO",
-      "source": "cnbc.com",
-      "date": "2026.11.23",
-      "href": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "description": "Nvidia Reinstates Jensen Huang as CEO 기사."
-    },
-    {
-      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
       "source": "TechCrunch",
-      "date": "2026.11.23",
-      "href": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
-      "description": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium ch"
+      "date": "2026.11.25",
+      "href": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "description": "구글의 맞춤형 AI 비디오 피드 특허가 미래 엔터테인먼트의 어두운 그림을 그리다 기사."
     },
     {
-      "title": "Apple removed my open-source app from EU App Stores after 9 years",
-      "source": "github.com",
-      "date": "2026.11.23",
-      "href": "https://github.com/glushchenko/fsnotes/discussions/2056",
-      "description": "Apple removed my open-source app from EU App Stores after 9 years 글."
-    },
-    {
-      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-      "source": "Simon Willison",
-      "date": "2026.11.23",
-      "href": "https://simonwillison.net/2026/Nov/23/glm-54/",
-      "description": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer 발표."
-    },
-    {
-      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
       "source": "TechCrunch",
-      "date": "2026.11.23",
-      "href": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-      "description": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes 기사"
+      "date": "2026.11.25",
+      "href": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "description": "오픈AI, 챗과 워크 합병으로 고사용자는 더 빨리 제한에 부딪힐 수 있다 기사."
+    },
+    {
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "source": "TechCrunch",
+      "date": "2026.11.25",
+      "href": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "description": "안트로픽의 다리오 아모데이, 인공지능에 인간 통제 양도 의혹을 '터무니없다'고 반박 기사."
+    },
+    {
+      "title": "1Password Security Incident",
+      "source": "1password.com",
+      "date": "2026.11.25",
+      "href": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "description": "1Password 보안 사고 발표."
+    },
+    {
+      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+      "source": "TechCrunch",
+      "date": "2026.11.25",
+      "href": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "description": "AI 데이터센터 건설 어려워지고, 신클라우드는 이를 느끼고 있다 기사."
     }
   ]
 }
